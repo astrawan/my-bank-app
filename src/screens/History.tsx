@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Platform, View } from 'react-native';
+import { Platform, View as RNView } from 'react-native';
 
 import { Box, HStack, Icon, SectionList, Text, VStack } from 'native-base';
 
@@ -12,6 +12,9 @@ import DashedLine from 'react-native-dashed-line';
 
 import type { TransactionHistory } from '../types';
 import { CurrencyNumberFormat } from '../utils';
+
+import Header from '../components/Header';
+import View from '../components/View';
 
 type HistoryItem = {
   title: string;
@@ -145,101 +148,109 @@ export default function History() {
   const [dashedLineVisible, setDashedLineVisibility] = React.useState(false);
 
   return (
-    <Box safeAreaBottom>
-      {dashedLineVisible && <DashedLine dashColor="#2D3757" />}
-      <SectionList<TransactionHistory, Pick<HistoryItem, 'title'>>
-        bounces={false}
-        onScroll={({
-          nativeEvent: {
-            contentOffset: { y },
-          },
-        }) => {
-          setDashedLineVisibility(y > 30 && Platform.OS === 'android');
-        }}
-        keyExtractor={(_, index) => `history-section-${index}`}
-        renderItem={({ item }) => {
-          return (
-            <HStack
-              space={4}
-              style={{
-                marginLeft: 16,
-                marginRight: 16,
-              }}
-            >
-              <LinearGradient
-                colors={item.colors}
-                style={{
-                  alignItems: 'center',
-                  alignSelf: 'center',
-                  borderRadius: 9999,
-                  height: 40,
-                  justifyContent: 'center',
-                  width: 40,
-                }}
-              >
-                <Icon as={Ionicons} color="#FFF" name={item.icon} size="md" />
-              </LinearGradient>
+    <View>
+      <Header>History</Header>
+      <Box safeAreaBottom>
+        {
+          /* istanbul ignore next */ dashedLineVisible && (
+            <DashedLine dashColor="#2D3757" />
+          )
+        }
+        <SectionList<TransactionHistory, Pick<HistoryItem, 'title'>>
+          bounces={false}
+          onScroll={({
+            nativeEvent: {
+              contentOffset: { y },
+            },
+          }) => {
+            // istanbul ignore next
+            setDashedLineVisibility(y > 30 && Platform.OS === 'android');
+          }}
+          keyExtractor={(_, index) => `history-section-${index}`}
+          renderItem={({ item }) => {
+            return (
               <HStack
+                space={4}
                 style={{
-                  borderBottomColor: '#2D3757',
-                  borderBottomWidth: 1,
-                  flex: 1,
-                  height: 80,
+                  marginLeft: 16,
+                  marginRight: 16,
                 }}
               >
-                <VStack
-                  flex={1}
+                <LinearGradient
+                  colors={item.colors}
                   style={{
+                    alignItems: 'center',
+                    alignSelf: 'center',
+                    borderRadius: 9999,
+                    height: 40,
                     justifyContent: 'center',
+                    width: 40,
                   }}
                 >
-                  <Text color="#FFF" fontSize="lg">
-                    {item.name}
-                  </Text>
-                  <Text color="#94A3D3" fontSize="md">
-                    {item.description}
-                  </Text>
-                </VStack>
-                <Text
-                  alignSelf="center"
-                  color="#FFF"
-                  fontSize="xl"
-                  fontWeight="bold"
+                  <Icon as={Ionicons} color="#FFF" name={item.icon} size="md" />
+                </LinearGradient>
+                <HStack
+                  style={{
+                    borderBottomColor: '#2D3757',
+                    borderBottomWidth: 1,
+                    flex: 1,
+                    height: 80,
+                  }}
                 >
-                  {item.amount > 0 ? '+ ' : '- '}
-                  {CurrencyNumberFormat.format(Math.abs(item.amount))}
-                </Text>
+                  <VStack
+                    flex={1}
+                    style={{
+                      justifyContent: 'center',
+                    }}
+                  >
+                    <Text color="#FFF" fontSize="lg">
+                      {item.name}
+                    </Text>
+                    <Text color="#94A3D3" fontSize="md">
+                      {item.description}
+                    </Text>
+                  </VStack>
+                  <Text
+                    alignSelf="center"
+                    color="#FFF"
+                    fontSize="xl"
+                    fontWeight="bold"
+                  >
+                    {item.amount > 0 ? '+ ' : '- '}
+                    {CurrencyNumberFormat.format(Math.abs(item.amount))}
+                  </Text>
+                </HStack>
               </HStack>
-            </HStack>
-          );
-        }}
-        renderSectionHeader={({ section: { title } }) => {
-          return (
-            <Text
-              color="#FFF"
-              fontSize="xl"
-              fontWeight="bold"
-              style={{
-                backgroundColor: 'rgba(47, 57, 91, 0.8)',
-                paddingBottom: 8,
-                paddingLeft: 16,
-                paddingRight: 16,
-                paddingTop: 8,
-              }}
-            >
-              {title}
-            </Text>
-          );
-        }}
-        sections={HistoryItems}
-        style={{
-          height: '100%',
-        }}
-        ListFooterComponent={<View />}
-        ListFooterComponentStyle={{
-          marginBottom: 70,
-        }}
-      />
-    </Box>
+            );
+          }}
+          renderSectionHeader={({ section: { title } }) => {
+            return (
+              <Text
+                color="#FFF"
+                fontSize="xl"
+                fontWeight="bold"
+                style={{
+                  backgroundColor: 'rgba(47, 57, 91, 0.8)',
+                  paddingBottom: 8,
+                  paddingLeft: 16,
+                  paddingRight: 16,
+                  paddingTop: 8,
+                }}
+              >
+                {title}
+              </Text>
+            );
+          }}
+          sections={HistoryItems}
+          style={{
+            height: '100%',
+          }}
+          ListFooterComponent={<RNView />}
+          ListFooterComponentStyle={{
+            marginBottom: 70,
+          }}
+        />
+      </Box>
+    </View>
   );
 }

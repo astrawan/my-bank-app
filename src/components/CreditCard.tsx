@@ -56,6 +56,7 @@ export default function CreditCard({
   let cardWidth = 0;
   let customStyle: ViewStyle = {};
 
+  // istanbul ignore else
   if (width > 0) {
     cardWidth = width;
     cardHeight = cardWidth * 0.63;
@@ -64,6 +65,7 @@ export default function CreditCard({
     cardWidth = cardHeight * 1.63;
   }
 
+  // istanbul ignore if
   if (withShadow) {
     customStyle = { ...customStyle, ...styles.wrapperShadow };
   }
@@ -80,12 +82,14 @@ export default function CreditCard({
         height: '100%',
         overflow: 'hidden',
         width: '100%',
-        ...(containerStyle instanceof Object ? containerStyle : {}),
+        .../* istanbul ignore next */ (containerStyle instanceof Object
+          ? containerStyle
+          : {}),
       }}
     >
       <Animated.View
         style={{
-          ...(style instanceof Object ? style : {}),
+          .../* istanbul ignore next */ (style instanceof Object ? style : {}),
           ...styles.wrapper,
           ...customStyle,
         }}

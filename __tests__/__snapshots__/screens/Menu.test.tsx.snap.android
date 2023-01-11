@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Menu /> renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    accessibilityIgnoresInvertColors={true}
+    style={
+      Array [
+        Object {
+          "minHeight": 1334,
+          "paddingBottom": 166,
+        },
+        undefined,
+      ]
+    }
+  >
+    <Image
+      source={1}
+      style={
+        Array [
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          Object {
+            "height": undefined,
+            "width": undefined,
+          },
+          undefined,
+        ]
+      }
+    />
+    <View
+      dataSet={Object {}}
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        dataSet={Object {}}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "height": 124,
+              "paddingLeft": 24,
+              "paddingRight": 24,
+            },
+            Object {
+              "justifyContent": "center",
+              "margin": 0,
+              "width": "100%",
+            },
+          ]
+        }
+      >
+        <Text
+          dataSet={Object {}}
+          style={
+            Object {
+              "backgroundColor": undefined,
+              "color": "#fff",
+              "flex": 1,
+              "fontFamily": undefined,
+              "fontSize": 48,
+              "fontStyle": "normal",
+              "fontWeight": "700",
+              "letterSpacing": 0,
+              "lineHeight": 72,
+              "textDecorationLine": undefined,
+            }
+          }
+        >
+          Menu
+        </Text>
+        <View
+          dataSet={Object {}}
+          style={Object {}}
+        />
+        <View
+          dataSet={Object {}}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "backgroundColor": "#a1a1aa",
+              "borderColor": "#27272a",
+              "borderRadius": 9999,
+              "height": 48,
+              "justifyContent": "center",
+              "position": "relative",
+              "width": 48,
+            }
+          }
+        >
+          <Image
+            accessibilityLabel="--"
+            alt="--"
+            dataSet={Object {}}
+            onError={[Function]}
+            source={1}
+            style={
+              Array [
+                Object {
+                  "borderRadius": 9999,
+                  "maxWidth": "100%",
+                },
+                Object {
+                  "height": "100%",
+                  "width": "100%",
+                },
+              ]
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaProvider>
+`;

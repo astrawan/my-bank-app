@@ -1,11 +1,15 @@
 import React from 'react';
 
-import { Box } from 'native-base';
+import { ScrollView } from 'native-base';
+
+import Header from '../components/Header';
+import View from '../components/View';
 
 export default function Menu() {
   return (
-    <Box>
-      <Box />
-    </Box>
+    <View>
+      <Header>Menu</Header>
+      <ScrollView height="100%" />
+    </View>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { NativeStackScreenProps } from '@react-navigation/native-stack';
+import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 
 import { Dimensions } from 'react-native';
 
@@ -15,6 +15,8 @@ import type { CardItem, RootStackParamList } from '../types';
 import { CurrencyNumberFormat } from '../utils';
 
 import CCard from '../components/CreditCard';
+import Header from '../components/Header';
+import View from '../components/View';
 
 import CardBgP1 from '../../assets/card-bg-p-1.png';
 import CardBgP2 from '../../assets/card-bg-p-2.png';
@@ -90,87 +92,94 @@ export default function Home({ navigation }: HomeProps) {
   }, [activeCarouselIndex]);
 
   return (
-    <ScrollView
-      style={{
-        minHeight: bodyHeight,
-      }}
-    >
-      <VStack padding={6} space={4}>
-        <VStack>
-          <Text color="#94A3D3" fontSize="xl" fontWeight="bold">
-            Balance
-          </Text>
-          <Text color="#fff" fontSize="3xl" fontWeight="bold">
-            {CurrencyNumberFormat.format(activeCard.balance)}
-          </Text>
+    <View>
+      <Header>Bank Cards</Header>
+      <ScrollView
+        style={{
+          minHeight: bodyHeight,
+        }}
+      >
+        <VStack padding={6} space={4}>
+          <VStack>
+            <Text color="#94A3D3" fontSize="xl" fontWeight="bold">
+              Balance
+            </Text>
+            <Text color="#fff" fontSize="3xl" fontWeight="bold">
+              {CurrencyNumberFormat.format(activeCard.balance)}
+            </Text>
+          </VStack>
         </VStack>
-      </VStack>
-      <Carousel<CardItem>
-        data={cardData}
-        itemWidth={cardHeight * 0.63}
-        onSnapToItem={(index) => setActiveCarouselIndex(index)}
-        ref={(c) => {
-          carouselRef.current = c;
-        }}
-        renderItem={({ item }) => {
-          // Edited node_modules files: react-navigation-shared-elements/build/SharedElementRendererView.js:20
-          const onCardPress = () => {
-            navigation.navigate('SharedCardDetail', { item });
-          };
+        <Carousel<CardItem>
+          data={cardData}
+          itemWidth={cardHeight * 0.63}
+          onSnapToItem={(index) => {
+            // istanbul ignore next
+            setActiveCarouselIndex(index);
+          }}
+          ref={(c) => {
+            carouselRef.current = c;
+          }}
+          renderItem={({ item }) => {
+            // Edited node_modules files: react-navigation-shared-elements/build/SharedElementRendererView.js:20
+            // istanbul ignore next
+            const onCardPress = () => {
+              navigation.navigate('SharedCardDetail', { item });
+            };
 
-          return (
-            <SharedElement
-              id={`card-${item.cardNumber.replace(' ', '')}`}
-              style={{
-                justifyContent: 'flex-end',
-              }}
-            >
-              <CCard
-                cardBackground={item.cardBackgroundL}
-                cardExpiryMonth={item.cardExpiryMonth}
-                cardExpiryYear={item.cardExpiryYear}
-                width={cardHeight}
-                cardIssuerLogo={item.cardIssuerLogoL}
-                cardLogo={item.cardLogoL}
-                cardNumber={item.cardNumber}
-                onPress={onCardPress}
+            return (
+              <SharedElement
+                id={`card-${item.cardNumber.replace(' ', '')}`}
                 style={{
-                  height: cardHeight,
-                  transform: [
-                    {
-                      rotate: '-90deg',
-                    },
-                  ],
-                  width: cardHeight,
+                  justifyContent: 'flex-end',
                 }}
-                withShadow={false}
-              />
-            </SharedElement>
-          );
-        }}
-        sliderWidth={screenWidth}
-      />
-      <Pagination
-        activeDotIndex={activeCarouselIndex}
-        /* TODO: fix carousel ref problem */
-        /* eslint-disable-next-line @typescript-eslint/ban-ts-comment */
-        /* @ts-ignore */
-        carouselRef={carouselRef}
-        dotColor="#FFFFFF"
-        dotContainerStyle={{
-          marginHorizontal: 2,
-        }}
-        dotsLength={cardData.length}
-        dotStyle={{
-          borderRadius: 4,
-          height: 4,
-          marginHorizontal: 0,
-          width: 30,
-        }}
-        inactiveDotColor="#2D3757"
-        inactiveDotOpacity={1}
-        inactiveDotScale={0.75}
-      />
-    </ScrollView>
+              >
+                <CCard
+                  cardBackground={item.cardBackgroundL}
+                  cardExpiryMonth={item.cardExpiryMonth}
+                  cardExpiryYear={item.cardExpiryYear}
+                  width={cardHeight}
+                  cardIssuerLogo={item.cardIssuerLogoL}
+                  cardLogo={item.cardLogoL}
+                  cardNumber={item.cardNumber}
+                  onPress={onCardPress}
+                  style={{
+                    height: cardHeight,
+                    transform: [
+                      {
+                        rotate: '-90deg',
+                      },
+                    ],
+                    width: cardHeight,
+                  }}
+                  withShadow={false}
+                />
+              </SharedElement>
+            );
+          }}
+          sliderWidth={screenWidth}
+        />
+        <Pagination
+          activeDotIndex={activeCarouselIndex}
+          /* TODO: fix carousel ref problem */
+          /* eslint-disable-next-line @typescript-eslint/ban-ts-comment */
+          /* @ts-ignore */
+          carouselRef={carouselRef}
+          dotColor="#FFFFFF"
+          dotContainerStyle={{
+            marginHorizontal: 2,
+          }}
+          dotsLength={cardData.length}
+          dotStyle={{
+            borderRadius: 4,
+            height: 4,
+            marginHorizontal: 0,
+            width: 30,
+          }}
+          inactiveDotColor="#2D3757"
+          inactiveDotOpacity={1}
+          inactiveDotScale={0.7511}
+        />
+      </ScrollView>
+    </View>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { View } from 'react-native';
+import { View as RNView } from 'react-native';
 
 import {
   Box,
@@ -20,6 +20,9 @@ import DashedLine from 'react-native-dashed-line';
 
 import type { TransactionHistory } from '../types';
 import { CurrencyNumberFormat } from '../utils';
+
+import Header from '../components/Header';
+import View from '../components/View';
 
 const catalogueData: Array<TransactionHistory> = [
   {
@@ -96,91 +99,101 @@ export default function Catalogue() {
   const [dashedLineVisible, setDashedLineVisibility] = React.useState(false);
 
   return (
-    <Box safeAreaBottom>
-      {dashedLineVisible && <DashedLine dashColor="#2D3757" />}
-      <FlatList
-        bounces={false}
-        data={catalogueData}
-        onScroll={({
-          nativeEvent: {
-            contentOffset: { y },
-          },
-        }) => {
-          setDashedLineVisibility(y > 30);
-        }}
-        renderItem={({ item }) => {
-          return (
-            <HStack
-              space={4}
-              style={{
-                alignItems: 'center',
-                alignSelf: 'center',
-                paddingLeft: 16,
-                paddingRight: 16,
-              }}
-            >
-              <LinearGradient
-                colors={item.colors}
+    <View>
+      <Header>Catalogue</Header>
+      <Box safeAreaBottom>
+        {
+          /* istanbul ignore next */ dashedLineVisible && (
+            <DashedLine dashColor="#2D3757" />
+          )
+        }
+        <FlatList
+          bounces={false}
+          data={catalogueData}
+          onScroll={({
+            nativeEvent: {
+              contentOffset: { y },
+            },
+          }) => {
+            // istanbul ignore next
+            setDashedLineVisibility(y > 30);
+          }}
+          renderItem={({ item }) => {
+            return (
+              <HStack
+                space={4}
                 style={{
                   alignItems: 'center',
-                  borderRadius: 9999,
-                  height: 40,
-                  justifyContent: 'center',
-                  width: 40,
+                  alignSelf: 'center',
+                  paddingLeft: 16,
+                  paddingRight: 16,
                 }}
               >
-                <Icon as={Ionicons} color="#FFF" name={item.icon} size="md" />
-              </LinearGradient>
-              <HStack
-                style={{
-                  borderBottomColor: '#2D3757',
-                  borderBottomWidth: 1,
-                  flex: 1,
-                  height: 80,
-                }}
-              >
-                <VStack
-                  flex={1}
-                  style={{
-                    justifyContent: 'center',
-                  }}
-                >
-                  <Text color="#FFF" fontSize="lg">
-                    {item.name}
-                  </Text>
-                  <Text color="#94A3D3" fontSize="md">
-                    {`The debt is ${CurrencyNumberFormat.format(item.amount)}`}
-                  </Text>
-                </VStack>
-                <Pressable
+                <LinearGradient
+                  colors={item.colors}
                   style={{
                     alignItems: 'center',
-                    alignSelf: 'center',
-                    backgroundColor: 'transparent',
-                    borderColor: 'rgba(114, 149, 251, 0.4)',
-                    borderRadius: 10,
-                    borderWidth: 2,
-                    height: 38,
+                    borderRadius: 9999,
+                    height: 40,
                     justifyContent: 'center',
-                    width: 65,
+                    width: 40,
                   }}
                 >
-                  <Text color="#7295FB" fontSize="lg" fontWeight="medium">
-                    Pay
-                  </Text>
-                </Pressable>
+                  <Icon as={Ionicons} color="#FFF" name={item.icon} size="md" />
+                </LinearGradient>
+                <HStack
+                  style={{
+                    borderBottomColor: '#2D3757',
+                    borderBottomWidth: 1,
+                    flex: 1,
+                    height: 80,
+                  }}
+                >
+                  <VStack
+                    flex={1}
+                    style={{
+                      justifyContent: 'center',
+                    }}
+                  >
+                    <Text color="#FFF" fontSize="lg">
+                      {item.name}
+                    </Text>
+                    <Text color="#94A3D3" fontSize="md">
+                      {`The debt is ${CurrencyNumberFormat.format(
+                        item.amount,
+                      )}`}
+                    </Text>
+                  </VStack>
+                  <Pressable
+                    style={{
+                      alignItems: 'center',
+                      alignSelf: 'center',
+                      backgroundColor: 'transparent',
+                      borderColor: 'rgba(114, 149, 251, 0.4)',
+                      borderRadius: 10,
+                      borderWidth: 2,
+                      height: 38,
+                      justifyContent: 'center',
+                      width: 65,
+                    }}
+                  >
+                    <Text color="#7295FB" fontSize="lg" fontWeight="medium">
+                      Pay
+                    </Text>
+                  </Pressable>
+                </HStack>
               </HStack>
-            </HStack>
-          );
-        }}
-        style={{
-          height: '100%',
-        }}
-        ListFooterComponent={<View />}
-        ListFooterComponentStyle={{
-          marginBottom: 70,
-        }}
-      />
-    </Box>
+            );
+          }}
+          style={{
+            height: '100%',
+          }}
+          ListFooterComponent={<RNView />}
+          ListFooterComponentStyle={{
+            marginBottom: 70,
+          }}
+        />
+      </Box>
+    </View>
   );
 }

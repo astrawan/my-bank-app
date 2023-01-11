@@ -11,14 +11,22 @@ import { Box } from 'native-base';
 
 import ViewBgImg from '../../assets/view-background.png';
 
-export default function View({ children, ...props }: ImageBackgroundProps) {
+export default function View({
+  children,
+  style,
+  ...props
+}: ImageBackgroundProps) {
   const { height: screenHeight } = Dimensions.get('window');
   return (
     <ImageBackground
       source={ViewBgImg}
-      style={{
-        minHeight: screenHeight,
-      }}
+      style={[
+        {
+          minHeight: screenHeight,
+          paddingBottom: 166,
+        },
+        style,
+      ]}
       {...props}
     >
       <StatusBar

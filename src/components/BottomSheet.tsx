@@ -6,7 +6,12 @@ import { Ionicons } from '@expo/vector-icons';
 
 import { LinearGradient } from 'expo-linear-gradient';
 
-import { BottomSheetScrollView } from '@gorhom/bottom-sheet';
+import BaseBottomSheet, {
+  type BottomSheetProps,
+  BottomSheetScrollView,
+} from '@gorhom/bottom-sheet';
+
+import type { BottomSheetMethods } from '@gorhom/bottom-sheet/lib/typescript/types';
 
 import { TransactionHistory } from '../types';
 
@@ -43,7 +48,7 @@ const TransactionHistories: Array<TransactionHistory> = [
   },
 ];
 
-export default function BottomSheetContentComponent() {
+export function TransactionBottomSheetContent() {
   return (
     <BottomSheetScrollView>
       <VStack paddingLeft={6} paddingRight={6} paddingTop={2} space={2}>
@@ -95,7 +100,7 @@ export default function BottomSheetContentComponent() {
                   fontWeight="bold"
                 >
                   {item.amount > 0 ? '+ ' : '- '}
-                  {CurrencyNumberFormat.format(item.amount)}
+                  {CurrencyNumberFormat.format(Math.abs(item.amount))}
                 </Text>
               </HStack>
             </HStack>
@@ -105,3 +110,27 @@ export default function BottomSheetContentComponent() {
     </BottomSheetScrollView>
   );
 }
+
+const BottomSheet = React.forwardRef<BottomSheetMethods, BottomSheetProps>(
+  ({ children, ...props }: BottomSheetProps, ref: any) => {
+    return (
+      <BaseBottomSheet
+        animateOnMount
+        backgroundStyle={{
+          backgroundColor: '#1C2641',
+        }}
+        handleIndicatorStyle={{
+          backgroundColor: '#2D3757',
+          width: 55,
+        }}
+        index={0}
+        ref={ref}
+        {...props}
+      >
+        {children}
+      </BaseBottomSheet>
+    );
+  },
+);
+
+export default BottomSheet;

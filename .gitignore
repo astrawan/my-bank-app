@@ -1,9 +1,11 @@
+coverage/
 node_modules/
 .expo/
 .log/
 .eslintcache
 dist/
 npm-debug.*
+*.bak
 *.jks
 *.p8
 *.p12

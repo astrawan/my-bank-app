@@ -2,7 +2,9 @@
     "$schema": "https://json.schemastore.org/prettierrc.json",
     "endOfLine": "auto",
     "parser": "typescript",
+    "quoteProps": "consistent",
     "singleQuote": true,
+    "tabWidth": 2,
     "trailingComma": "all",
     "useTabs": false
 }
