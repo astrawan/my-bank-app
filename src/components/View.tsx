@@ -1,10 +1,10 @@
 import React from 'react';
 
 import {
-  Dimensions,
   ImageBackground,
   type ImageBackgroundProps,
   StatusBar,
+  useWindowDimensions,
 } from 'react-native';
 
 import { Box } from 'native-base';
@@ -16,7 +16,7 @@ export default function View({
   style,
   ...props
 }: ImageBackgroundProps) {
-  const { height: screenHeight } = Dimensions.get('window');
+  const { height: screenHeight } = useWindowDimensions();
   return (
     <ImageBackground
       source={ViewBgImg}

@@ -52,7 +52,7 @@ const route: RouteProp<RootStackParamList, 'SharedCardDetail'> = {
   path: 'SharedCardDetail',
 };
 
-describe('<Home />', () => {
+describe('<SharedCardDetail />', () => {
   it('renders correctly', () => {
     const tree = renderer
       .create(

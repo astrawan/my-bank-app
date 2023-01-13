@@ -1,27 +1,32 @@
-// Source setup file:
-// https://github.com/react-navigation/react-navigation/blob/main/jest/setup.js
-jest.mock('react-native-reanimated', () => {
-  const r = jest.requireActual('react');
-  const m = jest.requireActual('react-native-reanimated/mock');
-
-  // @gorhom/bottom-sheet
-  m.makeMutable = (value: any) => ({ value });
-  m.useWorkletCallback = (fun: any, deps: any) =>
-    r.useCallback(fun, deps ?? []);
-
-  return m;
-});
+jest.mock('react-native-reanimated', () =>
+  jest.requireActual('react-native-reanimated/mock'),
+);
 
 // Silence the warning: Animated: `useNativeDriver` is not supported because the native animated module is missing
 jest.mock('react-native/Libraries/Animated/NativeAnimatedHelper');
 
-const { error } = console;
+jest.mock(
+  'native-base/lib/commonjs/core/hybrid-overlay/HybridProvider',
+  () => 'HybridProvider',
+);
+jest.mock('native-base/lib/commonjs/utils/useKeyboardBottomInset');
 
-// eslint-disable-next-line no-console
-console.error = (...args) =>
-  // Suppress error messages regarding error boundary in tests
-  /(Consider adding an error boundary to your tree to customize error handling behavior|React will try to recreate this component tree from scratch using the error boundary you provided|Error boundaries should implement getDerivedStateFromError)/m.test(
-    args[0],
-  )
-    ? undefined
-    : error(...args);
+jest.mock('react-native-snap-carousel/src/carousel/Carousel', () => 'Carousel');
+jest.mock(
+  'react-native-snap-carousel/src/pagination/Pagination',
+  () => 'Pagination',
+);
+
+jest.mock(
+  '@gorhom/bottom-sheet/lib/commonjs/hooks/useBottomSheetTimingConfigs',
+);
+jest.mock(
+  '@gorhom/bottom-sheet/lib/commonjs/components/bottomSheetScrollable/BottomSheetScrollView',
+  () => 'BottomSheetScrollView',
+);
+jest.mock(
+  '@gorhom/bottom-sheet/lib/commonjs/components/bottomSheet/BottomSheet',
+  () => 'BottomSheet',
+);
+
+jest.mock('@expo/vector-icons/build/Ionicons', () => 'Ionicons');

@@ -2,7 +2,7 @@ import React from 'react';
 
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 
-import { Dimensions } from 'react-native';
+import { useWindowDimensions } from 'react-native';
 
 import { ScrollView, Text, VStack } from 'native-base';
 
@@ -77,7 +77,7 @@ const cardData: Array<CardItem> = [
 ];
 
 export default function Home({ navigation }: HomeProps) {
-  const { height: screenHeight, width: screenWidth } = Dimensions.get('window');
+  const { height: screenHeight, width: screenWidth } = useWindowDimensions();
 
   // screen height - header width - footer width
   const bodyHeight = screenHeight - 124 - 70;
@@ -87,6 +87,7 @@ export default function Home({ navigation }: HomeProps) {
   const [activeCard, setActiveCard] = React.useState(cardData[0]);
   const carouselRef = React.useRef<Carousel<CardItem> | null>();
 
+  // istanbul ignore next
   React.useEffect(() => {
     setActiveCard(cardData[activeCarouselIndex]);
   }, [activeCarouselIndex]);
@@ -119,43 +120,45 @@ export default function Home({ navigation }: HomeProps) {
           ref={(c) => {
             carouselRef.current = c;
           }}
-          renderItem={({ item }) => {
-            // Edited node_modules files: react-navigation-shared-elements/build/SharedElementRendererView.js:20
+          renderItem={
             // istanbul ignore next
-            const onCardPress = () => {
-              navigation.navigate('SharedCardDetail', { item });
-            };
+            ({ item }) => {
+              // Edited node_modules files: react-navigation-shared-elements/build/SharedElementRendererView.js:20
+              const onCardPress = () => {
+                navigation.navigate('SharedCardDetail', { item });
+              };
 
-            return (
-              <SharedElement
-                id={`card-${item.cardNumber.replace(' ', '')}`}
-                style={{
-                  justifyContent: 'flex-end',
-                }}
-              >
-                <CCard
-                  cardBackground={item.cardBackgroundL}
-                  cardExpiryMonth={item.cardExpiryMonth}
-                  cardExpiryYear={item.cardExpiryYear}
-                  width={cardHeight}
-                  cardIssuerLogo={item.cardIssuerLogoL}
-                  cardLogo={item.cardLogoL}
-                  cardNumber={item.cardNumber}
-                  onPress={onCardPress}
+              return (
+                <SharedElement
+                  id={`card-${item.cardNumber.replace(' ', '')}`}
                   style={{
-                    height: cardHeight,
-                    transform: [
-                      {
-                        rotate: '-90deg',
-                      },
-                    ],
-                    width: cardHeight,
+                    justifyContent: 'flex-end',
                   }}
-                  withShadow={false}
-                />
-              </SharedElement>
-            );
-          }}
+                >
+                  <CCard
+                    cardBackground={item.cardBackgroundL}
+                    cardExpiryMonth={item.cardExpiryMonth}
+                    cardExpiryYear={item.cardExpiryYear}
+                    width={cardHeight}
+                    cardIssuerLogo={item.cardIssuerLogoL}
+                    cardLogo={item.cardLogoL}
+                    cardNumber={item.cardNumber}
+                    onPress={onCardPress}
+                    style={{
+                      height: cardHeight,
+                      transform: [
+                        {
+                          rotate: '-90deg',
+                        },
+                      ],
+                      width: cardHeight,
+                    }}
+                    withShadow={false}
+                  />
+                </SharedElement>
+              );
+            }
+          }
           sliderWidth={screenWidth}
         />
         <Pagination

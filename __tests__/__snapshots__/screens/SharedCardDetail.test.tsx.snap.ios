@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Home /> renders correctly 1`] = `
+exports[`<SharedCardDetail /> renders correctly 1`] = `
 <RNCSafeAreaProvider
   onInsetsChange={[Function]}
   style={
@@ -12,119 +12,48 @@ exports[`<Home /> renders correctly 1`] = `
     ]
   }
 >
-  <View
-    accessibilityIgnoresInvertColors={true}
-    style={
-      Array [
-        Object {
-          "minHeight": 1334,
-          "paddingBottom": 166,
-        },
-        Object {
-          "paddingBottom": 0,
-        },
-      ]
+  <HybridProvider
+    options={
+      Object {
+        "accessibleColors": false,
+        "initialColorMode": "light",
+        "useSystemColorMode": false,
+      }
     }
   >
-    <Image
-      source={1}
+    <View
+      accessibilityIgnoresInvertColors={true}
       style={
         Array [
           Object {
-            "bottom": 0,
-            "left": 0,
-            "position": "absolute",
-            "right": 0,
-            "top": 0,
+            "minHeight": 1334,
+            "paddingBottom": 166,
           },
           Object {
-            "height": undefined,
-            "width": undefined,
+            "paddingBottom": 0,
           },
-          undefined,
         ]
       }
-    />
-    <View
-      dataSet={Object {}}
-      style={
-        Object {
-          "flex": 1,
-        }
-      }
     >
-      <View
-        dataSet={Object {}}
+      <Image
+        source={1}
         style={
           Array [
             Object {
-              "flexDirection": "row",
-              "marginBottom": 32,
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
             },
             Object {
-              "height": 48,
-              "paddingLeft": 12,
-              "paddingRight": 12,
+              "height": undefined,
+              "width": undefined,
             },
+            undefined,
           ]
         }
-      >
-        <View
-          accessible={true}
-          collapsable={false}
-          dataSet={Object {}}
-          focusable={true}
-          onBlur={[Function]}
-          onClick={[Function]}
-          onFocus={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          style={
-            Array [
-              Object {},
-              Object {
-                "width": 48,
-                "zIndex": 20,
-              },
-            ]
-          }
-        >
-          <Text />
-        </View>
-        <View
-          dataSet={Object {}}
-          style={Object {}}
-        />
-        <Text
-          dataSet={Object {}}
-          style={
-            Array [
-              Object {
-                "backgroundColor": undefined,
-                "color": "#fff",
-                "flex": 1,
-                "fontFamily": undefined,
-                "fontSize": 24,
-                "fontStyle": "normal",
-                "fontWeight": "700",
-                "letterSpacing": 0,
-                "lineHeight": 36,
-                "textAlign": "center",
-                "textDecorationLine": undefined,
-              },
-              Object {
-                "marginLeft": -48,
-              },
-            ]
-          }
-        >
-          Card 1
-        </Text>
-      </View>
+      />
       <View
         dataSet={Object {}}
         style={
@@ -133,278 +62,318 @@ exports[`<Home /> renders correctly 1`] = `
           }
         }
       >
-        <RCTScrollView
-          bounces={false}
-          contentContainerStyle={
+        <View
+          dataSet={Object {}}
+          style={
             Array [
-              Object {},
               Object {
-                "dataSet": Object {},
+                "flexDirection": "row",
+                "marginBottom": 32,
               },
-              Object {},
+              Object {
+                "height": 48,
+                "paddingLeft": 12,
+                "paddingRight": 12,
+              },
             ]
           }
-          dataSet={Object {}}
-          style={Object {}}
         >
-          <View>
-            <View
+          <View
+            accessible={true}
+            collapsable={false}
+            dataSet={Object {}}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Array [
+                Object {},
+                Object {
+                  "width": 48,
+                  "zIndex": 20,
+                },
+              ]
+            }
+          >
+            <Ionicons
               dataSet={Object {}}
+              name="arrow-back"
               style={
                 Object {
-                  "paddingLeft": 16,
-                  "paddingRight": 16,
+                  "color": "#FFF",
+                  "fontSize": 40,
+                  "height": 40,
+                  "lineHeight": 40,
+                  "width": 40,
                 }
               }
-            >
+            />
+          </View>
+          <View
+            dataSet={Object {}}
+            style={Object {}}
+          />
+          <Text
+            dataSet={Object {}}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": undefined,
+                  "color": "#fff",
+                  "flex": 1,
+                  "fontFamily": undefined,
+                  "fontSize": 24,
+                  "fontStyle": "normal",
+                  "fontWeight": "700",
+                  "letterSpacing": 0,
+                  "lineHeight": 36,
+                  "textAlign": "center",
+                  "textDecorationLine": undefined,
+                },
+                Object {
+                  "marginLeft": -48,
+                },
+              ]
+            }
+          >
+            Card 1
+          </Text>
+        </View>
+        <View
+          dataSet={Object {}}
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          <RCTScrollView
+            bounces={false}
+            contentContainerStyle={
+              Array [
+                Object {},
+                Object {
+                  "dataSet": Object {},
+                },
+                Object {},
+              ]
+            }
+            dataSet={Object {}}
+            style={Object {}}
+          >
+            <View>
               <View
-                collapsable={false}
+                dataSet={Object {}}
                 style={
                   Object {
-                    "height": 718,
-                    "marginTop": 151,
-                    "width": 452.34,
+                    "paddingLeft": 16,
+                    "paddingRight": 16,
                   }
                 }
               >
                 <View
+                  collapsable={false}
                   style={
                     Object {
-                      "height": "100%",
-                      "overflow": "hidden",
-                      "width": "100%",
+                      "height": 452.34,
+                      "marginTop": 0,
+                      "width": 718,
                     }
                   }
                 >
                   <View
-                    collapsable={false}
                     style={
                       Object {
-                        "borderRadius": 16,
-                        "height": 718,
-                        "transform": Array [
-                          Object {
-                            "rotate": "-90deg",
-                          },
-                        ],
-                        "width": 718,
+                        "height": "100%",
+                        "overflow": "visible",
+                        "width": "100%",
                       }
                     }
                   >
                     <View
-                      accessibilityIgnoresInvertColors={true}
+                      collapsable={false}
                       style={
                         Object {
-                          "borderRadius": 28.72,
-                          "height": 452.34,
-                          "overflow": "hidden",
-                          "padding": 43.08,
+                          "borderRadius": 16,
+                          "height": 718,
+                          "transform": Array [
+                            Object {
+                              "rotate": "0deg",
+                            },
+                          ],
                           "width": 718,
                         }
                       }
                     >
-                      <Image
-                        source={1}
-                        style={
-                          Array [
-                            Object {
-                              "bottom": 0,
-                              "left": 0,
-                              "position": "absolute",
-                              "right": 0,
-                              "top": 0,
-                            },
-                            Object {
-                              "height": 452.34,
-                              "width": 718,
-                            },
-                            undefined,
-                          ]
-                        }
-                      />
                       <View
-                        accessible={true}
-                        collapsable={false}
-                        dataSet={Object {}}
-                        focusable={true}
-                        onBlur={[Function]}
-                        onClick={[Function]}
-                        onFocus={[Function]}
-                        onResponderGrant={[Function]}
-                        onResponderMove={[Function]}
-                        onResponderRelease={[Function]}
-                        onResponderTerminate={[Function]}
-                        onResponderTerminationRequest={[Function]}
-                        onStartShouldSetResponder={[Function]}
-                        style={Object {}}
+                        accessibilityIgnoresInvertColors={true}
+                        style={
+                          Object {
+                            "borderRadius": 28.72,
+                            "height": 452.34,
+                            "overflow": "hidden",
+                            "padding": 43.08,
+                            "width": 718,
+                          }
+                        }
                       >
+                        <Image
+                          source={1}
+                          style={
+                            Array [
+                              Object {
+                                "bottom": 0,
+                                "left": 0,
+                                "position": "absolute",
+                                "right": 0,
+                                "top": 0,
+                              },
+                              Object {
+                                "height": 452.34,
+                                "width": 718,
+                              },
+                              undefined,
+                            ]
+                          }
+                        />
                         <View
+                          accessible={true}
+                          collapsable={false}
                           dataSet={Object {}}
+                          focusable={true}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onFocus={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
                           style={Object {}}
                         >
                           <View
                             dataSet={Object {}}
-                            style={
-                              Array [
-                                Object {},
-                                Object {
-                                  "height": 85.54499999999999,
-                                },
-                              ]
-                            }
-                          >
-                            <Image
-                              resizeMode="stretch"
-                              source={1}
-                              style={
-                                Object {
-                                  "height": 72.3744,
-                                  "width": 430.8,
-                                }
-                              }
-                            />
-                          </View>
-                          <View
-                            dataSet={Object {}}
-                            style={
-                              Object {
-                                "height": 8,
-                              }
-                            }
-                          />
-                          <View
-                            dataSet={Object {}}
-                            style={
-                              Array [
-                                Object {},
-                                Object {
-                                  "height": 85.54499999999999,
-                                },
-                              ]
-                            }
+                            style={Object {}}
                           >
                             <View
                               dataSet={Object {}}
                               style={
-                                Object {
-                                  "flexDirection": "row",
-                                }
-                              }
-                            >
-                              <View
-                                dataSet={Object {}}
-                                style={
-                                  Array [
-                                    Object {},
-                                    Object {
-                                      "backgroundColor": "rgba(255, 255, 255, 0.4)",
-                                      "borderRadius": 18.0936,
-                                      "height": 90.468,
-                                      "width": 114.88,
-                                    },
-                                  ]
-                                }
-                              />
-                              <View
-                                dataSet={Object {}}
-                                style={Object {}}
-                              />
-                              <View
-                                dataSet={Object {}}
-                                style={
-                                  Array [
-                                    Object {},
-                                    Object {
-                                      "alignItems": "flex-end",
-                                      "flex": 1,
-                                      "justifyContent": "center",
-                                      "marginRight": 43.08,
-                                    },
-                                  ]
-                                }
-                              >
-                                <Image
-                                  resizeMode="contain"
-                                  source={1}
-                                  style={
-                                    Object {
-                                      "height": 58.8042,
-                                    }
-                                  }
-                                />
-                              </View>
-                            </View>
-                          </View>
-                          <View
-                            dataSet={Object {}}
-                            style={
-                              Object {
-                                "height": 8,
-                              }
-                            }
-                          />
-                          <View
-                            dataSet={Object {}}
-                            style={
-                              Array [
-                                Object {},
-                                Object {
-                                  "height": 85.54499999999999,
-                                  "justifyContent": "center",
-                                },
-                              ]
-                            }
-                          >
-                            <Text
-                              dataSet={Object {}}
-                              style={
                                 Array [
+                                  Object {},
                                   Object {
-                                    "backgroundColor": undefined,
-                                    "color": "#171717",
-                                    "fontFamily": undefined,
-                                    "fontSize": 24,
-                                    "fontStyle": "normal",
-                                    "fontWeight": "400",
-                                    "letterSpacing": 0,
-                                    "lineHeight": 36,
-                                    "textDecorationLine": undefined,
-                                  },
-                                  Object {
-                                    "color": "#FFF",
-                                    "fontSize": 45.234,
+                                    "height": 85.54499999999999,
                                   },
                                 ]
                               }
                             >
-                              5489 7452 5726 9827
-                            </Text>
-                          </View>
-                          <View
-                            dataSet={Object {}}
-                            style={
-                              Object {
-                                "height": 8,
-                              }
-                            }
-                          />
-                          <View
-                            dataSet={Object {}}
-                            style={
-                              Array [
-                                Object {},
-                                Object {
-                                  "height": 85.54499999999999,
-                                },
-                              ]
-                            }
-                          >
+                              <Image
+                                resizeMode="stretch"
+                                source={1}
+                                style={
+                                  Object {
+                                    "height": 72.3744,
+                                    "width": 430.8,
+                                  }
+                                }
+                              />
+                            </View>
                             <View
                               dataSet={Object {}}
                               style={
                                 Object {
-                                  "flexDirection": "row",
+                                  "height": 8,
                                 }
+                              }
+                            />
+                            <View
+                              dataSet={Object {}}
+                              style={
+                                Array [
+                                  Object {},
+                                  Object {
+                                    "height": 85.54499999999999,
+                                  },
+                                ]
+                              }
+                            >
+                              <View
+                                dataSet={Object {}}
+                                style={
+                                  Object {
+                                    "flexDirection": "row",
+                                  }
+                                }
+                              >
+                                <View
+                                  dataSet={Object {}}
+                                  style={
+                                    Array [
+                                      Object {},
+                                      Object {
+                                        "backgroundColor": "rgba(255, 255, 255, 0.4)",
+                                        "borderRadius": 18.0936,
+                                        "height": 90.468,
+                                        "width": 114.88,
+                                      },
+                                    ]
+                                  }
+                                />
+                                <View
+                                  dataSet={Object {}}
+                                  style={Object {}}
+                                />
+                                <View
+                                  dataSet={Object {}}
+                                  style={
+                                    Array [
+                                      Object {},
+                                      Object {
+                                        "alignItems": "flex-end",
+                                        "flex": 1,
+                                        "justifyContent": "center",
+                                        "marginRight": 43.08,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  <Image
+                                    resizeMode="contain"
+                                    source={1}
+                                    style={
+                                      Object {
+                                        "height": 58.8042,
+                                      }
+                                    }
+                                  />
+                                </View>
+                              </View>
+                            </View>
+                            <View
+                              dataSet={Object {}}
+                              style={
+                                Object {
+                                  "height": 8,
+                                }
+                              }
+                            />
+                            <View
+                              dataSet={Object {}}
+                              style={
+                                Array [
+                                  Object {},
+                                  Object {
+                                    "height": 85.54499999999999,
+                                    "justifyContent": "center",
+                                  },
+                                ]
                               }
                             >
                               <Text
@@ -415,38 +384,91 @@ exports[`<Home /> renders correctly 1`] = `
                                       "backgroundColor": undefined,
                                       "color": "#171717",
                                       "fontFamily": undefined,
-                                      "fontSize": 14,
+                                      "fontSize": 24,
                                       "fontStyle": "normal",
                                       "fontWeight": "400",
                                       "letterSpacing": 0,
-                                      "lineHeight": 21,
+                                      "lineHeight": 36,
                                       "textDecorationLine": undefined,
                                     },
                                     Object {
                                       "color": "#FFF",
-                                      "flex": 1,
-                                      "fontSize": 27.140399999999996,
+                                      "fontSize": 45.234,
                                     },
                                   ]
                                 }
                               >
-                                04
-                                /
-                                24
+                                5489 7452 5726 9827
                               </Text>
+                            </View>
+                            <View
+                              dataSet={Object {}}
+                              style={
+                                Object {
+                                  "height": 8,
+                                }
+                              }
+                            />
+                            <View
+                              dataSet={Object {}}
+                              style={
+                                Array [
+                                  Object {},
+                                  Object {
+                                    "height": 85.54499999999999,
+                                  },
+                                ]
+                              }
+                            >
                               <View
                                 dataSet={Object {}}
-                                style={Object {}}
-                              />
-                              <Image
-                                resizeMode="contain"
-                                source={1}
                                 style={
                                   Object {
-                                    "height": 81.4212,
+                                    "flexDirection": "row",
                                   }
                                 }
-                              />
+                              >
+                                <Text
+                                  dataSet={Object {}}
+                                  style={
+                                    Array [
+                                      Object {
+                                        "backgroundColor": undefined,
+                                        "color": "#171717",
+                                        "fontFamily": undefined,
+                                        "fontSize": 14,
+                                        "fontStyle": "normal",
+                                        "fontWeight": "400",
+                                        "letterSpacing": 0,
+                                        "lineHeight": 21,
+                                        "textDecorationLine": undefined,
+                                      },
+                                      Object {
+                                        "color": "#FFF",
+                                        "flex": 1,
+                                        "fontSize": 27.140399999999996,
+                                      },
+                                    ]
+                                  }
+                                >
+                                  04
+                                  /
+                                  24
+                                </Text>
+                                <View
+                                  dataSet={Object {}}
+                                  style={Object {}}
+                                />
+                                <Image
+                                  resizeMode="contain"
+                                  source={1}
+                                  style={
+                                    Object {
+                                      "height": 81.4212,
+                                    }
+                                  }
+                                />
+                              </View>
                             </View>
                           </View>
                         </View>
@@ -454,166 +476,864 @@ exports[`<Home /> renders correctly 1`] = `
                     </View>
                   </View>
                 </View>
+                <View
+                  dataSet={Object {}}
+                  style={
+                    Object {
+                      "height": 16,
+                    }
+                  }
+                />
+                <View
+                  dataSet={Object {}}
+                  style={
+                    Array [
+                      Object {
+                        "flexDirection": "row",
+                      },
+                      Object {
+                        "height": 72,
+                        "justifyContent": "center",
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    dataSet={Object {}}
+                    style={
+                      Object {
+                        "flex": 1,
+                      }
+                    }
+                  >
+                    <Text
+                      dataSet={Object {}}
+                      style={
+                        Object {
+                          "backgroundColor": undefined,
+                          "color": "#94A3D3",
+                          "fontFamily": undefined,
+                          "fontSize": 18,
+                          "fontStyle": "normal",
+                          "fontWeight": "700",
+                          "letterSpacing": 0,
+                          "lineHeight": 27,
+                          "textDecorationLine": undefined,
+                        }
+                      }
+                    >
+                      Balance
+                    </Text>
+                    <View
+                      dataSet={Object {}}
+                      style={Object {}}
+                    />
+                    <Text
+                      dataSet={Object {}}
+                      style={
+                        Object {
+                          "backgroundColor": undefined,
+                          "color": "#fff",
+                          "fontFamily": undefined,
+                          "fontSize": 30,
+                          "fontStyle": "normal",
+                          "fontWeight": "700",
+                          "letterSpacing": 0,
+                          "lineHeight": 45,
+                          "textDecorationLine": undefined,
+                        }
+                      }
+                    >
+                      $2,748.00
+                    </Text>
+                  </View>
+                  <View
+                    dataSet={Object {}}
+                    style={
+                      Object {
+                        "width": 8,
+                      }
+                    }
+                  />
+                  <View
+                    accessible={true}
+                    collapsable={false}
+                    dataSet={Object {}}
+                    focusable={true}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Array [
+                        Object {},
+                        Object {
+                          "alignItems": "center",
+                          "alignSelf": "center",
+                          "backgroundColor": "transparent",
+                          "borderColor": "rgba(255, 255, 255, 0.2)",
+                          "borderRadius": 10,
+                          "borderWidth": 2,
+                          "height": 54,
+                          "justifyContent": "center",
+                          "width": 54,
+                        },
+                      ]
+                    }
+                  >
+                    <Ionicons
+                      dataSet={Object {}}
+                      name="time-outline"
+                      style={
+                        Object {
+                          "color": "#FFF",
+                          "fontSize": 28,
+                          "height": 28,
+                          "lineHeight": 28,
+                          "width": 28,
+                        }
+                      }
+                    />
+                  </View>
+                  <View
+                    dataSet={Object {}}
+                    style={
+                      Object {
+                        "width": 8,
+                      }
+                    }
+                  />
+                  <View
+                    accessible={true}
+                    collapsable={false}
+                    dataSet={Object {}}
+                    focusable={true}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Array [
+                        Object {},
+                        Object {
+                          "alignItems": "center",
+                          "alignSelf": "center",
+                          "backgroundColor": "transparent",
+                          "borderColor": "rgba(255, 255, 255, 0.2)",
+                          "borderRadius": 10,
+                          "borderWidth": 2,
+                          "height": 54,
+                          "justifyContent": "center",
+                          "width": 54,
+                        },
+                      ]
+                    }
+                  >
+                    <Ionicons
+                      dataSet={Object {}}
+                      name="share-outline"
+                      style={
+                        Object {
+                          "color": "#FFF",
+                          "fontSize": 28,
+                          "height": 28,
+                          "lineHeight": 28,
+                          "width": 28,
+                        }
+                      }
+                    />
+                  </View>
+                </View>
               </View>
+            </View>
+          </RCTScrollView>
+          <BottomSheet
+            animateOnMount={true}
+            backgroundStyle={
+              Object {
+                "backgroundColor": "#1C2641",
+              }
+            }
+            handleIndicatorStyle={
+              Object {
+                "backgroundColor": "#2D3757",
+                "width": 55,
+              }
+            }
+            index={0}
+            snapPoints={
+              Array [
+                "53.497751124437784%",
+                "100%",
+              ]
+            }
+          >
+            <BottomSheetScrollView>
               <View
                 dataSet={Object {}}
                 style={
                   Object {
-                    "height": 16,
+                    "paddingLeft": 24,
+                    "paddingRight": 24,
+                    "paddingTop": 8,
                   }
                 }
-              />
-              <View
-                dataSet={Object {}}
-                style={
-                  Array [
-                    Object {
-                      "flexDirection": "row",
-                    },
-                    Object {
-                      "height": 72,
-                      "justifyContent": "center",
-                    },
-                  ]
-                }
               >
+                <Text
+                  dataSet={Object {}}
+                  style={
+                    Object {
+                      "backgroundColor": undefined,
+                      "color": "#FFF",
+                      "fontFamily": undefined,
+                      "fontSize": 20,
+                      "fontStyle": "normal",
+                      "fontWeight": "700",
+                      "letterSpacing": 0,
+                      "lineHeight": 30,
+                      "textDecorationLine": undefined,
+                    }
+                  }
+                >
+                  Today
+                </Text>
                 <View
                   dataSet={Object {}}
                   style={
                     Object {
-                      "flex": 1,
+                      "height": 8,
                     }
                   }
+                />
+                <View
+                  dataSet={Object {}}
+                  style={Object {}}
                 >
-                  <Text
+                  <View
                     dataSet={Object {}}
                     style={
                       Object {
-                        "backgroundColor": undefined,
-                        "color": "#94A3D3",
-                        "fontFamily": undefined,
-                        "fontSize": 18,
-                        "fontStyle": "normal",
-                        "fontWeight": "700",
-                        "letterSpacing": 0,
-                        "lineHeight": 27,
-                        "textDecorationLine": undefined,
+                        "flexDirection": "row",
                       }
                     }
                   >
-                    Balance
-                  </Text>
+                    <ViewManagerAdapter_ExpoLinearGradient
+                      proxiedProperties={
+                        Object {
+                          "colors": Array [
+                            4293680015,
+                            4292489601,
+                          ],
+                          "endPoint": undefined,
+                          "locations": undefined,
+                          "startPoint": undefined,
+                        }
+                      }
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "alignSelf": "center",
+                          "borderRadius": 9999,
+                          "height": 40,
+                          "justifyContent": "center",
+                          "width": 40,
+                        }
+                      }
+                    >
+                      <Ionicons
+                        dataSet={Object {}}
+                        name="share"
+                        style={
+                          Object {
+                            "color": "#FFF",
+                            "fontSize": 20,
+                            "height": 20,
+                            "lineHeight": 20,
+                            "width": 20,
+                          }
+                        }
+                      />
+                    </ViewManagerAdapter_ExpoLinearGradient>
+                    <View
+                      dataSet={Object {}}
+                      style={
+                        Object {
+                          "width": 16,
+                        }
+                      }
+                    />
+                    <View
+                      dataSet={Object {}}
+                      style={
+                        Array [
+                          Object {
+                            "flexDirection": "row",
+                          },
+                          Object {
+                            "borderBottomColor": "#2D3757",
+                            "borderBottomWidth": 1,
+                            "flex": 1,
+                            "height": 80,
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        dataSet={Object {}}
+                        style={
+                          Array [
+                            Object {
+                              "flex": 1,
+                            },
+                            Object {
+                              "justifyContent": "center",
+                            },
+                          ]
+                        }
+                      >
+                        <Text
+                          dataSet={Object {}}
+                          style={
+                            Object {
+                              "backgroundColor": undefined,
+                              "color": "#FFF",
+                              "fontFamily": undefined,
+                              "fontSize": 18,
+                              "fontStyle": "normal",
+                              "fontWeight": "400",
+                              "letterSpacing": 0,
+                              "lineHeight": 27,
+                              "textDecorationLine": undefined,
+                            }
+                          }
+                        >
+                          Card to card
+                        </Text>
+                        <View
+                          dataSet={Object {}}
+                          style={Object {}}
+                        />
+                        <Text
+                          dataSet={Object {}}
+                          style={
+                            Object {
+                              "backgroundColor": undefined,
+                              "color": "#94A3D3",
+                              "fontFamily": undefined,
+                              "fontSize": 16,
+                              "fontStyle": "normal",
+                              "fontWeight": "400",
+                              "letterSpacing": 0,
+                              "lineHeight": 24,
+                              "textDecorationLine": undefined,
+                            }
+                          }
+                        >
+                          Maria
+                        </Text>
+                      </View>
+                      <View
+                        dataSet={Object {}}
+                        style={Object {}}
+                      />
+                      <Text
+                        dataSet={Object {}}
+                        style={
+                          Object {
+                            "alignSelf": "center",
+                            "backgroundColor": undefined,
+                            "color": "#FFF",
+                            "fontFamily": undefined,
+                            "fontSize": 20,
+                            "fontStyle": "normal",
+                            "fontWeight": "700",
+                            "letterSpacing": 0,
+                            "lineHeight": 30,
+                            "textDecorationLine": undefined,
+                          }
+                        }
+                      >
+                        + 
+                        $143.00
+                      </Text>
+                    </View>
+                  </View>
                   <View
                     dataSet={Object {}}
                     style={Object {}}
                   />
-                  <Text
+                  <View
                     dataSet={Object {}}
                     style={
                       Object {
-                        "backgroundColor": undefined,
-                        "color": "#fff",
-                        "fontFamily": undefined,
-                        "fontSize": 30,
-                        "fontStyle": "normal",
-                        "fontWeight": "700",
-                        "letterSpacing": 0,
-                        "lineHeight": 45,
-                        "textDecorationLine": undefined,
+                        "flexDirection": "row",
                       }
                     }
                   >
-                    $2,748.00
-                  </Text>
-                </View>
-                <View
-                  dataSet={Object {}}
-                  style={
-                    Object {
-                      "width": 8,
-                    }
-                  }
-                />
-                <View
-                  accessible={true}
-                  collapsable={false}
-                  dataSet={Object {}}
-                  focusable={true}
-                  onBlur={[Function]}
-                  onClick={[Function]}
-                  onFocus={[Function]}
-                  onResponderGrant={[Function]}
-                  onResponderMove={[Function]}
-                  onResponderRelease={[Function]}
-                  onResponderTerminate={[Function]}
-                  onResponderTerminationRequest={[Function]}
-                  onStartShouldSetResponder={[Function]}
-                  style={
-                    Array [
-                      Object {},
+                    <ViewManagerAdapter_ExpoLinearGradient
+                      proxiedProperties={
+                        Object {
+                          "colors": Array [
+                            4294887750,
+                            4293497130,
+                          ],
+                          "endPoint": undefined,
+                          "locations": undefined,
+                          "startPoint": undefined,
+                        }
+                      }
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "alignSelf": "center",
+                          "borderRadius": 9999,
+                          "height": 40,
+                          "justifyContent": "center",
+                          "width": 40,
+                        }
+                      }
+                    >
+                      <Ionicons
+                        dataSet={Object {}}
+                        name="musical-note"
+                        style={
+                          Object {
+                            "color": "#FFF",
+                            "fontSize": 20,
+                            "height": 20,
+                            "lineHeight": 20,
+                            "width": 20,
+                          }
+                        }
+                      />
+                    </ViewManagerAdapter_ExpoLinearGradient>
+                    <View
+                      dataSet={Object {}}
+                      style={
+                        Object {
+                          "width": 16,
+                        }
+                      }
+                    />
+                    <View
+                      dataSet={Object {}}
+                      style={
+                        Array [
+                          Object {
+                            "flexDirection": "row",
+                          },
+                          Object {
+                            "borderBottomColor": "#2D3757",
+                            "borderBottomWidth": 1,
+                            "flex": 1,
+                            "height": 80,
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        dataSet={Object {}}
+                        style={
+                          Array [
+                            Object {
+                              "flex": 1,
+                            },
+                            Object {
+                              "justifyContent": "center",
+                            },
+                          ]
+                        }
+                      >
+                        <Text
+                          dataSet={Object {}}
+                          style={
+                            Object {
+                              "backgroundColor": undefined,
+                              "color": "#FFF",
+                              "fontFamily": undefined,
+                              "fontSize": 18,
+                              "fontStyle": "normal",
+                              "fontWeight": "400",
+                              "letterSpacing": 0,
+                              "lineHeight": 27,
+                              "textDecorationLine": undefined,
+                            }
+                          }
+                        >
+                          Apple Music
+                        </Text>
+                        <View
+                          dataSet={Object {}}
+                          style={Object {}}
+                        />
+                        <Text
+                          dataSet={Object {}}
+                          style={
+                            Object {
+                              "backgroundColor": undefined,
+                              "color": "#94A3D3",
+                              "fontFamily": undefined,
+                              "fontSize": 16,
+                              "fontStyle": "normal",
+                              "fontWeight": "400",
+                              "letterSpacing": 0,
+                              "lineHeight": 24,
+                              "textDecorationLine": undefined,
+                            }
+                          }
+                        >
+                          Online
+                        </Text>
+                      </View>
+                      <View
+                        dataSet={Object {}}
+                        style={Object {}}
+                      />
+                      <Text
+                        dataSet={Object {}}
+                        style={
+                          Object {
+                            "alignSelf": "center",
+                            "backgroundColor": undefined,
+                            "color": "#FFF",
+                            "fontFamily": undefined,
+                            "fontSize": 20,
+                            "fontStyle": "normal",
+                            "fontWeight": "700",
+                            "letterSpacing": 0,
+                            "lineHeight": 30,
+                            "textDecorationLine": undefined,
+                          }
+                        }
+                      >
+                        - 
+                        $467.00
+                      </Text>
+                    </View>
+                  </View>
+                  <View
+                    dataSet={Object {}}
+                    style={Object {}}
+                  />
+                  <View
+                    dataSet={Object {}}
+                    style={
                       Object {
-                        "alignItems": "center",
-                        "alignSelf": "center",
-                        "backgroundColor": "transparent",
-                        "borderColor": "rgba(255, 255, 255, 0.2)",
-                        "borderRadius": 10,
-                        "borderWidth": 2,
-                        "height": 54,
-                        "justifyContent": "center",
-                        "width": 54,
-                      },
-                    ]
-                  }
-                >
-                  <Text />
-                </View>
-                <View
-                  dataSet={Object {}}
-                  style={
-                    Object {
-                      "width": 8,
+                        "flexDirection": "row",
+                      }
                     }
-                  }
-                />
-                <View
-                  accessible={true}
-                  collapsable={false}
-                  dataSet={Object {}}
-                  focusable={true}
-                  onBlur={[Function]}
-                  onClick={[Function]}
-                  onFocus={[Function]}
-                  onResponderGrant={[Function]}
-                  onResponderMove={[Function]}
-                  onResponderRelease={[Function]}
-                  onResponderTerminate={[Function]}
-                  onResponderTerminationRequest={[Function]}
-                  onStartShouldSetResponder={[Function]}
-                  style={
-                    Array [
-                      Object {},
+                  >
+                    <ViewManagerAdapter_ExpoLinearGradient
+                      proxiedProperties={
+                        Object {
+                          "colors": Array [
+                            4282229503,
+                            4280379376,
+                          ],
+                          "endPoint": undefined,
+                          "locations": undefined,
+                          "startPoint": undefined,
+                        }
+                      }
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "alignSelf": "center",
+                          "borderRadius": 9999,
+                          "height": 40,
+                          "justifyContent": "center",
+                          "width": 40,
+                        }
+                      }
+                    >
+                      <Ionicons
+                        dataSet={Object {}}
+                        name="car"
+                        style={
+                          Object {
+                            "color": "#FFF",
+                            "fontSize": 20,
+                            "height": 20,
+                            "lineHeight": 20,
+                            "width": 20,
+                          }
+                        }
+                      />
+                    </ViewManagerAdapter_ExpoLinearGradient>
+                    <View
+                      dataSet={Object {}}
+                      style={
+                        Object {
+                          "width": 16,
+                        }
+                      }
+                    />
+                    <View
+                      dataSet={Object {}}
+                      style={
+                        Array [
+                          Object {
+                            "flexDirection": "row",
+                          },
+                          Object {
+                            "borderBottomColor": "#2D3757",
+                            "borderBottomWidth": 1,
+                            "flex": 1,
+                            "height": 80,
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        dataSet={Object {}}
+                        style={
+                          Array [
+                            Object {
+                              "flex": 1,
+                            },
+                            Object {
+                              "justifyContent": "center",
+                            },
+                          ]
+                        }
+                      >
+                        <Text
+                          dataSet={Object {}}
+                          style={
+                            Object {
+                              "backgroundColor": undefined,
+                              "color": "#FFF",
+                              "fontFamily": undefined,
+                              "fontSize": 18,
+                              "fontStyle": "normal",
+                              "fontWeight": "400",
+                              "letterSpacing": 0,
+                              "lineHeight": 27,
+                              "textDecorationLine": undefined,
+                            }
+                          }
+                        >
+                          Uber
+                        </Text>
+                        <View
+                          dataSet={Object {}}
+                          style={Object {}}
+                        />
+                        <Text
+                          dataSet={Object {}}
+                          style={
+                            Object {
+                              "backgroundColor": undefined,
+                              "color": "#94A3D3",
+                              "fontFamily": undefined,
+                              "fontSize": 16,
+                              "fontStyle": "normal",
+                              "fontWeight": "400",
+                              "letterSpacing": 0,
+                              "lineHeight": 24,
+                              "textDecorationLine": undefined,
+                            }
+                          }
+                        >
+                          Service
+                        </Text>
+                      </View>
+                      <View
+                        dataSet={Object {}}
+                        style={Object {}}
+                      />
+                      <Text
+                        dataSet={Object {}}
+                        style={
+                          Object {
+                            "alignSelf": "center",
+                            "backgroundColor": undefined,
+                            "color": "#FFF",
+                            "fontFamily": undefined,
+                            "fontSize": 20,
+                            "fontStyle": "normal",
+                            "fontWeight": "700",
+                            "letterSpacing": 0,
+                            "lineHeight": 30,
+                            "textDecorationLine": undefined,
+                          }
+                        }
+                      >
+                        - 
+                        $467.00
+                      </Text>
+                    </View>
+                  </View>
+                  <View
+                    dataSet={Object {}}
+                    style={Object {}}
+                  />
+                  <View
+                    dataSet={Object {}}
+                    style={
                       Object {
-                        "alignItems": "center",
-                        "alignSelf": "center",
-                        "backgroundColor": "transparent",
-                        "borderColor": "rgba(255, 255, 255, 0.2)",
-                        "borderRadius": 10,
-                        "borderWidth": 2,
-                        "height": 54,
-                        "justifyContent": "center",
-                        "width": 54,
-                      },
-                    ]
-                  }
-                >
-                  <Text />
+                        "flexDirection": "row",
+                      }
+                    }
+                  >
+                    <ViewManagerAdapter_ExpoLinearGradient
+                      proxiedProperties={
+                        Object {
+                          "colors": Array [
+                            4282229503,
+                            4280379376,
+                          ],
+                          "endPoint": undefined,
+                          "locations": undefined,
+                          "startPoint": undefined,
+                        }
+                      }
+                      style={
+                        Object {
+                          "alignItems": "center",
+                          "alignSelf": "center",
+                          "borderRadius": 9999,
+                          "height": 40,
+                          "justifyContent": "center",
+                          "width": 40,
+                        }
+                      }
+                    >
+                      <Ionicons
+                        dataSet={Object {}}
+                        name="car"
+                        style={
+                          Object {
+                            "color": "#FFF",
+                            "fontSize": 20,
+                            "height": 20,
+                            "lineHeight": 20,
+                            "width": 20,
+                          }
+                        }
+                      />
+                    </ViewManagerAdapter_ExpoLinearGradient>
+                    <View
+                      dataSet={Object {}}
+                      style={
+                        Object {
+                          "width": 16,
+                        }
+                      }
+                    />
+                    <View
+                      dataSet={Object {}}
+                      style={
+                        Array [
+                          Object {
+                            "flexDirection": "row",
+                          },
+                          Object {
+                            "borderBottomColor": "#2D3757",
+                            "borderBottomWidth": 1,
+                            "flex": 1,
+                            "height": 80,
+                          },
+                        ]
+                      }
+                    >
+                      <View
+                        dataSet={Object {}}
+                        style={
+                          Array [
+                            Object {
+                              "flex": 1,
+                            },
+                            Object {
+                              "justifyContent": "center",
+                            },
+                          ]
+                        }
+                      >
+                        <Text
+                          dataSet={Object {}}
+                          style={
+                            Object {
+                              "backgroundColor": undefined,
+                              "color": "#FFF",
+                              "fontFamily": undefined,
+                              "fontSize": 18,
+                              "fontStyle": "normal",
+                              "fontWeight": "400",
+                              "letterSpacing": 0,
+                              "lineHeight": 27,
+                              "textDecorationLine": undefined,
+                            }
+                          }
+                        >
+                          Uber
+                        </Text>
+                        <View
+                          dataSet={Object {}}
+                          style={Object {}}
+                        />
+                        <Text
+                          dataSet={Object {}}
+                          style={
+                            Object {
+                              "backgroundColor": undefined,
+                              "color": "#94A3D3",
+                              "fontFamily": undefined,
+                              "fontSize": 16,
+                              "fontStyle": "normal",
+                              "fontWeight": "400",
+                              "letterSpacing": 0,
+                              "lineHeight": 24,
+                              "textDecorationLine": undefined,
+                            }
+                          }
+                        >
+                          Service
+                        </Text>
+                      </View>
+                      <View
+                        dataSet={Object {}}
+                        style={Object {}}
+                      />
+                      <Text
+                        dataSet={Object {}}
+                        style={
+                          Object {
+                            "alignSelf": "center",
+                            "backgroundColor": undefined,
+                            "color": "#FFF",
+                            "fontFamily": undefined,
+                            "fontSize": 20,
+                            "fontStyle": "normal",
+                            "fontWeight": "700",
+                            "letterSpacing": 0,
+                            "lineHeight": 30,
+                            "textDecorationLine": undefined,
+                          }
+                        }
+                      >
+                        - 
+                        $2,467.00
+                      </Text>
+                    </View>
+                  </View>
                 </View>
               </View>
-            </View>
-          </View>
-        </RCTScrollView>
+            </BottomSheetScrollView>
+          </BottomSheet>
+        </View>
       </View>
     </View>
-  </View>
+  </HybridProvider>
 </RNCSafeAreaProvider>
 `;

@@ -12,284 +12,342 @@ exports[`<Footer /> renders correctly 1`] = `
     ]
   }
 >
-  <View
-    style={
-      Array [
-        Object {
-          "marginBottom": 0,
-        },
-      ]
+  <HybridProvider
+    options={
+      Object {
+        "accessibleColors": false,
+        "initialColorMode": "light",
+        "useSystemColorMode": false,
+      }
     }
   >
     <View
-      dataSet={Object {}}
       style={
-        Object {
-          "height": 70,
-        }
+        Array [
+          Object {
+            "marginBottom": 0,
+          },
+        ]
       }
     >
-      <ViewManagerAdapter_ExpoLinearGradient
-        proxiedProperties={
-          Object {
-            "colors": Array [
-              4281284955,
-              4279442225,
-            ],
-            "endPoint": Array [
-              0,
-              0.3,
-            ],
-            "locations": undefined,
-            "startPoint": Array [
-              0,
-              0,
-            ],
-          }
-        }
+      <View
+        dataSet={Object {}}
         style={
           Object {
-            "borderRadius": 48,
-            "height": 667,
-            "marginTop": -48,
+            "height": 70,
           }
         }
       >
-        <View
+        <ViewManagerAdapter_ExpoLinearGradient
+          proxiedProperties={
+            Object {
+              "colors": Array [
+                4281284955,
+                4279442225,
+              ],
+              "endPoint": Array [
+                0,
+                0.3,
+              ],
+              "locations": undefined,
+              "startPoint": Array [
+                0,
+                0,
+              ],
+            }
+          }
           style={
-            Array [
-              Object {
-                "position": "absolute",
-                "width": "100%",
-              },
-            ]
+            Object {
+              "borderRadius": 48,
+              "height": 667,
+              "marginTop": -48,
+            }
           }
         >
-          <View
-            dataSet={Object {}}
-            style={
-              Array [
-                Object {
-                  "flexDirection": "row",
-                },
-                Object {
-                  "padding": 16,
-                  "zIndex": 20,
-                },
-              ]
-            }
-          >
-            <View
-              dataSet={Object {}}
-              style={
-                Object {
-                  "alignItems": "center",
-                  "flex": 1,
-                }
-              }
-            >
-              <View
-                accessible={true}
-                collapsable={false}
-                dataSet={Object {}}
-                focusable={true}
-                onBlur={[Function]}
-                onClick={[Function]}
-                onFocus={[Function]}
-                onResponderGrant={[Function]}
-                onResponderMove={[Function]}
-                onResponderRelease={[Function]}
-                onResponderTerminate={[Function]}
-                onResponderTerminationRequest={[Function]}
-                onStartShouldSetResponder={[Function]}
-                style={
-                  Array [
-                    Object {},
-                    Object {
-                      "alignItems": "center",
-                      "height": 72,
-                      "justifyContent": "center",
-                      "width": 72,
-                    },
-                  ]
-                }
-              >
-                <Text />
-              </View>
-            </View>
-            <View
-              dataSet={Object {}}
-              style={Object {}}
-            />
-            <View
-              dataSet={Object {}}
-              style={
-                Object {
-                  "alignItems": "center",
-                  "flex": 1,
-                }
-              }
-            >
-              <View
-                accessible={true}
-                collapsable={false}
-                dataSet={Object {}}
-                focusable={true}
-                onBlur={[Function]}
-                onClick={[Function]}
-                onFocus={[Function]}
-                onResponderGrant={[Function]}
-                onResponderMove={[Function]}
-                onResponderRelease={[Function]}
-                onResponderTerminate={[Function]}
-                onResponderTerminationRequest={[Function]}
-                onStartShouldSetResponder={[Function]}
-                style={
-                  Array [
-                    Object {},
-                    Object {
-                      "alignItems": "center",
-                      "height": 72,
-                      "justifyContent": "center",
-                      "width": 72,
-                    },
-                  ]
-                }
-              >
-                <Text />
-              </View>
-            </View>
-            <View
-              dataSet={Object {}}
-              style={Object {}}
-            />
-            <View
-              dataSet={Object {}}
-              style={
-                Object {
-                  "alignItems": "center",
-                  "flex": 1,
-                }
-              }
-            >
-              <View
-                accessible={true}
-                collapsable={false}
-                dataSet={Object {}}
-                focusable={true}
-                onBlur={[Function]}
-                onClick={[Function]}
-                onFocus={[Function]}
-                onResponderGrant={[Function]}
-                onResponderMove={[Function]}
-                onResponderRelease={[Function]}
-                onResponderTerminate={[Function]}
-                onResponderTerminationRequest={[Function]}
-                onStartShouldSetResponder={[Function]}
-                style={
-                  Array [
-                    Object {},
-                    Object {
-                      "alignItems": "center",
-                      "height": 72,
-                      "justifyContent": "center",
-                      "width": 72,
-                    },
-                  ]
-                }
-              >
-                <Text />
-              </View>
-            </View>
-            <View
-              dataSet={Object {}}
-              style={Object {}}
-            />
-            <View
-              dataSet={Object {}}
-              style={
-                Object {
-                  "alignItems": "center",
-                  "flex": 1,
-                }
-              }
-            >
-              <View
-                accessible={true}
-                collapsable={false}
-                dataSet={Object {}}
-                focusable={true}
-                onBlur={[Function]}
-                onClick={[Function]}
-                onFocus={[Function]}
-                onResponderGrant={[Function]}
-                onResponderMove={[Function]}
-                onResponderRelease={[Function]}
-                onResponderTerminate={[Function]}
-                onResponderTerminationRequest={[Function]}
-                onStartShouldSetResponder={[Function]}
-                style={
-                  Array [
-                    Object {},
-                    Object {
-                      "alignItems": "center",
-                      "height": 72,
-                      "justifyContent": "center",
-                      "width": 72,
-                    },
-                  ]
-                }
-              >
-                <Text />
-              </View>
-            </View>
-          </View>
           <View
             style={
               Array [
                 Object {
                   "position": "absolute",
-                  "top": 16,
-                },
-                Object {
-                  "left": 69.75,
+                  "width": "100%",
                 },
               ]
             }
           >
-            <ViewManagerAdapter_ExpoLinearGradient
-              proxiedProperties={
-                Object {
-                  "colors": Array [
-                    4284325631,
-                    4286009853,
-                  ],
-                  "endPoint": Array [
-                    0,
-                    1,
-                  ],
-                  "locations": undefined,
-                  "startPoint": Array [
-                    0,
-                    0,
-                  ],
-                }
-              }
+            <View
+              dataSet={Object {}}
               style={
                 Array [
                   Object {
-                    "alignItems": "center",
-                    "borderRadius": 9999,
-                    "height": 72,
-                    "width": 72,
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "padding": 16,
+                    "zIndex": 20,
                   },
                 ]
               }
-            />
+            >
+              <View
+                dataSet={Object {}}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                  }
+                }
+              >
+                <View
+                  accessible={true}
+                  collapsable={false}
+                  dataSet={Object {}}
+                  focusable={true}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Array [
+                      Object {},
+                      Object {
+                        "alignItems": "center",
+                        "height": 72,
+                        "justifyContent": "center",
+                        "width": 72,
+                      },
+                    ]
+                  }
+                >
+                  <Ionicons
+                    dataSet={Object {}}
+                    name="help-circle-outline"
+                    style={
+                      Object {
+                        "color": "#ffffff",
+                        "fontSize": 28,
+                        "height": 28,
+                        "lineHeight": 28,
+                        "width": 28,
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <View
+                dataSet={Object {}}
+                style={Object {}}
+              />
+              <View
+                dataSet={Object {}}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                  }
+                }
+              >
+                <View
+                  accessible={true}
+                  collapsable={false}
+                  dataSet={Object {}}
+                  focusable={true}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Array [
+                      Object {},
+                      Object {
+                        "alignItems": "center",
+                        "height": 72,
+                        "justifyContent": "center",
+                        "width": 72,
+                      },
+                    ]
+                  }
+                >
+                  <Ionicons
+                    dataSet={Object {}}
+                    name="help-circle-outline"
+                    style={
+                      Object {
+                        "color": "#ffffff",
+                        "fontSize": 28,
+                        "height": 28,
+                        "lineHeight": 28,
+                        "width": 28,
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <View
+                dataSet={Object {}}
+                style={Object {}}
+              />
+              <View
+                dataSet={Object {}}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                  }
+                }
+              >
+                <View
+                  accessible={true}
+                  collapsable={false}
+                  dataSet={Object {}}
+                  focusable={true}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Array [
+                      Object {},
+                      Object {
+                        "alignItems": "center",
+                        "height": 72,
+                        "justifyContent": "center",
+                        "width": 72,
+                      },
+                    ]
+                  }
+                >
+                  <Ionicons
+                    dataSet={Object {}}
+                    name="help-circle-outline"
+                    style={
+                      Object {
+                        "color": "#ffffff",
+                        "fontSize": 28,
+                        "height": 28,
+                        "lineHeight": 28,
+                        "width": 28,
+                      }
+                    }
+                  />
+                </View>
+              </View>
+              <View
+                dataSet={Object {}}
+                style={Object {}}
+              />
+              <View
+                dataSet={Object {}}
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                  }
+                }
+              >
+                <View
+                  accessible={true}
+                  collapsable={false}
+                  dataSet={Object {}}
+                  focusable={true}
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Array [
+                      Object {},
+                      Object {
+                        "alignItems": "center",
+                        "height": 72,
+                        "justifyContent": "center",
+                        "width": 72,
+                      },
+                    ]
+                  }
+                >
+                  <Ionicons
+                    dataSet={Object {}}
+                    name="help-circle-outline"
+                    style={
+                      Object {
+                        "color": "#ffffff",
+                        "fontSize": 28,
+                        "height": 28,
+                        "lineHeight": 28,
+                        "width": 28,
+                      }
+                    }
+                  />
+                </View>
+              </View>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "position": "absolute",
+                    "top": 16,
+                  },
+                  Object {
+                    "left": 69.75,
+                  },
+                ]
+              }
+            >
+              <ViewManagerAdapter_ExpoLinearGradient
+                proxiedProperties={
+                  Object {
+                    "colors": Array [
+                      4284325631,
+                      4286009853,
+                    ],
+                    "endPoint": Array [
+                      0,
+                      1,
+                    ],
+                    "locations": undefined,
+                    "startPoint": Array [
+                      0,
+                      0,
+                    ],
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "borderRadius": 9999,
+                      "height": 72,
+                      "width": 72,
+                    },
+                  ]
+                }
+              />
+            </View>
           </View>
-        </View>
-      </ViewManagerAdapter_ExpoLinearGradient>
+        </ViewManagerAdapter_ExpoLinearGradient>
+      </View>
     </View>
-  </View>
+  </HybridProvider>
 </RNCSafeAreaProvider>
 `;

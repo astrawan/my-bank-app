@@ -31,6 +31,7 @@ jobs:
       - name: setup expo
         uses: expo/expo-github-action@v7
         with:
+          # WARNING: don't use latest version of expo or eas
           expo-version: 6.1.0
           eas-version: 3.2.1
           token: ${{ secrets.EXPO_TOKEN }}

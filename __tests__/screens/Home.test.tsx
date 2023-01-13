@@ -11,8 +11,6 @@ import Screen from '../../src/screens/Home';
 
 import Wrapper from '../Wrapper';
 
-jest.mock('react-native-snap-carousel');
-
 // @ts-ignore-next-line
 const navigation: NativeStackNavigationProp<
   RootStackParamList,

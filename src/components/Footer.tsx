@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Dimensions } from 'react-native';
+import { useWindowDimensions } from 'react-native';
 
 import { LinearGradient } from 'expo-linear-gradient';
 
@@ -30,7 +30,7 @@ export default function Footer({
   const { footerVisible } = useAppContext();
 
   const state = _state as TabNavigationState<RootStackParamList>;
-  const { height: screenHeight, width: screenWidth } = Dimensions.get('window');
+  const { height: screenHeight, width: screenWidth } = useWindowDimensions();
 
   const focusGradHeight = 72;
   const focusGradWidth = 72;
