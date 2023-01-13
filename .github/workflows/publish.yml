@@ -33,7 +33,7 @@ jobs:
         with:
           # WARNING: don't use latest version of expo or eas
           expo-version: 6.1.0
-          eas-version: 3.2.1
+          eas-version: 3.3.2
           token: ${{ secrets.EXPO_TOKEN }}
 
       - name: install dependencies
