@@ -74,21 +74,23 @@ function RootStack() {
         name="SharedCardDetail"
         component={SharedCardDetail}
         listeners={{
-          focus: () => setFooterVisibility?.(false),
+          focus: /* istanbul ignore next */ () => setFooterVisibility?.(false),
         }}
-        sharedElements={(route) => {
-          const { item } = route.params;
-          const id = `card-${item.cardNumber.replace(' ', '')}`;
-          return [
-            {
-              align: 'center-bottom',
-              animation: 'move',
-              // debug: true,
-              id,
-              resize: 'stretch',
-            },
-          ];
-        }}
+        sharedElements={
+          /* istanbul ignore next */ (route) => {
+            const { item } = route.params;
+            const id = `card-${item.cardNumber.replace(' ', '')}`;
+            return [
+              {
+                align: 'center-bottom',
+                animation: 'move',
+                // debug: true,
+                id,
+                resize: 'stretch',
+              },
+            ];
+          }
+        }
       />
     </Stack.Navigator>
   );

@@ -4,6 +4,15 @@ jest.mock('react-native-reanimated', () =>
 
 // Silence the warning: Animated: `useNativeDriver` is not supported because the native animated module is missing
 jest.mock('react-native/Libraries/Animated/NativeAnimatedHelper');
+jest.mock('react-native/Libraries/Animated/Easing', () => ({
+  bezier: jest.fn(),
+  elastic: jest.fn(),
+  in: jest.fn(),
+  inOut: jest.fn(),
+  poly: jest.fn(),
+  out: jest.fn(),
+}));
+jest.mock('react-native/Libraries/Animated/animations/TimingAnimation');
 
 jest.mock(
   'native-base/lib/commonjs/core/hybrid-overlay/HybridProvider',
