@@ -2,8 +2,6 @@ import React from 'react';
 
 import renderer from 'react-test-renderer';
 
-import { AppContextProvider } from '../../src/components/AppContext';
-
 import Footer from '../../src/components/Footer';
 
 import Wrapper from '../Wrapper';
@@ -81,12 +79,8 @@ describe('<Footer />', () => {
     const tree = renderer
       .create(
         <Wrapper>
-          <AppContextProvider
-            value={{ footerVisible: true, setFooterVisibility: () => {} }}
-          >
-            {/* @ts-ignore-next-line */}
-            <Footer descriptors={descriptors} state={state} />
-          </AppContextProvider>
+          {/* @ts-ignore-next-line */}
+          <Footer descriptors={descriptors} state={state} />
         </Wrapper>,
       )
       .toJSON();
