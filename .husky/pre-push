@@ -3,9 +3,9 @@
 
 . "$(dirname -- "$0")/scripts/setup.sh"
 
-if [ "$PROJECT_UPDATE_STATUS" -eq 0 ];
+if [ "$PROJECT_README_UPTODATE" -eq 0 ];
 then
-  echo "{\"branch\":\"$PROJECT_BRANCH\"}" | npx ejs \
+  echo "{\"branch\":\"$PROJECT_BRANCH\",\"template_checksum\":\"$PROJECT_README_CHECKSUM\"}" | npx ejs \
     -o "$PROJECT_DIR/README.md" \
     "$PROJECT_DIR/templates/README.ejs" && \
     git add "$PROJECT_DIR/README.md" && \
