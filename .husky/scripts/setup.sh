@@ -5,7 +5,7 @@ PROJECT_HOOKS_DIR="$(dirname "$SCRIPT_DIR")"
 PROJECT_DIR="$(dirname "$PROJECT_HOOKS_DIR")"
 PROJECT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
 PROJECT_README_UPTODATE=0
-PROJECT_README_CHECKSUM=$(sha1sum "$PROJECT_DIR/templates/README.ejs")
+PROJECT_README_CHECKSUM=$(sha1sum "$PROJECT_DIR/templates/README.ejs" | awk '{print $1}')
 
 if [ -f "$PROJECT_DIR/README.md" ];
 then
