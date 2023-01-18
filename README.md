@@ -1,4 +1,5 @@
 <!-- -*- mode: markdown -*- -->
+<!-- template-checksum: 4ab96e9507829805ac0b670dc0205cd7a0cc3636 -->
 <!-- branch: dev -->
 # Example Mobile Bank App
 
