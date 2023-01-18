@@ -1,16 +1,16 @@
 <!-- -*- mode: markdown -*- -->
-<!-- template-checksum: 4ab96e9507829805ac0b670dc0205cd7a0cc3636 -->
+<!-- template-checksum: 02956c0cdab9cca2a0ea78abe402eb36b44d4266 -->
 <!-- branch: main -->
 # Example Mobile Bank App
 
 A sample mobile bank application built-in with React Native/Expo based on [design by Sergey Muradyan](https://www.behance.net/gallery/95607037/Wamp-Figma-Template)
 
 ![ci-badge](https://img.shields.io/github/actions/workflow/status/astrawan/my-bank-app/main.yml?label=CI&logo=GitHub&branch=main)
-![coverage-badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/astrawan/9b4b01124df2f136cead1415721be185/raw/my-bank-app_main_coverage.json)
-![node-badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/astrawan/0404e4cced06a0a0f090bf71deb65788/raw/my-bank-app_main_node-version.json)
-![react-badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/astrawan/f258b6158a2fd0b98edf0f22bcf9a659/raw/my-bank-app_main_react-version.json)
-![react-native-badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/astrawan/78fcd9e84d9751e375e27ea406764de5/raw/my-bank-app_main_react-native-version.json)
-![expo-badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/astrawan/4e0837191574df5cb4786c179c77dd9c/raw/my-bank-app_main_expo-version.json)
+![coverage-badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/astrawan/d275e3640d272d60ed7ab425b2f2c750/raw/my-bank-app_main_coverage.json)
+![node-badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/astrawan/a947a746a4fa385b020f446f30fea29a/raw/my-bank-app_main_node-version.json)
+![react-badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/astrawan/c0b7dfcdb22631b0cc2eb3719e7e10a4/raw/my-bank-app_main_react-version.json)
+![react-native-badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/astrawan/5b5a8ac02163fcf824b44fccaa46e40a/raw/my-bank-app_main_react-native-version.json)
+![expo-badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/astrawan/2c0e943789acc3c5d9adc5795394e6e1/raw/my-bank-app_main_expo-version.json)
 
 ## Example
 
