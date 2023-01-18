@@ -50,7 +50,7 @@ jobs:
         with:
           auth: ${{ secrets.DYNAMIC_BADGES_TOKEN }}
           gistID: a947a746a4fa385b020f446f30fea29a
-          filename: my-bank-app_${{ github.ref_name }}_node-version.json
+          filename: my-bank-app_main_node-version.json
           label: node
           message: ${{ env.BADGE_MSG_NODE }}
           color: blue
@@ -62,7 +62,7 @@ jobs:
         with:
           auth: ${{ secrets.DYNAMIC_BADGES_TOKEN }}
           gistID: 0404e4cced06a0a0f090bf71deb65788
-          filename: my-bank-app_${{ github.ref_name }}_node-version.json
+          filename: my-bank-app_dev_node-version.json
           label: node
           message: ${{ env.BADGE_MSG_NODE }}
           color: blue
@@ -75,7 +75,7 @@ jobs:
         with:
           auth: ${{ secrets.DYNAMIC_BADGES_TOKEN }}
           gistID: c0b7dfcdb22631b0cc2eb3719e7e10a4
-          filename: my-bank-app_${{ github.ref_name }}_react-version.json
+          filename: my-bank-app_main_react-version.json
           label: react
           message: ${{ env.BADGE_MSG_REACT }}
           color: blue
@@ -87,7 +87,7 @@ jobs:
         with:
           auth: ${{ secrets.DYNAMIC_BADGES_TOKEN }}
           gistID: f258b6158a2fd0b98edf0f22bcf9a659
-          filename: my-bank-app_${{ github.ref_name }}_react-version.json
+          filename: my-bank-app_dev_react-version.json
           label: react
           message: ${{ env.BADGE_MSG_REACT }}
           color: blue
@@ -100,7 +100,7 @@ jobs:
         with:
           auth: ${{ secrets.DYNAMIC_BADGES_TOKEN }}
           gistID: 5b5a8ac02163fcf824b44fccaa46e40a
-          filename: my-bank-app_${{ github.ref_name }}_react-native-version.json
+          filename: my-bank-app_main_react-native-version.json
           label: react-native
           message: ${{ env.BADGE_MSG_REACT_NATIVE }}
           color: blue
@@ -112,7 +112,7 @@ jobs:
         with:
           auth: ${{ secrets.DYNAMIC_BADGES_TOKEN }}
           gistID: 78fcd9e84d9751e375e27ea406764de5
-          filename: my-bank-app_${{ github.ref_name }}_react-native-version.json
+          filename: my-bank-app_dev_react-native-version.json
           label: react-native
           message: ${{ env.BADGE_MSG_REACT_NATIVE }}
           color: blue
@@ -125,7 +125,7 @@ jobs:
         with:
           auth: ${{ secrets.DYNAMIC_BADGES_TOKEN }}
           gistID: 2c0e943789acc3c5d9adc5795394e6e1
-          filename: my-bank-app_${{ github.ref_name }}_expo-version.json
+          filename: my-bank-app_main_expo-version.json
           label: expo-sdk
           message: ${{ env.BADGE_MSG_EXPO }}
           color: blue
@@ -137,7 +137,7 @@ jobs:
         with:
           auth: ${{ secrets.DYNAMIC_BADGES_TOKEN }}
           gistID: 4e0837191574df5cb4786c179c77dd9c
-          filename: my-bank-app_${{ github.ref_name }}_expo-version.json
+          filename: my-bank-app_dev_expo-version.json
           label: expo-sdk
           message: ${{ env.BADGE_MSG_EXPO }}
           color: blue
@@ -150,7 +150,7 @@ jobs:
         with:
           auth: ${{ secrets.DYNAMIC_BADGES_TOKEN }}
           gistID: d275e3640d272d60ed7ab425b2f2c750
-          filename: my-bank-app_${{ github.ref_name }}_coverage.json
+          filename: my-bank-app_main_coverage.json
           label: coverage
           message: 0%
           color: red
@@ -162,7 +162,7 @@ jobs:
         with:
           auth: ${{ secrets.DYNAMIC_BADGES_TOKEN }}
           gistID: 9b4b01124df2f136cead1415721be185
-          filename: my-bank-app_${{ github.ref_name }}_coverage.json
+          filename: my-bank-app_dev_coverage.json
           label: coverage
           message: 0%
           color: red
@@ -208,7 +208,7 @@ jobs:
         with:
           auth: ${{ secrets.DYNAMIC_BADGES_TOKEN }}
           gistID: d275e3640d272d60ed7ab425b2f2c750
-          filename: my-bank-app_${{ github.ref_name }}_coverage.json
+          filename: my-bank-app_main_coverage.json
           label: coverage
           message: ${{ env.BADGE_MSG_COVERAGE }}%
           color: ${{ env.BADGE_COLOR_COVERAGE }}
@@ -220,7 +220,7 @@ jobs:
         with:
           auth: ${{ secrets.DYNAMIC_BADGES_TOKEN }}
           gistID: 9b4b01124df2f136cead1415721be185
-          filename: my-bank-app_${{ github.ref_name }}_coverage.json
+          filename: my-bank-app_dev_coverage.json
           label: coverage
           message: ${{ env.BADGE_MSG_COVERAGE }}%
           color: ${{ env.BADGE_COLOR_COVERAGE }}
