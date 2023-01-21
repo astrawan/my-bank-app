@@ -7,6 +7,11 @@ on:
       - "*"
   pull_request:
     branches: [main]
+  workflow_dispatch:
+    inputs:
+      republish_group_id:
+        description: rollback group id
+        required: true
 
 jobs:
   test:
@@ -58,5 +63,11 @@ jobs:
           expo-version: 6.1.0
           token: ${{ secrets.EXPO_TOKEN }}
 
+      - name: 🚀 republish update
+        if: ${{ inputs.republish_group_id }}
+        run: |
+          eas update:republish --group='${{ inputs.republish_group_id }}' --message="$(git log -1 --format=%B)" --non-interactive
+
       - name: 🚀 publish update
+        if: ${{ !inputs.republish_group_id }}
         run: eas update --auto --non-interactive
