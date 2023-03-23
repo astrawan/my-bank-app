@@ -4,8 +4,8 @@ exports[`<Catalogue /> renders correctly 1`] = `
 <RNCSafeAreaProvider
   onInsetsChange={[Function]}
   style={
-    Array [
-      Object {
+    [
+      {
         "flex": 1,
       },
       undefined,
@@ -14,7 +14,7 @@ exports[`<Catalogue /> renders correctly 1`] = `
 >
   <HybridProvider
     options={
-      Object {
+      {
         "accessibleColors": false,
         "initialColorMode": "light",
         "useSystemColorMode": false,
@@ -24,8 +24,8 @@ exports[`<Catalogue /> renders correctly 1`] = `
     <View
       accessibilityIgnoresInvertColors={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "minHeight": 1334,
             "paddingBottom": 166,
           },
@@ -36,15 +36,15 @@ exports[`<Catalogue /> renders correctly 1`] = `
       <Image
         source={1}
         style={
-          Array [
-            Object {
+          [
+            {
               "bottom": 0,
               "left": 0,
               "position": "absolute",
               "right": 0,
               "top": 0,
             },
-            Object {
+            {
               "height": undefined,
               "width": undefined,
             },
@@ -53,25 +53,25 @@ exports[`<Catalogue /> renders correctly 1`] = `
         }
       />
       <View
-        dataSet={Object {}}
+        dataSet={{}}
         style={
-          Object {
+          {
             "flex": 1,
           }
         }
       >
         <View
-          dataSet={Object {}}
+          dataSet={{}}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "flexDirection": "row",
                 "height": 124,
                 "paddingLeft": 24,
                 "paddingRight": 24,
               },
-              Object {
+              {
                 "justifyContent": "center",
                 "margin": 0,
                 "width": "100%",
@@ -80,9 +80,9 @@ exports[`<Catalogue /> renders correctly 1`] = `
           }
         >
           <Text
-            dataSet={Object {}}
+            dataSet={{}}
             style={
-              Object {
+              {
                 "backgroundColor": undefined,
                 "color": "#fff",
                 "flex": 1,
@@ -99,13 +99,13 @@ exports[`<Catalogue /> renders correctly 1`] = `
             Catalogue
           </Text>
           <View
-            dataSet={Object {}}
-            style={Object {}}
+            dataSet={{}}
+            style={{}}
           />
           <View
-            dataSet={Object {}}
+            dataSet={{}}
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "alignSelf": "center",
                 "backgroundColor": "#a1a1aa",
@@ -121,16 +121,16 @@ exports[`<Catalogue /> renders correctly 1`] = `
             <Image
               accessibilityLabel="--"
               alt="--"
-              dataSet={Object {}}
+              dataSet={{}}
               onError={[Function]}
               source={1}
               style={
-                Array [
-                  Object {
+                [
+                  {
                     "borderRadius": 9999,
                     "maxWidth": "100%",
                   },
-                  Object {
+                  {
                     "height": "100%",
                     "width": "100%",
                   },
@@ -140,40 +140,40 @@ exports[`<Catalogue /> renders correctly 1`] = `
           </View>
         </View>
         <View
-          dataSet={Object {}}
-          style={Object {}}
+          dataSet={{}}
+          style={{}}
         >
           <RCTScrollView
             ListFooterComponent={<View />}
             ListFooterComponentStyle={
-              Object {
+              {
                 "marginBottom": 70,
               }
             }
             bounces={false}
             contentContainerStyle={
-              Array [
-                Object {},
-                Object {
-                  "dataSet": Object {},
+              [
+                {},
+                {
+                  "dataSet": {},
                 },
-                Object {},
+                {},
               ]
             }
             data={
-              Array [
-                Object {
+              [
+                {
                   "amount": 34,
-                  "colors": Array [
+                  "colors": [
                     "#68ADFF",
                     "#4F45FF",
                   ],
                   "icon": "call",
                   "name": "Mobile",
                 },
-                Object {
+                {
                   "amount": 21,
-                  "colors": Array [
+                  "colors": [
                     "#68ADFF",
                     "#4F45FF",
                   ],
@@ -181,9 +181,9 @@ exports[`<Catalogue /> renders correctly 1`] = `
                   "icon": "wifi",
                   "name": "Internet and TV",
                 },
-                Object {
+                {
                   "amount": 1221,
-                  "colors": Array [
+                  "colors": [
                     "#68ADFF",
                     "#4F45FF",
                   ],
@@ -191,9 +191,9 @@ exports[`<Catalogue /> renders correctly 1`] = `
                   "icon": "car",
                   "name": "Traffic fines",
                 },
-                Object {
+                {
                   "amount": 0,
-                  "colors": Array [
+                  "colors": [
                     "#68ADFF",
                     "#4F45FF",
                   ],
@@ -201,9 +201,9 @@ exports[`<Catalogue /> renders correctly 1`] = `
                   "icon": "home",
                   "name": "Housing services",
                 },
-                Object {
+                {
                   "amount": 442,
-                  "colors": Array [
+                  "colors": [
                     "#68ADFF",
                     "#4F45FF",
                   ],
@@ -211,18 +211,18 @@ exports[`<Catalogue /> renders correctly 1`] = `
                   "icon": "flash",
                   "name": "Utility payment",
                 },
-                Object {
+                {
                   "amount": 34,
-                  "colors": Array [
+                  "colors": [
                     "#68ADFF",
                     "#4F45FF",
                   ],
                   "icon": "call",
                   "name": "Mobile",
                 },
-                Object {
+                {
                   "amount": 21,
-                  "colors": Array [
+                  "colors": [
                     "#68ADFF",
                     "#4F45FF",
                   ],
@@ -230,9 +230,9 @@ exports[`<Catalogue /> renders correctly 1`] = `
                   "icon": "wifi",
                   "name": "Internet and TV",
                 },
-                Object {
+                {
                   "amount": 1221,
-                  "colors": Array [
+                  "colors": [
                     "#68ADFF",
                     "#4F45FF",
                   ],
@@ -240,9 +240,9 @@ exports[`<Catalogue /> renders correctly 1`] = `
                   "icon": "car",
                   "name": "Traffic fines",
                 },
-                Object {
+                {
                   "amount": 0,
-                  "colors": Array [
+                  "colors": [
                     "#68ADFF",
                     "#4F45FF",
                   ],
@@ -250,9 +250,9 @@ exports[`<Catalogue /> renders correctly 1`] = `
                   "icon": "home",
                   "name": "Housing services",
                 },
-                Object {
+                {
                   "amount": 442,
-                  "colors": Array [
+                  "colors": [
                     "#68ADFF",
                     "#4F45FF",
                   ],
@@ -262,7 +262,7 @@ exports[`<Catalogue /> renders correctly 1`] = `
                 },
               ]
             }
-            dataSet={Object {}}
+            dataSet={{}}
             getItem={[Function]}
             getItemCount={[Function]}
             keyExtractor={[Function]}
@@ -276,30 +276,31 @@ exports[`<Catalogue /> renders correctly 1`] = `
             removeClippedSubviews={false}
             renderItem={[Function]}
             scrollEventThrottle={50}
-            stickyHeaderIndices={Array []}
+            stickyHeaderIndices={[]}
             style={
-              Array [
-                Object {},
-                Object {
+              [
+                {},
+                {
                   "height": "100%",
                 },
               ]
             }
-            viewabilityConfigCallbackPairs={Array []}
+            viewabilityConfigCallbackPairs={[]}
           >
             <View>
               <View
+                onFocusCapture={[Function]}
                 onLayout={[Function]}
                 style={null}
               >
                 <View
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Array [
-                      Object {
+                    [
+                      {
                         "flexDirection": "row",
                       },
-                      Object {
+                      {
                         "alignItems": "center",
                         "alignSelf": "center",
                         "paddingLeft": 16,
@@ -310,8 +311,8 @@ exports[`<Catalogue /> renders correctly 1`] = `
                 >
                   <ViewManagerAdapter_ExpoLinearGradient
                     proxiedProperties={
-                      Object {
-                        "colors": Array [
+                      {
+                        "colors": [
                           4285050367,
                           4283385343,
                         ],
@@ -321,7 +322,7 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       }
                     }
                     style={
-                      Object {
+                      {
                         "alignItems": "center",
                         "borderRadius": 9999,
                         "height": 40,
@@ -331,10 +332,10 @@ exports[`<Catalogue /> renders correctly 1`] = `
                     }
                   >
                     <Ionicons
-                      dataSet={Object {}}
+                      dataSet={{}}
                       name="call"
                       style={
-                        Object {
+                        {
                           "color": "#FFF",
                           "fontSize": 20,
                           "height": 20,
@@ -345,21 +346,21 @@ exports[`<Catalogue /> renders correctly 1`] = `
                     />
                   </ViewManagerAdapter_ExpoLinearGradient>
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Object {
+                      {
                         "width": 16,
                       }
                     }
                   />
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Array [
-                        Object {
+                      [
+                        {
                           "flexDirection": "row",
                         },
-                        Object {
+                        {
                           "borderBottomColor": "#2D3757",
                           "borderBottomWidth": 1,
                           "flex": 1,
@@ -369,22 +370,22 @@ exports[`<Catalogue /> renders correctly 1`] = `
                     }
                   >
                     <View
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Array [
-                          Object {
+                        [
+                          {
                             "flex": 1,
                           },
-                          Object {
+                          {
                             "justifyContent": "center",
                           },
                         ]
                       }
                     >
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#FFF",
                             "fontFamily": undefined,
@@ -400,13 +401,13 @@ exports[`<Catalogue /> renders correctly 1`] = `
                         Mobile
                       </Text>
                       <View
-                        dataSet={Object {}}
-                        style={Object {}}
+                        dataSet={{}}
+                        style={{}}
                       />
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#94A3D3",
                             "fontFamily": undefined,
@@ -423,13 +424,30 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       </Text>
                     </View>
                     <View
-                      dataSet={Object {}}
-                      style={Object {}}
+                      dataSet={{}}
+                      style={{}}
                     />
                     <View
+                      accessibilityState={
+                        {
+                          "busy": undefined,
+                          "checked": undefined,
+                          "disabled": undefined,
+                          "expanded": undefined,
+                          "selected": undefined,
+                        }
+                      }
+                      accessibilityValue={
+                        {
+                          "max": undefined,
+                          "min": undefined,
+                          "now": undefined,
+                          "text": undefined,
+                        }
+                      }
                       accessible={true}
                       collapsable={false}
-                      dataSet={Object {}}
+                      dataSet={{}}
                       focusable={true}
                       onBlur={[Function]}
                       onClick={[Function]}
@@ -441,9 +459,9 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       onResponderTerminationRequest={[Function]}
                       onStartShouldSetResponder={[Function]}
                       style={
-                        Array [
-                          Object {},
-                          Object {
+                        [
+                          {},
+                          {
                             "alignItems": "center",
                             "alignSelf": "center",
                             "backgroundColor": "transparent",
@@ -458,9 +476,9 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       }
                     >
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#7295FB",
                             "fontFamily": undefined,
@@ -480,17 +498,18 @@ exports[`<Catalogue /> renders correctly 1`] = `
                 </View>
               </View>
               <View
+                onFocusCapture={[Function]}
                 onLayout={[Function]}
                 style={null}
               >
                 <View
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Array [
-                      Object {
+                    [
+                      {
                         "flexDirection": "row",
                       },
-                      Object {
+                      {
                         "alignItems": "center",
                         "alignSelf": "center",
                         "paddingLeft": 16,
@@ -501,8 +520,8 @@ exports[`<Catalogue /> renders correctly 1`] = `
                 >
                   <ViewManagerAdapter_ExpoLinearGradient
                     proxiedProperties={
-                      Object {
-                        "colors": Array [
+                      {
+                        "colors": [
                           4285050367,
                           4283385343,
                         ],
@@ -512,7 +531,7 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       }
                     }
                     style={
-                      Object {
+                      {
                         "alignItems": "center",
                         "borderRadius": 9999,
                         "height": 40,
@@ -522,10 +541,10 @@ exports[`<Catalogue /> renders correctly 1`] = `
                     }
                   >
                     <Ionicons
-                      dataSet={Object {}}
+                      dataSet={{}}
                       name="wifi"
                       style={
-                        Object {
+                        {
                           "color": "#FFF",
                           "fontSize": 20,
                           "height": 20,
@@ -536,21 +555,21 @@ exports[`<Catalogue /> renders correctly 1`] = `
                     />
                   </ViewManagerAdapter_ExpoLinearGradient>
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Object {
+                      {
                         "width": 16,
                       }
                     }
                   />
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Array [
-                        Object {
+                      [
+                        {
                           "flexDirection": "row",
                         },
-                        Object {
+                        {
                           "borderBottomColor": "#2D3757",
                           "borderBottomWidth": 1,
                           "flex": 1,
@@ -560,22 +579,22 @@ exports[`<Catalogue /> renders correctly 1`] = `
                     }
                   >
                     <View
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Array [
-                          Object {
+                        [
+                          {
                             "flex": 1,
                           },
-                          Object {
+                          {
                             "justifyContent": "center",
                           },
                         ]
                       }
                     >
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#FFF",
                             "fontFamily": undefined,
@@ -591,13 +610,13 @@ exports[`<Catalogue /> renders correctly 1`] = `
                         Internet and TV
                       </Text>
                       <View
-                        dataSet={Object {}}
-                        style={Object {}}
+                        dataSet={{}}
+                        style={{}}
                       />
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#94A3D3",
                             "fontFamily": undefined,
@@ -614,13 +633,30 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       </Text>
                     </View>
                     <View
-                      dataSet={Object {}}
-                      style={Object {}}
+                      dataSet={{}}
+                      style={{}}
                     />
                     <View
+                      accessibilityState={
+                        {
+                          "busy": undefined,
+                          "checked": undefined,
+                          "disabled": undefined,
+                          "expanded": undefined,
+                          "selected": undefined,
+                        }
+                      }
+                      accessibilityValue={
+                        {
+                          "max": undefined,
+                          "min": undefined,
+                          "now": undefined,
+                          "text": undefined,
+                        }
+                      }
                       accessible={true}
                       collapsable={false}
-                      dataSet={Object {}}
+                      dataSet={{}}
                       focusable={true}
                       onBlur={[Function]}
                       onClick={[Function]}
@@ -632,9 +668,9 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       onResponderTerminationRequest={[Function]}
                       onStartShouldSetResponder={[Function]}
                       style={
-                        Array [
-                          Object {},
-                          Object {
+                        [
+                          {},
+                          {
                             "alignItems": "center",
                             "alignSelf": "center",
                             "backgroundColor": "transparent",
@@ -649,9 +685,9 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       }
                     >
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#7295FB",
                             "fontFamily": undefined,
@@ -671,17 +707,18 @@ exports[`<Catalogue /> renders correctly 1`] = `
                 </View>
               </View>
               <View
+                onFocusCapture={[Function]}
                 onLayout={[Function]}
                 style={null}
               >
                 <View
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Array [
-                      Object {
+                    [
+                      {
                         "flexDirection": "row",
                       },
-                      Object {
+                      {
                         "alignItems": "center",
                         "alignSelf": "center",
                         "paddingLeft": 16,
@@ -692,8 +729,8 @@ exports[`<Catalogue /> renders correctly 1`] = `
                 >
                   <ViewManagerAdapter_ExpoLinearGradient
                     proxiedProperties={
-                      Object {
-                        "colors": Array [
+                      {
+                        "colors": [
                           4285050367,
                           4283385343,
                         ],
@@ -703,7 +740,7 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       }
                     }
                     style={
-                      Object {
+                      {
                         "alignItems": "center",
                         "borderRadius": 9999,
                         "height": 40,
@@ -713,10 +750,10 @@ exports[`<Catalogue /> renders correctly 1`] = `
                     }
                   >
                     <Ionicons
-                      dataSet={Object {}}
+                      dataSet={{}}
                       name="car"
                       style={
-                        Object {
+                        {
                           "color": "#FFF",
                           "fontSize": 20,
                           "height": 20,
@@ -727,21 +764,21 @@ exports[`<Catalogue /> renders correctly 1`] = `
                     />
                   </ViewManagerAdapter_ExpoLinearGradient>
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Object {
+                      {
                         "width": 16,
                       }
                     }
                   />
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Array [
-                        Object {
+                      [
+                        {
                           "flexDirection": "row",
                         },
-                        Object {
+                        {
                           "borderBottomColor": "#2D3757",
                           "borderBottomWidth": 1,
                           "flex": 1,
@@ -751,22 +788,22 @@ exports[`<Catalogue /> renders correctly 1`] = `
                     }
                   >
                     <View
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Array [
-                          Object {
+                        [
+                          {
                             "flex": 1,
                           },
-                          Object {
+                          {
                             "justifyContent": "center",
                           },
                         ]
                       }
                     >
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#FFF",
                             "fontFamily": undefined,
@@ -782,13 +819,13 @@ exports[`<Catalogue /> renders correctly 1`] = `
                         Traffic fines
                       </Text>
                       <View
-                        dataSet={Object {}}
-                        style={Object {}}
+                        dataSet={{}}
+                        style={{}}
                       />
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#94A3D3",
                             "fontFamily": undefined,
@@ -805,13 +842,30 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       </Text>
                     </View>
                     <View
-                      dataSet={Object {}}
-                      style={Object {}}
+                      dataSet={{}}
+                      style={{}}
                     />
                     <View
+                      accessibilityState={
+                        {
+                          "busy": undefined,
+                          "checked": undefined,
+                          "disabled": undefined,
+                          "expanded": undefined,
+                          "selected": undefined,
+                        }
+                      }
+                      accessibilityValue={
+                        {
+                          "max": undefined,
+                          "min": undefined,
+                          "now": undefined,
+                          "text": undefined,
+                        }
+                      }
                       accessible={true}
                       collapsable={false}
-                      dataSet={Object {}}
+                      dataSet={{}}
                       focusable={true}
                       onBlur={[Function]}
                       onClick={[Function]}
@@ -823,9 +877,9 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       onResponderTerminationRequest={[Function]}
                       onStartShouldSetResponder={[Function]}
                       style={
-                        Array [
-                          Object {},
-                          Object {
+                        [
+                          {},
+                          {
                             "alignItems": "center",
                             "alignSelf": "center",
                             "backgroundColor": "transparent",
@@ -840,9 +894,9 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       }
                     >
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#7295FB",
                             "fontFamily": undefined,
@@ -862,17 +916,18 @@ exports[`<Catalogue /> renders correctly 1`] = `
                 </View>
               </View>
               <View
+                onFocusCapture={[Function]}
                 onLayout={[Function]}
                 style={null}
               >
                 <View
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Array [
-                      Object {
+                    [
+                      {
                         "flexDirection": "row",
                       },
-                      Object {
+                      {
                         "alignItems": "center",
                         "alignSelf": "center",
                         "paddingLeft": 16,
@@ -883,8 +938,8 @@ exports[`<Catalogue /> renders correctly 1`] = `
                 >
                   <ViewManagerAdapter_ExpoLinearGradient
                     proxiedProperties={
-                      Object {
-                        "colors": Array [
+                      {
+                        "colors": [
                           4285050367,
                           4283385343,
                         ],
@@ -894,7 +949,7 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       }
                     }
                     style={
-                      Object {
+                      {
                         "alignItems": "center",
                         "borderRadius": 9999,
                         "height": 40,
@@ -904,10 +959,10 @@ exports[`<Catalogue /> renders correctly 1`] = `
                     }
                   >
                     <Ionicons
-                      dataSet={Object {}}
+                      dataSet={{}}
                       name="home"
                       style={
-                        Object {
+                        {
                           "color": "#FFF",
                           "fontSize": 20,
                           "height": 20,
@@ -918,21 +973,21 @@ exports[`<Catalogue /> renders correctly 1`] = `
                     />
                   </ViewManagerAdapter_ExpoLinearGradient>
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Object {
+                      {
                         "width": 16,
                       }
                     }
                   />
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Array [
-                        Object {
+                      [
+                        {
                           "flexDirection": "row",
                         },
-                        Object {
+                        {
                           "borderBottomColor": "#2D3757",
                           "borderBottomWidth": 1,
                           "flex": 1,
@@ -942,22 +997,22 @@ exports[`<Catalogue /> renders correctly 1`] = `
                     }
                   >
                     <View
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Array [
-                          Object {
+                        [
+                          {
                             "flex": 1,
                           },
-                          Object {
+                          {
                             "justifyContent": "center",
                           },
                         ]
                       }
                     >
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#FFF",
                             "fontFamily": undefined,
@@ -973,13 +1028,13 @@ exports[`<Catalogue /> renders correctly 1`] = `
                         Housing services
                       </Text>
                       <View
-                        dataSet={Object {}}
-                        style={Object {}}
+                        dataSet={{}}
+                        style={{}}
                       />
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#94A3D3",
                             "fontFamily": undefined,
@@ -996,13 +1051,30 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       </Text>
                     </View>
                     <View
-                      dataSet={Object {}}
-                      style={Object {}}
+                      dataSet={{}}
+                      style={{}}
                     />
                     <View
+                      accessibilityState={
+                        {
+                          "busy": undefined,
+                          "checked": undefined,
+                          "disabled": undefined,
+                          "expanded": undefined,
+                          "selected": undefined,
+                        }
+                      }
+                      accessibilityValue={
+                        {
+                          "max": undefined,
+                          "min": undefined,
+                          "now": undefined,
+                          "text": undefined,
+                        }
+                      }
                       accessible={true}
                       collapsable={false}
-                      dataSet={Object {}}
+                      dataSet={{}}
                       focusable={true}
                       onBlur={[Function]}
                       onClick={[Function]}
@@ -1014,9 +1086,9 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       onResponderTerminationRequest={[Function]}
                       onStartShouldSetResponder={[Function]}
                       style={
-                        Array [
-                          Object {},
-                          Object {
+                        [
+                          {},
+                          {
                             "alignItems": "center",
                             "alignSelf": "center",
                             "backgroundColor": "transparent",
@@ -1031,9 +1103,9 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       }
                     >
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#7295FB",
                             "fontFamily": undefined,
@@ -1053,17 +1125,18 @@ exports[`<Catalogue /> renders correctly 1`] = `
                 </View>
               </View>
               <View
+                onFocusCapture={[Function]}
                 onLayout={[Function]}
                 style={null}
               >
                 <View
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Array [
-                      Object {
+                    [
+                      {
                         "flexDirection": "row",
                       },
-                      Object {
+                      {
                         "alignItems": "center",
                         "alignSelf": "center",
                         "paddingLeft": 16,
@@ -1074,8 +1147,8 @@ exports[`<Catalogue /> renders correctly 1`] = `
                 >
                   <ViewManagerAdapter_ExpoLinearGradient
                     proxiedProperties={
-                      Object {
-                        "colors": Array [
+                      {
+                        "colors": [
                           4285050367,
                           4283385343,
                         ],
@@ -1085,7 +1158,7 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       }
                     }
                     style={
-                      Object {
+                      {
                         "alignItems": "center",
                         "borderRadius": 9999,
                         "height": 40,
@@ -1095,10 +1168,10 @@ exports[`<Catalogue /> renders correctly 1`] = `
                     }
                   >
                     <Ionicons
-                      dataSet={Object {}}
+                      dataSet={{}}
                       name="flash"
                       style={
-                        Object {
+                        {
                           "color": "#FFF",
                           "fontSize": 20,
                           "height": 20,
@@ -1109,21 +1182,21 @@ exports[`<Catalogue /> renders correctly 1`] = `
                     />
                   </ViewManagerAdapter_ExpoLinearGradient>
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Object {
+                      {
                         "width": 16,
                       }
                     }
                   />
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Array [
-                        Object {
+                      [
+                        {
                           "flexDirection": "row",
                         },
-                        Object {
+                        {
                           "borderBottomColor": "#2D3757",
                           "borderBottomWidth": 1,
                           "flex": 1,
@@ -1133,22 +1206,22 @@ exports[`<Catalogue /> renders correctly 1`] = `
                     }
                   >
                     <View
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Array [
-                          Object {
+                        [
+                          {
                             "flex": 1,
                           },
-                          Object {
+                          {
                             "justifyContent": "center",
                           },
                         ]
                       }
                     >
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#FFF",
                             "fontFamily": undefined,
@@ -1164,13 +1237,13 @@ exports[`<Catalogue /> renders correctly 1`] = `
                         Utility payment
                       </Text>
                       <View
-                        dataSet={Object {}}
-                        style={Object {}}
+                        dataSet={{}}
+                        style={{}}
                       />
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#94A3D3",
                             "fontFamily": undefined,
@@ -1187,13 +1260,30 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       </Text>
                     </View>
                     <View
-                      dataSet={Object {}}
-                      style={Object {}}
+                      dataSet={{}}
+                      style={{}}
                     />
                     <View
+                      accessibilityState={
+                        {
+                          "busy": undefined,
+                          "checked": undefined,
+                          "disabled": undefined,
+                          "expanded": undefined,
+                          "selected": undefined,
+                        }
+                      }
+                      accessibilityValue={
+                        {
+                          "max": undefined,
+                          "min": undefined,
+                          "now": undefined,
+                          "text": undefined,
+                        }
+                      }
                       accessible={true}
                       collapsable={false}
-                      dataSet={Object {}}
+                      dataSet={{}}
                       focusable={true}
                       onBlur={[Function]}
                       onClick={[Function]}
@@ -1205,9 +1295,9 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       onResponderTerminationRequest={[Function]}
                       onStartShouldSetResponder={[Function]}
                       style={
-                        Array [
-                          Object {},
-                          Object {
+                        [
+                          {},
+                          {
                             "alignItems": "center",
                             "alignSelf": "center",
                             "backgroundColor": "transparent",
@@ -1222,9 +1312,9 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       }
                     >
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#7295FB",
                             "fontFamily": undefined,
@@ -1244,17 +1334,18 @@ exports[`<Catalogue /> renders correctly 1`] = `
                 </View>
               </View>
               <View
+                onFocusCapture={[Function]}
                 onLayout={[Function]}
                 style={null}
               >
                 <View
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Array [
-                      Object {
+                    [
+                      {
                         "flexDirection": "row",
                       },
-                      Object {
+                      {
                         "alignItems": "center",
                         "alignSelf": "center",
                         "paddingLeft": 16,
@@ -1265,8 +1356,8 @@ exports[`<Catalogue /> renders correctly 1`] = `
                 >
                   <ViewManagerAdapter_ExpoLinearGradient
                     proxiedProperties={
-                      Object {
-                        "colors": Array [
+                      {
+                        "colors": [
                           4285050367,
                           4283385343,
                         ],
@@ -1276,7 +1367,7 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       }
                     }
                     style={
-                      Object {
+                      {
                         "alignItems": "center",
                         "borderRadius": 9999,
                         "height": 40,
@@ -1286,10 +1377,10 @@ exports[`<Catalogue /> renders correctly 1`] = `
                     }
                   >
                     <Ionicons
-                      dataSet={Object {}}
+                      dataSet={{}}
                       name="call"
                       style={
-                        Object {
+                        {
                           "color": "#FFF",
                           "fontSize": 20,
                           "height": 20,
@@ -1300,21 +1391,21 @@ exports[`<Catalogue /> renders correctly 1`] = `
                     />
                   </ViewManagerAdapter_ExpoLinearGradient>
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Object {
+                      {
                         "width": 16,
                       }
                     }
                   />
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Array [
-                        Object {
+                      [
+                        {
                           "flexDirection": "row",
                         },
-                        Object {
+                        {
                           "borderBottomColor": "#2D3757",
                           "borderBottomWidth": 1,
                           "flex": 1,
@@ -1324,22 +1415,22 @@ exports[`<Catalogue /> renders correctly 1`] = `
                     }
                   >
                     <View
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Array [
-                          Object {
+                        [
+                          {
                             "flex": 1,
                           },
-                          Object {
+                          {
                             "justifyContent": "center",
                           },
                         ]
                       }
                     >
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#FFF",
                             "fontFamily": undefined,
@@ -1355,13 +1446,13 @@ exports[`<Catalogue /> renders correctly 1`] = `
                         Mobile
                       </Text>
                       <View
-                        dataSet={Object {}}
-                        style={Object {}}
+                        dataSet={{}}
+                        style={{}}
                       />
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#94A3D3",
                             "fontFamily": undefined,
@@ -1378,13 +1469,30 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       </Text>
                     </View>
                     <View
-                      dataSet={Object {}}
-                      style={Object {}}
+                      dataSet={{}}
+                      style={{}}
                     />
                     <View
+                      accessibilityState={
+                        {
+                          "busy": undefined,
+                          "checked": undefined,
+                          "disabled": undefined,
+                          "expanded": undefined,
+                          "selected": undefined,
+                        }
+                      }
+                      accessibilityValue={
+                        {
+                          "max": undefined,
+                          "min": undefined,
+                          "now": undefined,
+                          "text": undefined,
+                        }
+                      }
                       accessible={true}
                       collapsable={false}
-                      dataSet={Object {}}
+                      dataSet={{}}
                       focusable={true}
                       onBlur={[Function]}
                       onClick={[Function]}
@@ -1396,9 +1504,9 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       onResponderTerminationRequest={[Function]}
                       onStartShouldSetResponder={[Function]}
                       style={
-                        Array [
-                          Object {},
-                          Object {
+                        [
+                          {},
+                          {
                             "alignItems": "center",
                             "alignSelf": "center",
                             "backgroundColor": "transparent",
@@ -1413,9 +1521,9 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       }
                     >
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#7295FB",
                             "fontFamily": undefined,
@@ -1435,17 +1543,18 @@ exports[`<Catalogue /> renders correctly 1`] = `
                 </View>
               </View>
               <View
+                onFocusCapture={[Function]}
                 onLayout={[Function]}
                 style={null}
               >
                 <View
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Array [
-                      Object {
+                    [
+                      {
                         "flexDirection": "row",
                       },
-                      Object {
+                      {
                         "alignItems": "center",
                         "alignSelf": "center",
                         "paddingLeft": 16,
@@ -1456,8 +1565,8 @@ exports[`<Catalogue /> renders correctly 1`] = `
                 >
                   <ViewManagerAdapter_ExpoLinearGradient
                     proxiedProperties={
-                      Object {
-                        "colors": Array [
+                      {
+                        "colors": [
                           4285050367,
                           4283385343,
                         ],
@@ -1467,7 +1576,7 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       }
                     }
                     style={
-                      Object {
+                      {
                         "alignItems": "center",
                         "borderRadius": 9999,
                         "height": 40,
@@ -1477,10 +1586,10 @@ exports[`<Catalogue /> renders correctly 1`] = `
                     }
                   >
                     <Ionicons
-                      dataSet={Object {}}
+                      dataSet={{}}
                       name="wifi"
                       style={
-                        Object {
+                        {
                           "color": "#FFF",
                           "fontSize": 20,
                           "height": 20,
@@ -1491,21 +1600,21 @@ exports[`<Catalogue /> renders correctly 1`] = `
                     />
                   </ViewManagerAdapter_ExpoLinearGradient>
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Object {
+                      {
                         "width": 16,
                       }
                     }
                   />
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Array [
-                        Object {
+                      [
+                        {
                           "flexDirection": "row",
                         },
-                        Object {
+                        {
                           "borderBottomColor": "#2D3757",
                           "borderBottomWidth": 1,
                           "flex": 1,
@@ -1515,22 +1624,22 @@ exports[`<Catalogue /> renders correctly 1`] = `
                     }
                   >
                     <View
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Array [
-                          Object {
+                        [
+                          {
                             "flex": 1,
                           },
-                          Object {
+                          {
                             "justifyContent": "center",
                           },
                         ]
                       }
                     >
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#FFF",
                             "fontFamily": undefined,
@@ -1546,13 +1655,13 @@ exports[`<Catalogue /> renders correctly 1`] = `
                         Internet and TV
                       </Text>
                       <View
-                        dataSet={Object {}}
-                        style={Object {}}
+                        dataSet={{}}
+                        style={{}}
                       />
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#94A3D3",
                             "fontFamily": undefined,
@@ -1569,13 +1678,30 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       </Text>
                     </View>
                     <View
-                      dataSet={Object {}}
-                      style={Object {}}
+                      dataSet={{}}
+                      style={{}}
                     />
                     <View
+                      accessibilityState={
+                        {
+                          "busy": undefined,
+                          "checked": undefined,
+                          "disabled": undefined,
+                          "expanded": undefined,
+                          "selected": undefined,
+                        }
+                      }
+                      accessibilityValue={
+                        {
+                          "max": undefined,
+                          "min": undefined,
+                          "now": undefined,
+                          "text": undefined,
+                        }
+                      }
                       accessible={true}
                       collapsable={false}
-                      dataSet={Object {}}
+                      dataSet={{}}
                       focusable={true}
                       onBlur={[Function]}
                       onClick={[Function]}
@@ -1587,9 +1713,9 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       onResponderTerminationRequest={[Function]}
                       onStartShouldSetResponder={[Function]}
                       style={
-                        Array [
-                          Object {},
-                          Object {
+                        [
+                          {},
+                          {
                             "alignItems": "center",
                             "alignSelf": "center",
                             "backgroundColor": "transparent",
@@ -1604,9 +1730,9 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       }
                     >
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#7295FB",
                             "fontFamily": undefined,
@@ -1626,17 +1752,18 @@ exports[`<Catalogue /> renders correctly 1`] = `
                 </View>
               </View>
               <View
+                onFocusCapture={[Function]}
                 onLayout={[Function]}
                 style={null}
               >
                 <View
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Array [
-                      Object {
+                    [
+                      {
                         "flexDirection": "row",
                       },
-                      Object {
+                      {
                         "alignItems": "center",
                         "alignSelf": "center",
                         "paddingLeft": 16,
@@ -1647,8 +1774,8 @@ exports[`<Catalogue /> renders correctly 1`] = `
                 >
                   <ViewManagerAdapter_ExpoLinearGradient
                     proxiedProperties={
-                      Object {
-                        "colors": Array [
+                      {
+                        "colors": [
                           4285050367,
                           4283385343,
                         ],
@@ -1658,7 +1785,7 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       }
                     }
                     style={
-                      Object {
+                      {
                         "alignItems": "center",
                         "borderRadius": 9999,
                         "height": 40,
@@ -1668,10 +1795,10 @@ exports[`<Catalogue /> renders correctly 1`] = `
                     }
                   >
                     <Ionicons
-                      dataSet={Object {}}
+                      dataSet={{}}
                       name="car"
                       style={
-                        Object {
+                        {
                           "color": "#FFF",
                           "fontSize": 20,
                           "height": 20,
@@ -1682,21 +1809,21 @@ exports[`<Catalogue /> renders correctly 1`] = `
                     />
                   </ViewManagerAdapter_ExpoLinearGradient>
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Object {
+                      {
                         "width": 16,
                       }
                     }
                   />
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Array [
-                        Object {
+                      [
+                        {
                           "flexDirection": "row",
                         },
-                        Object {
+                        {
                           "borderBottomColor": "#2D3757",
                           "borderBottomWidth": 1,
                           "flex": 1,
@@ -1706,22 +1833,22 @@ exports[`<Catalogue /> renders correctly 1`] = `
                     }
                   >
                     <View
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Array [
-                          Object {
+                        [
+                          {
                             "flex": 1,
                           },
-                          Object {
+                          {
                             "justifyContent": "center",
                           },
                         ]
                       }
                     >
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#FFF",
                             "fontFamily": undefined,
@@ -1737,13 +1864,13 @@ exports[`<Catalogue /> renders correctly 1`] = `
                         Traffic fines
                       </Text>
                       <View
-                        dataSet={Object {}}
-                        style={Object {}}
+                        dataSet={{}}
+                        style={{}}
                       />
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#94A3D3",
                             "fontFamily": undefined,
@@ -1760,13 +1887,30 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       </Text>
                     </View>
                     <View
-                      dataSet={Object {}}
-                      style={Object {}}
+                      dataSet={{}}
+                      style={{}}
                     />
                     <View
+                      accessibilityState={
+                        {
+                          "busy": undefined,
+                          "checked": undefined,
+                          "disabled": undefined,
+                          "expanded": undefined,
+                          "selected": undefined,
+                        }
+                      }
+                      accessibilityValue={
+                        {
+                          "max": undefined,
+                          "min": undefined,
+                          "now": undefined,
+                          "text": undefined,
+                        }
+                      }
                       accessible={true}
                       collapsable={false}
-                      dataSet={Object {}}
+                      dataSet={{}}
                       focusable={true}
                       onBlur={[Function]}
                       onClick={[Function]}
@@ -1778,9 +1922,9 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       onResponderTerminationRequest={[Function]}
                       onStartShouldSetResponder={[Function]}
                       style={
-                        Array [
-                          Object {},
-                          Object {
+                        [
+                          {},
+                          {
                             "alignItems": "center",
                             "alignSelf": "center",
                             "backgroundColor": "transparent",
@@ -1795,9 +1939,9 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       }
                     >
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#7295FB",
                             "fontFamily": undefined,
@@ -1817,17 +1961,18 @@ exports[`<Catalogue /> renders correctly 1`] = `
                 </View>
               </View>
               <View
+                onFocusCapture={[Function]}
                 onLayout={[Function]}
                 style={null}
               >
                 <View
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Array [
-                      Object {
+                    [
+                      {
                         "flexDirection": "row",
                       },
-                      Object {
+                      {
                         "alignItems": "center",
                         "alignSelf": "center",
                         "paddingLeft": 16,
@@ -1838,8 +1983,8 @@ exports[`<Catalogue /> renders correctly 1`] = `
                 >
                   <ViewManagerAdapter_ExpoLinearGradient
                     proxiedProperties={
-                      Object {
-                        "colors": Array [
+                      {
+                        "colors": [
                           4285050367,
                           4283385343,
                         ],
@@ -1849,7 +1994,7 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       }
                     }
                     style={
-                      Object {
+                      {
                         "alignItems": "center",
                         "borderRadius": 9999,
                         "height": 40,
@@ -1859,10 +2004,10 @@ exports[`<Catalogue /> renders correctly 1`] = `
                     }
                   >
                     <Ionicons
-                      dataSet={Object {}}
+                      dataSet={{}}
                       name="home"
                       style={
-                        Object {
+                        {
                           "color": "#FFF",
                           "fontSize": 20,
                           "height": 20,
@@ -1873,21 +2018,21 @@ exports[`<Catalogue /> renders correctly 1`] = `
                     />
                   </ViewManagerAdapter_ExpoLinearGradient>
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Object {
+                      {
                         "width": 16,
                       }
                     }
                   />
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Array [
-                        Object {
+                      [
+                        {
                           "flexDirection": "row",
                         },
-                        Object {
+                        {
                           "borderBottomColor": "#2D3757",
                           "borderBottomWidth": 1,
                           "flex": 1,
@@ -1897,22 +2042,22 @@ exports[`<Catalogue /> renders correctly 1`] = `
                     }
                   >
                     <View
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Array [
-                          Object {
+                        [
+                          {
                             "flex": 1,
                           },
-                          Object {
+                          {
                             "justifyContent": "center",
                           },
                         ]
                       }
                     >
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#FFF",
                             "fontFamily": undefined,
@@ -1928,13 +2073,13 @@ exports[`<Catalogue /> renders correctly 1`] = `
                         Housing services
                       </Text>
                       <View
-                        dataSet={Object {}}
-                        style={Object {}}
+                        dataSet={{}}
+                        style={{}}
                       />
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#94A3D3",
                             "fontFamily": undefined,
@@ -1951,13 +2096,30 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       </Text>
                     </View>
                     <View
-                      dataSet={Object {}}
-                      style={Object {}}
+                      dataSet={{}}
+                      style={{}}
                     />
                     <View
+                      accessibilityState={
+                        {
+                          "busy": undefined,
+                          "checked": undefined,
+                          "disabled": undefined,
+                          "expanded": undefined,
+                          "selected": undefined,
+                        }
+                      }
+                      accessibilityValue={
+                        {
+                          "max": undefined,
+                          "min": undefined,
+                          "now": undefined,
+                          "text": undefined,
+                        }
+                      }
                       accessible={true}
                       collapsable={false}
-                      dataSet={Object {}}
+                      dataSet={{}}
                       focusable={true}
                       onBlur={[Function]}
                       onClick={[Function]}
@@ -1969,9 +2131,9 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       onResponderTerminationRequest={[Function]}
                       onStartShouldSetResponder={[Function]}
                       style={
-                        Array [
-                          Object {},
-                          Object {
+                        [
+                          {},
+                          {
                             "alignItems": "center",
                             "alignSelf": "center",
                             "backgroundColor": "transparent",
@@ -1986,9 +2148,9 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       }
                     >
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#7295FB",
                             "fontFamily": undefined,
@@ -2008,17 +2170,18 @@ exports[`<Catalogue /> renders correctly 1`] = `
                 </View>
               </View>
               <View
+                onFocusCapture={[Function]}
                 onLayout={[Function]}
                 style={null}
               >
                 <View
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Array [
-                      Object {
+                    [
+                      {
                         "flexDirection": "row",
                       },
-                      Object {
+                      {
                         "alignItems": "center",
                         "alignSelf": "center",
                         "paddingLeft": 16,
@@ -2029,8 +2192,8 @@ exports[`<Catalogue /> renders correctly 1`] = `
                 >
                   <ViewManagerAdapter_ExpoLinearGradient
                     proxiedProperties={
-                      Object {
-                        "colors": Array [
+                      {
+                        "colors": [
                           4285050367,
                           4283385343,
                         ],
@@ -2040,7 +2203,7 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       }
                     }
                     style={
-                      Object {
+                      {
                         "alignItems": "center",
                         "borderRadius": 9999,
                         "height": 40,
@@ -2050,10 +2213,10 @@ exports[`<Catalogue /> renders correctly 1`] = `
                     }
                   >
                     <Ionicons
-                      dataSet={Object {}}
+                      dataSet={{}}
                       name="flash"
                       style={
-                        Object {
+                        {
                           "color": "#FFF",
                           "fontSize": 20,
                           "height": 20,
@@ -2064,21 +2227,21 @@ exports[`<Catalogue /> renders correctly 1`] = `
                     />
                   </ViewManagerAdapter_ExpoLinearGradient>
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Object {
+                      {
                         "width": 16,
                       }
                     }
                   />
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Array [
-                        Object {
+                      [
+                        {
                           "flexDirection": "row",
                         },
-                        Object {
+                        {
                           "borderBottomColor": "#2D3757",
                           "borderBottomWidth": 1,
                           "flex": 1,
@@ -2088,22 +2251,22 @@ exports[`<Catalogue /> renders correctly 1`] = `
                     }
                   >
                     <View
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Array [
-                          Object {
+                        [
+                          {
                             "flex": 1,
                           },
-                          Object {
+                          {
                             "justifyContent": "center",
                           },
                         ]
                       }
                     >
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#FFF",
                             "fontFamily": undefined,
@@ -2119,13 +2282,13 @@ exports[`<Catalogue /> renders correctly 1`] = `
                         Utility payment
                       </Text>
                       <View
-                        dataSet={Object {}}
-                        style={Object {}}
+                        dataSet={{}}
+                        style={{}}
                       />
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#94A3D3",
                             "fontFamily": undefined,
@@ -2142,13 +2305,30 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       </Text>
                     </View>
                     <View
-                      dataSet={Object {}}
-                      style={Object {}}
+                      dataSet={{}}
+                      style={{}}
                     />
                     <View
+                      accessibilityState={
+                        {
+                          "busy": undefined,
+                          "checked": undefined,
+                          "disabled": undefined,
+                          "expanded": undefined,
+                          "selected": undefined,
+                        }
+                      }
+                      accessibilityValue={
+                        {
+                          "max": undefined,
+                          "min": undefined,
+                          "now": undefined,
+                          "text": undefined,
+                        }
+                      }
                       accessible={true}
                       collapsable={false}
-                      dataSet={Object {}}
+                      dataSet={{}}
                       focusable={true}
                       onBlur={[Function]}
                       onClick={[Function]}
@@ -2160,9 +2340,9 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       onResponderTerminationRequest={[Function]}
                       onStartShouldSetResponder={[Function]}
                       style={
-                        Array [
-                          Object {},
-                          Object {
+                        [
+                          {},
+                          {
                             "alignItems": "center",
                             "alignSelf": "center",
                             "backgroundColor": "transparent",
@@ -2177,9 +2357,9 @@ exports[`<Catalogue /> renders correctly 1`] = `
                       }
                     >
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#7295FB",
                             "fontFamily": undefined,
@@ -2201,7 +2381,7 @@ exports[`<Catalogue /> renders correctly 1`] = `
               <View
                 onLayout={[Function]}
                 style={
-                  Object {
+                  {
                     "marginBottom": 70,
                   }
                 }

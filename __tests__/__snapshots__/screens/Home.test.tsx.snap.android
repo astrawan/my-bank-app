@@ -4,8 +4,8 @@ exports[`<Home /> renders correctly 1`] = `
 <RNCSafeAreaProvider
   onInsetsChange={[Function]}
   style={
-    Array [
-      Object {
+    [
+      {
         "flex": 1,
       },
       undefined,
@@ -14,7 +14,7 @@ exports[`<Home /> renders correctly 1`] = `
 >
   <HybridProvider
     options={
-      Object {
+      {
         "accessibleColors": false,
         "initialColorMode": "light",
         "useSystemColorMode": false,
@@ -24,8 +24,8 @@ exports[`<Home /> renders correctly 1`] = `
     <View
       accessibilityIgnoresInvertColors={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "minHeight": 1334,
             "paddingBottom": 166,
           },
@@ -36,15 +36,15 @@ exports[`<Home /> renders correctly 1`] = `
       <Image
         source={1}
         style={
-          Array [
-            Object {
+          [
+            {
               "bottom": 0,
               "left": 0,
               "position": "absolute",
               "right": 0,
               "top": 0,
             },
-            Object {
+            {
               "height": undefined,
               "width": undefined,
             },
@@ -53,25 +53,25 @@ exports[`<Home /> renders correctly 1`] = `
         }
       />
       <View
-        dataSet={Object {}}
+        dataSet={{}}
         style={
-          Object {
+          {
             "flex": 1,
           }
         }
       >
         <View
-          dataSet={Object {}}
+          dataSet={{}}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "flexDirection": "row",
                 "height": 124,
                 "paddingLeft": 24,
                 "paddingRight": 24,
               },
-              Object {
+              {
                 "justifyContent": "center",
                 "margin": 0,
                 "width": "100%",
@@ -80,9 +80,9 @@ exports[`<Home /> renders correctly 1`] = `
           }
         >
           <Text
-            dataSet={Object {}}
+            dataSet={{}}
             style={
-              Object {
+              {
                 "backgroundColor": undefined,
                 "color": "#fff",
                 "flex": 1,
@@ -99,13 +99,13 @@ exports[`<Home /> renders correctly 1`] = `
             Bank Cards
           </Text>
           <View
-            dataSet={Object {}}
-            style={Object {}}
+            dataSet={{}}
+            style={{}}
           />
           <View
-            dataSet={Object {}}
+            dataSet={{}}
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "alignSelf": "center",
                 "backgroundColor": "#a1a1aa",
@@ -121,16 +121,16 @@ exports[`<Home /> renders correctly 1`] = `
             <Image
               accessibilityLabel="--"
               alt="--"
-              dataSet={Object {}}
+              dataSet={{}}
               onError={[Function]}
               source={1}
               style={
-                Array [
-                  Object {
+                [
+                  {
                     "borderRadius": 9999,
                     "maxWidth": "100%",
                   },
-                  Object {
+                  {
                     "height": "100%",
                     "width": "100%",
                   },
@@ -141,19 +141,19 @@ exports[`<Home /> renders correctly 1`] = `
         </View>
         <RCTScrollView
           contentContainerStyle={
-            Array [
-              Object {},
-              Object {
-                "dataSet": Object {},
+            [
+              {},
+              {
+                "dataSet": {},
               },
-              Object {},
+              {},
             ]
           }
-          dataSet={Object {}}
+          dataSet={{}}
           style={
-            Array [
-              Object {},
-              Object {
+            [
+              {},
+              {
                 "minHeight": 1140,
               },
             ]
@@ -161,9 +161,9 @@ exports[`<Home /> renders correctly 1`] = `
         >
           <View>
             <View
-              dataSet={Object {}}
+              dataSet={{}}
               style={
-                Object {
+                {
                   "paddingBottom": 24,
                   "paddingLeft": 24,
                   "paddingRight": 24,
@@ -172,13 +172,13 @@ exports[`<Home /> renders correctly 1`] = `
               }
             >
               <View
-                dataSet={Object {}}
-                style={Object {}}
+                dataSet={{}}
+                style={{}}
               >
                 <Text
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Object {
+                    {
                       "backgroundColor": undefined,
                       "color": "#94A3D3",
                       "fontFamily": undefined,
@@ -194,13 +194,13 @@ exports[`<Home /> renders correctly 1`] = `
                   Balance
                 </Text>
                 <View
-                  dataSet={Object {}}
-                  style={Object {}}
+                  dataSet={{}}
+                  style={{}}
                 />
                 <Text
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Object {
+                    {
                       "backgroundColor": undefined,
                       "color": "#fff",
                       "fontFamily": undefined,
@@ -219,8 +219,8 @@ exports[`<Home /> renders correctly 1`] = `
             </View>
             <Carousel
               data={
-                Array [
-                  Object {
+                [
+                  {
                     "balance": 2748,
                     "cardBackgroundL": 1,
                     "cardBackgroundP": 1,
@@ -233,7 +233,7 @@ exports[`<Home /> renders correctly 1`] = `
                     "cardNumber": "5489 7452 5726 9827",
                     "name": "Card 1",
                   },
-                  Object {
+                  {
                     "balance": 3596,
                     "cardBackgroundL": 1,
                     "cardBackgroundP": 1,
@@ -246,7 +246,7 @@ exports[`<Home /> renders correctly 1`] = `
                     "cardNumber": "5489 7452 5726 9828",
                     "name": "Card 2",
                   },
-                  Object {
+                  {
                     "balance": 1314,
                     "cardBackgroundL": 1,
                     "cardBackgroundP": 1,
@@ -269,18 +269,18 @@ exports[`<Home /> renders correctly 1`] = `
             <Pagination
               activeDotIndex={0}
               carouselRef={
-                Object {
+                {
                   "current": null,
                 }
               }
               dotColor="#FFFFFF"
               dotContainerStyle={
-                Object {
+                {
                   "marginHorizontal": 2,
                 }
               }
               dotStyle={
-                Object {
+                {
                   "borderRadius": 4,
                   "height": 4,
                   "marginHorizontal": 0,

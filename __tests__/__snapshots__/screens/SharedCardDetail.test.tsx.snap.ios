@@ -4,8 +4,8 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
 <RNCSafeAreaProvider
   onInsetsChange={[Function]}
   style={
-    Array [
-      Object {
+    [
+      {
         "flex": 1,
       },
       undefined,
@@ -14,7 +14,7 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
 >
   <HybridProvider
     options={
-      Object {
+      {
         "accessibleColors": false,
         "initialColorMode": "light",
         "useSystemColorMode": false,
@@ -24,12 +24,12 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
     <View
       accessibilityIgnoresInvertColors={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "minHeight": 1334,
             "paddingBottom": 166,
           },
-          Object {
+          {
             "paddingBottom": 0,
           },
         ]
@@ -38,15 +38,15 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
       <Image
         source={1}
         style={
-          Array [
-            Object {
+          [
+            {
               "bottom": 0,
               "left": 0,
               "position": "absolute",
               "right": 0,
               "top": 0,
             },
-            Object {
+            {
               "height": undefined,
               "width": undefined,
             },
@@ -55,22 +55,22 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
         }
       />
       <View
-        dataSet={Object {}}
+        dataSet={{}}
         style={
-          Object {
+          {
             "flex": 1,
           }
         }
       >
         <View
-          dataSet={Object {}}
+          dataSet={{}}
           style={
-            Array [
-              Object {
+            [
+              {
                 "flexDirection": "row",
                 "marginBottom": 32,
               },
-              Object {
+              {
                 "height": 48,
                 "paddingLeft": 12,
                 "paddingRight": 12,
@@ -79,9 +79,26 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
           }
         >
           <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
             accessible={true}
             collapsable={false}
-            dataSet={Object {}}
+            dataSet={{}}
             focusable={true}
             onBlur={[Function]}
             onClick={[Function]}
@@ -93,9 +110,9 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
             style={
-              Array [
-                Object {},
-                Object {
+              [
+                {},
+                {
                   "width": 48,
                   "zIndex": 20,
                 },
@@ -103,10 +120,10 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
             }
           >
             <Ionicons
-              dataSet={Object {}}
+              dataSet={{}}
               name="arrow-back"
               style={
-                Object {
+                {
                   "color": "#FFF",
                   "fontSize": 40,
                   "height": 40,
@@ -117,14 +134,14 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
             />
           </View>
           <View
-            dataSet={Object {}}
-            style={Object {}}
+            dataSet={{}}
+            style={{}}
           />
           <Text
-            dataSet={Object {}}
+            dataSet={{}}
             style={
-              Array [
-                Object {
+              [
+                {
                   "backgroundColor": undefined,
                   "color": "#fff",
                   "flex": 1,
@@ -137,7 +154,7 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                   "textAlign": "center",
                   "textDecorationLine": undefined,
                 },
-                Object {
+                {
                   "marginLeft": -48,
                 },
               ]
@@ -147,9 +164,9 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
           </Text>
         </View>
         <View
-          dataSet={Object {}}
+          dataSet={{}}
           style={
-            Object {
+            {
               "flex": 1,
             }
           }
@@ -157,22 +174,22 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
           <RCTScrollView
             bounces={false}
             contentContainerStyle={
-              Array [
-                Object {},
-                Object {
-                  "dataSet": Object {},
+              [
+                {},
+                {
+                  "dataSet": {},
                 },
-                Object {},
+                {},
               ]
             }
-            dataSet={Object {}}
-            style={Object {}}
+            dataSet={{}}
+            style={{}}
           >
             <View>
               <View
-                dataSet={Object {}}
+                dataSet={{}}
                 style={
-                  Object {
+                  {
                     "paddingLeft": 16,
                     "paddingRight": 16,
                   }
@@ -181,7 +198,7 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                 <View
                   collapsable={false}
                   style={
-                    Object {
+                    {
                       "height": 452.34,
                       "marginTop": 0,
                       "width": 718,
@@ -190,7 +207,7 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                 >
                   <View
                     style={
-                      Object {
+                      {
                         "height": "100%",
                         "overflow": "visible",
                         "width": "100%",
@@ -200,11 +217,11 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                     <View
                       collapsable={false}
                       style={
-                        Object {
+                        {
                           "borderRadius": 16,
                           "height": 718,
-                          "transform": Array [
-                            Object {
+                          "transform": [
+                            {
                               "rotate": "0deg",
                             },
                           ],
@@ -215,7 +232,7 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                       <View
                         accessibilityIgnoresInvertColors={true}
                         style={
-                          Object {
+                          {
                             "borderRadius": 28.72,
                             "height": 452.34,
                             "overflow": "hidden",
@@ -227,15 +244,15 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                         <Image
                           source={1}
                           style={
-                            Array [
-                              Object {
+                            [
+                              {
                                 "bottom": 0,
                                 "left": 0,
                                 "position": "absolute",
                                 "right": 0,
                                 "top": 0,
                               },
-                              Object {
+                              {
                                 "height": 452.34,
                                 "width": 718,
                               },
@@ -244,9 +261,26 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                           }
                         />
                         <View
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
                           accessible={true}
                           collapsable={false}
-                          dataSet={Object {}}
+                          dataSet={{}}
                           focusable={true}
                           onBlur={[Function]}
                           onClick={[Function]}
@@ -257,18 +291,18 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                           onResponderTerminate={[Function]}
                           onResponderTerminationRequest={[Function]}
                           onStartShouldSetResponder={[Function]}
-                          style={Object {}}
+                          style={{}}
                         >
                           <View
-                            dataSet={Object {}}
-                            style={Object {}}
+                            dataSet={{}}
+                            style={{}}
                           >
                             <View
-                              dataSet={Object {}}
+                              dataSet={{}}
                               style={
-                                Array [
-                                  Object {},
-                                  Object {
+                                [
+                                  {},
+                                  {
                                     "height": 85.54499999999999,
                                   },
                                 ]
@@ -278,7 +312,7 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                                 resizeMode="stretch"
                                 source={1}
                                 style={
-                                  Object {
+                                  {
                                     "height": 72.3744,
                                     "width": 430.8,
                                   }
@@ -286,38 +320,38 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                               />
                             </View>
                             <View
-                              dataSet={Object {}}
+                              dataSet={{}}
                               style={
-                                Object {
+                                {
                                   "height": 8,
                                 }
                               }
                             />
                             <View
-                              dataSet={Object {}}
+                              dataSet={{}}
                               style={
-                                Array [
-                                  Object {},
-                                  Object {
+                                [
+                                  {},
+                                  {
                                     "height": 85.54499999999999,
                                   },
                                 ]
                               }
                             >
                               <View
-                                dataSet={Object {}}
+                                dataSet={{}}
                                 style={
-                                  Object {
+                                  {
                                     "flexDirection": "row",
                                   }
                                 }
                               >
                                 <View
-                                  dataSet={Object {}}
+                                  dataSet={{}}
                                   style={
-                                    Array [
-                                      Object {},
-                                      Object {
+                                    [
+                                      {},
+                                      {
                                         "backgroundColor": "rgba(255, 255, 255, 0.4)",
                                         "borderRadius": 18.0936,
                                         "height": 90.468,
@@ -327,15 +361,15 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                                   }
                                 />
                                 <View
-                                  dataSet={Object {}}
-                                  style={Object {}}
+                                  dataSet={{}}
+                                  style={{}}
                                 />
                                 <View
-                                  dataSet={Object {}}
+                                  dataSet={{}}
                                   style={
-                                    Array [
-                                      Object {},
-                                      Object {
+                                    [
+                                      {},
+                                      {
                                         "alignItems": "flex-end",
                                         "flex": 1,
                                         "justifyContent": "center",
@@ -348,7 +382,7 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                                     resizeMode="contain"
                                     source={1}
                                     style={
-                                      Object {
+                                      {
                                         "height": 58.8042,
                                       }
                                     }
@@ -357,19 +391,19 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                               </View>
                             </View>
                             <View
-                              dataSet={Object {}}
+                              dataSet={{}}
                               style={
-                                Object {
+                                {
                                   "height": 8,
                                 }
                               }
                             />
                             <View
-                              dataSet={Object {}}
+                              dataSet={{}}
                               style={
-                                Array [
-                                  Object {},
-                                  Object {
+                                [
+                                  {},
+                                  {
                                     "height": 85.54499999999999,
                                     "justifyContent": "center",
                                   },
@@ -377,10 +411,10 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                               }
                             >
                               <Text
-                                dataSet={Object {}}
+                                dataSet={{}}
                                 style={
-                                  Array [
-                                    Object {
+                                  [
+                                    {
                                       "backgroundColor": undefined,
                                       "color": "#171717",
                                       "fontFamily": undefined,
@@ -391,7 +425,7 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                                       "lineHeight": 36,
                                       "textDecorationLine": undefined,
                                     },
-                                    Object {
+                                    {
                                       "color": "#FFF",
                                       "fontSize": 45.234,
                                     },
@@ -402,37 +436,37 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                               </Text>
                             </View>
                             <View
-                              dataSet={Object {}}
+                              dataSet={{}}
                               style={
-                                Object {
+                                {
                                   "height": 8,
                                 }
                               }
                             />
                             <View
-                              dataSet={Object {}}
+                              dataSet={{}}
                               style={
-                                Array [
-                                  Object {},
-                                  Object {
+                                [
+                                  {},
+                                  {
                                     "height": 85.54499999999999,
                                   },
                                 ]
                               }
                             >
                               <View
-                                dataSet={Object {}}
+                                dataSet={{}}
                                 style={
-                                  Object {
+                                  {
                                     "flexDirection": "row",
                                   }
                                 }
                               >
                                 <Text
-                                  dataSet={Object {}}
+                                  dataSet={{}}
                                   style={
-                                    Array [
-                                      Object {
+                                    [
+                                      {
                                         "backgroundColor": undefined,
                                         "color": "#171717",
                                         "fontFamily": undefined,
@@ -443,7 +477,7 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                                         "lineHeight": 21,
                                         "textDecorationLine": undefined,
                                       },
-                                      Object {
+                                      {
                                         "color": "#FFF",
                                         "flex": 1,
                                         "fontSize": 27.140399999999996,
@@ -456,14 +490,14 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                                   24
                                 </Text>
                                 <View
-                                  dataSet={Object {}}
-                                  style={Object {}}
+                                  dataSet={{}}
+                                  style={{}}
                                 />
                                 <Image
                                   resizeMode="contain"
                                   source={1}
                                   style={
-                                    Object {
+                                    {
                                       "height": 81.4212,
                                     }
                                   }
@@ -477,21 +511,21 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                   </View>
                 </View>
                 <View
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Object {
+                    {
                       "height": 16,
                     }
                   }
                 />
                 <View
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Array [
-                      Object {
+                    [
+                      {
                         "flexDirection": "row",
                       },
-                      Object {
+                      {
                         "height": 72,
                         "justifyContent": "center",
                       },
@@ -499,17 +533,17 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                   }
                 >
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Object {
+                      {
                         "flex": 1,
                       }
                     }
                   >
                     <Text
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Object {
+                        {
                           "backgroundColor": undefined,
                           "color": "#94A3D3",
                           "fontFamily": undefined,
@@ -525,13 +559,13 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                       Balance
                     </Text>
                     <View
-                      dataSet={Object {}}
-                      style={Object {}}
+                      dataSet={{}}
+                      style={{}}
                     />
                     <Text
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Object {
+                        {
                           "backgroundColor": undefined,
                           "color": "#fff",
                           "fontFamily": undefined,
@@ -548,17 +582,34 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                     </Text>
                   </View>
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Object {
+                      {
                         "width": 8,
                       }
                     }
                   />
                   <View
+                    accessibilityState={
+                      {
+                        "busy": undefined,
+                        "checked": undefined,
+                        "disabled": undefined,
+                        "expanded": undefined,
+                        "selected": undefined,
+                      }
+                    }
+                    accessibilityValue={
+                      {
+                        "max": undefined,
+                        "min": undefined,
+                        "now": undefined,
+                        "text": undefined,
+                      }
+                    }
                     accessible={true}
                     collapsable={false}
-                    dataSet={Object {}}
+                    dataSet={{}}
                     focusable={true}
                     onBlur={[Function]}
                     onClick={[Function]}
@@ -570,9 +621,9 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                     onResponderTerminationRequest={[Function]}
                     onStartShouldSetResponder={[Function]}
                     style={
-                      Array [
-                        Object {},
-                        Object {
+                      [
+                        {},
+                        {
                           "alignItems": "center",
                           "alignSelf": "center",
                           "backgroundColor": "transparent",
@@ -587,10 +638,10 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                     }
                   >
                     <Ionicons
-                      dataSet={Object {}}
+                      dataSet={{}}
                       name="time-outline"
                       style={
-                        Object {
+                        {
                           "color": "#FFF",
                           "fontSize": 28,
                           "height": 28,
@@ -601,17 +652,34 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                     />
                   </View>
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Object {
+                      {
                         "width": 8,
                       }
                     }
                   />
                   <View
+                    accessibilityState={
+                      {
+                        "busy": undefined,
+                        "checked": undefined,
+                        "disabled": undefined,
+                        "expanded": undefined,
+                        "selected": undefined,
+                      }
+                    }
+                    accessibilityValue={
+                      {
+                        "max": undefined,
+                        "min": undefined,
+                        "now": undefined,
+                        "text": undefined,
+                      }
+                    }
                     accessible={true}
                     collapsable={false}
-                    dataSet={Object {}}
+                    dataSet={{}}
                     focusable={true}
                     onBlur={[Function]}
                     onClick={[Function]}
@@ -623,9 +691,9 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                     onResponderTerminationRequest={[Function]}
                     onStartShouldSetResponder={[Function]}
                     style={
-                      Array [
-                        Object {},
-                        Object {
+                      [
+                        {},
+                        {
                           "alignItems": "center",
                           "alignSelf": "center",
                           "backgroundColor": "transparent",
@@ -640,10 +708,10 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                     }
                   >
                     <Ionicons
-                      dataSet={Object {}}
+                      dataSet={{}}
                       name="share-outline"
                       style={
-                        Object {
+                        {
                           "color": "#FFF",
                           "fontSize": 28,
                           "height": 28,
@@ -660,19 +728,19 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
           <BottomSheet
             animateOnMount={true}
             backgroundStyle={
-              Object {
+              {
                 "backgroundColor": "#1C2641",
               }
             }
             handleIndicatorStyle={
-              Object {
+              {
                 "backgroundColor": "#2D3757",
                 "width": 55,
               }
             }
             index={0}
             snapPoints={
-              Array [
+              [
                 "53.497751124437784%",
                 "100%",
               ]
@@ -680,9 +748,9 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
           >
             <BottomSheetScrollView>
               <View
-                dataSet={Object {}}
+                dataSet={{}}
                 style={
-                  Object {
+                  {
                     "paddingLeft": 24,
                     "paddingRight": 24,
                     "paddingTop": 8,
@@ -690,9 +758,9 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                 }
               >
                 <Text
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Object {
+                    {
                       "backgroundColor": undefined,
                       "color": "#FFF",
                       "fontFamily": undefined,
@@ -708,29 +776,29 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                   Today
                 </Text>
                 <View
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Object {
+                    {
                       "height": 8,
                     }
                   }
                 />
                 <View
-                  dataSet={Object {}}
-                  style={Object {}}
+                  dataSet={{}}
+                  style={{}}
                 >
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Object {
+                      {
                         "flexDirection": "row",
                       }
                     }
                   >
                     <ViewManagerAdapter_ExpoLinearGradient
                       proxiedProperties={
-                        Object {
-                          "colors": Array [
+                        {
+                          "colors": [
                             4293680015,
                             4292489601,
                           ],
@@ -740,7 +808,7 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                         }
                       }
                       style={
-                        Object {
+                        {
                           "alignItems": "center",
                           "alignSelf": "center",
                           "borderRadius": 9999,
@@ -751,10 +819,10 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                       }
                     >
                       <Ionicons
-                        dataSet={Object {}}
+                        dataSet={{}}
                         name="share"
                         style={
-                          Object {
+                          {
                             "color": "#FFF",
                             "fontSize": 20,
                             "height": 20,
@@ -765,21 +833,21 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                       />
                     </ViewManagerAdapter_ExpoLinearGradient>
                     <View
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Object {
+                        {
                           "width": 16,
                         }
                       }
                     />
                     <View
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Array [
-                          Object {
+                        [
+                          {
                             "flexDirection": "row",
                           },
-                          Object {
+                          {
                             "borderBottomColor": "#2D3757",
                             "borderBottomWidth": 1,
                             "flex": 1,
@@ -789,22 +857,22 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                       }
                     >
                       <View
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Array [
-                            Object {
+                          [
+                            {
                               "flex": 1,
                             },
-                            Object {
+                            {
                               "justifyContent": "center",
                             },
                           ]
                         }
                       >
                         <Text
-                          dataSet={Object {}}
+                          dataSet={{}}
                           style={
-                            Object {
+                            {
                               "backgroundColor": undefined,
                               "color": "#FFF",
                               "fontFamily": undefined,
@@ -820,13 +888,13 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                           Card to card
                         </Text>
                         <View
-                          dataSet={Object {}}
-                          style={Object {}}
+                          dataSet={{}}
+                          style={{}}
                         />
                         <Text
-                          dataSet={Object {}}
+                          dataSet={{}}
                           style={
-                            Object {
+                            {
                               "backgroundColor": undefined,
                               "color": "#94A3D3",
                               "fontFamily": undefined,
@@ -843,13 +911,13 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                         </Text>
                       </View>
                       <View
-                        dataSet={Object {}}
-                        style={Object {}}
+                        dataSet={{}}
+                        style={{}}
                       />
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "alignSelf": "center",
                             "backgroundColor": undefined,
                             "color": "#FFF",
@@ -869,21 +937,21 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                     </View>
                   </View>
                   <View
-                    dataSet={Object {}}
-                    style={Object {}}
+                    dataSet={{}}
+                    style={{}}
                   />
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Object {
+                      {
                         "flexDirection": "row",
                       }
                     }
                   >
                     <ViewManagerAdapter_ExpoLinearGradient
                       proxiedProperties={
-                        Object {
-                          "colors": Array [
+                        {
+                          "colors": [
                             4294887750,
                             4293497130,
                           ],
@@ -893,7 +961,7 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                         }
                       }
                       style={
-                        Object {
+                        {
                           "alignItems": "center",
                           "alignSelf": "center",
                           "borderRadius": 9999,
@@ -904,10 +972,10 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                       }
                     >
                       <Ionicons
-                        dataSet={Object {}}
+                        dataSet={{}}
                         name="musical-note"
                         style={
-                          Object {
+                          {
                             "color": "#FFF",
                             "fontSize": 20,
                             "height": 20,
@@ -918,21 +986,21 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                       />
                     </ViewManagerAdapter_ExpoLinearGradient>
                     <View
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Object {
+                        {
                           "width": 16,
                         }
                       }
                     />
                     <View
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Array [
-                          Object {
+                        [
+                          {
                             "flexDirection": "row",
                           },
-                          Object {
+                          {
                             "borderBottomColor": "#2D3757",
                             "borderBottomWidth": 1,
                             "flex": 1,
@@ -942,22 +1010,22 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                       }
                     >
                       <View
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Array [
-                            Object {
+                          [
+                            {
                               "flex": 1,
                             },
-                            Object {
+                            {
                               "justifyContent": "center",
                             },
                           ]
                         }
                       >
                         <Text
-                          dataSet={Object {}}
+                          dataSet={{}}
                           style={
-                            Object {
+                            {
                               "backgroundColor": undefined,
                               "color": "#FFF",
                               "fontFamily": undefined,
@@ -973,13 +1041,13 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                           Apple Music
                         </Text>
                         <View
-                          dataSet={Object {}}
-                          style={Object {}}
+                          dataSet={{}}
+                          style={{}}
                         />
                         <Text
-                          dataSet={Object {}}
+                          dataSet={{}}
                           style={
-                            Object {
+                            {
                               "backgroundColor": undefined,
                               "color": "#94A3D3",
                               "fontFamily": undefined,
@@ -996,13 +1064,13 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                         </Text>
                       </View>
                       <View
-                        dataSet={Object {}}
-                        style={Object {}}
+                        dataSet={{}}
+                        style={{}}
                       />
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "alignSelf": "center",
                             "backgroundColor": undefined,
                             "color": "#FFF",
@@ -1022,21 +1090,21 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                     </View>
                   </View>
                   <View
-                    dataSet={Object {}}
-                    style={Object {}}
+                    dataSet={{}}
+                    style={{}}
                   />
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Object {
+                      {
                         "flexDirection": "row",
                       }
                     }
                   >
                     <ViewManagerAdapter_ExpoLinearGradient
                       proxiedProperties={
-                        Object {
-                          "colors": Array [
+                        {
+                          "colors": [
                             4282229503,
                             4280379376,
                           ],
@@ -1046,7 +1114,7 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                         }
                       }
                       style={
-                        Object {
+                        {
                           "alignItems": "center",
                           "alignSelf": "center",
                           "borderRadius": 9999,
@@ -1057,10 +1125,10 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                       }
                     >
                       <Ionicons
-                        dataSet={Object {}}
+                        dataSet={{}}
                         name="car"
                         style={
-                          Object {
+                          {
                             "color": "#FFF",
                             "fontSize": 20,
                             "height": 20,
@@ -1071,21 +1139,21 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                       />
                     </ViewManagerAdapter_ExpoLinearGradient>
                     <View
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Object {
+                        {
                           "width": 16,
                         }
                       }
                     />
                     <View
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Array [
-                          Object {
+                        [
+                          {
                             "flexDirection": "row",
                           },
-                          Object {
+                          {
                             "borderBottomColor": "#2D3757",
                             "borderBottomWidth": 1,
                             "flex": 1,
@@ -1095,22 +1163,22 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                       }
                     >
                       <View
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Array [
-                            Object {
+                          [
+                            {
                               "flex": 1,
                             },
-                            Object {
+                            {
                               "justifyContent": "center",
                             },
                           ]
                         }
                       >
                         <Text
-                          dataSet={Object {}}
+                          dataSet={{}}
                           style={
-                            Object {
+                            {
                               "backgroundColor": undefined,
                               "color": "#FFF",
                               "fontFamily": undefined,
@@ -1126,13 +1194,13 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                           Uber
                         </Text>
                         <View
-                          dataSet={Object {}}
-                          style={Object {}}
+                          dataSet={{}}
+                          style={{}}
                         />
                         <Text
-                          dataSet={Object {}}
+                          dataSet={{}}
                           style={
-                            Object {
+                            {
                               "backgroundColor": undefined,
                               "color": "#94A3D3",
                               "fontFamily": undefined,
@@ -1149,13 +1217,13 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                         </Text>
                       </View>
                       <View
-                        dataSet={Object {}}
-                        style={Object {}}
+                        dataSet={{}}
+                        style={{}}
                       />
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "alignSelf": "center",
                             "backgroundColor": undefined,
                             "color": "#FFF",
@@ -1175,21 +1243,21 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                     </View>
                   </View>
                   <View
-                    dataSet={Object {}}
-                    style={Object {}}
+                    dataSet={{}}
+                    style={{}}
                   />
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Object {
+                      {
                         "flexDirection": "row",
                       }
                     }
                   >
                     <ViewManagerAdapter_ExpoLinearGradient
                       proxiedProperties={
-                        Object {
-                          "colors": Array [
+                        {
+                          "colors": [
                             4282229503,
                             4280379376,
                           ],
@@ -1199,7 +1267,7 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                         }
                       }
                       style={
-                        Object {
+                        {
                           "alignItems": "center",
                           "alignSelf": "center",
                           "borderRadius": 9999,
@@ -1210,10 +1278,10 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                       }
                     >
                       <Ionicons
-                        dataSet={Object {}}
+                        dataSet={{}}
                         name="car"
                         style={
-                          Object {
+                          {
                             "color": "#FFF",
                             "fontSize": 20,
                             "height": 20,
@@ -1224,21 +1292,21 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                       />
                     </ViewManagerAdapter_ExpoLinearGradient>
                     <View
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Object {
+                        {
                           "width": 16,
                         }
                       }
                     />
                     <View
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Array [
-                          Object {
+                        [
+                          {
                             "flexDirection": "row",
                           },
-                          Object {
+                          {
                             "borderBottomColor": "#2D3757",
                             "borderBottomWidth": 1,
                             "flex": 1,
@@ -1248,22 +1316,22 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                       }
                     >
                       <View
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Array [
-                            Object {
+                          [
+                            {
                               "flex": 1,
                             },
-                            Object {
+                            {
                               "justifyContent": "center",
                             },
                           ]
                         }
                       >
                         <Text
-                          dataSet={Object {}}
+                          dataSet={{}}
                           style={
-                            Object {
+                            {
                               "backgroundColor": undefined,
                               "color": "#FFF",
                               "fontFamily": undefined,
@@ -1279,13 +1347,13 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                           Uber
                         </Text>
                         <View
-                          dataSet={Object {}}
-                          style={Object {}}
+                          dataSet={{}}
+                          style={{}}
                         />
                         <Text
-                          dataSet={Object {}}
+                          dataSet={{}}
                           style={
-                            Object {
+                            {
                               "backgroundColor": undefined,
                               "color": "#94A3D3",
                               "fontFamily": undefined,
@@ -1302,13 +1370,13 @@ exports[`<SharedCardDetail /> renders correctly 1`] = `
                         </Text>
                       </View>
                       <View
-                        dataSet={Object {}}
-                        style={Object {}}
+                        dataSet={{}}
+                        style={{}}
                       />
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "alignSelf": "center",
                             "backgroundColor": undefined,
                             "color": "#FFF",

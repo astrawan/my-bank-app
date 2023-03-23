@@ -85,12 +85,12 @@ export default function SharedCardDetail({
     outputRange: [cardWidth, cardWidth + cardWidth * 0.1, cardHeight],
   });
   const sharedElementWidth = cardSpin.interpolate({
-    easing: Easing.elastic(2),
+    easing: Easing?.elastic(2),
     inputRange: [0, 1],
     outputRange: [cardHeight, cardWidth],
   });
   const sharedElementMarginTop = cardSpin.interpolate({
-    easing: Easing.poly(5),
+    easing: Easing?.poly(5),
     inputRange: [0, 1],
     outputRange: [Math.round(cardWidth * 0.21), 0],
   });

@@ -39,3 +39,12 @@ jest.mock(
 );
 
 jest.mock('@expo/vector-icons/build/Ionicons', () => 'Ionicons');
+
+jest.mock(
+  '@react-navigation/stack/lib/commonjs/TransitionConfigs/TransitionSpecs',
+  () => 'TransitionSpecs',
+);
+jest.mock(
+  '@react-navigation/stack/lib/commonjs/TransitionConfigs/TransitionPresets',
+  () => 'TransitionPresets',
+);

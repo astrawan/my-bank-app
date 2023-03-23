@@ -4,8 +4,8 @@ exports[`<History /> renders correctly 1`] = `
 <RNCSafeAreaProvider
   onInsetsChange={[Function]}
   style={
-    Array [
-      Object {
+    [
+      {
         "flex": 1,
       },
       undefined,
@@ -14,7 +14,7 @@ exports[`<History /> renders correctly 1`] = `
 >
   <HybridProvider
     options={
-      Object {
+      {
         "accessibleColors": false,
         "initialColorMode": "light",
         "useSystemColorMode": false,
@@ -24,8 +24,8 @@ exports[`<History /> renders correctly 1`] = `
     <View
       accessibilityIgnoresInvertColors={true}
       style={
-        Array [
-          Object {
+        [
+          {
             "minHeight": 1334,
             "paddingBottom": 166,
           },
@@ -36,15 +36,15 @@ exports[`<History /> renders correctly 1`] = `
       <Image
         source={1}
         style={
-          Array [
-            Object {
+          [
+            {
               "bottom": 0,
               "left": 0,
               "position": "absolute",
               "right": 0,
               "top": 0,
             },
-            Object {
+            {
               "height": undefined,
               "width": undefined,
             },
@@ -53,25 +53,25 @@ exports[`<History /> renders correctly 1`] = `
         }
       />
       <View
-        dataSet={Object {}}
+        dataSet={{}}
         style={
-          Object {
+          {
             "flex": 1,
           }
         }
       >
         <View
-          dataSet={Object {}}
+          dataSet={{}}
           style={
-            Array [
-              Object {
+            [
+              {
                 "alignItems": "center",
                 "flexDirection": "row",
                 "height": 124,
                 "paddingLeft": 24,
                 "paddingRight": 24,
               },
-              Object {
+              {
                 "justifyContent": "center",
                 "margin": 0,
                 "width": "100%",
@@ -80,9 +80,9 @@ exports[`<History /> renders correctly 1`] = `
           }
         >
           <Text
-            dataSet={Object {}}
+            dataSet={{}}
             style={
-              Object {
+              {
                 "backgroundColor": undefined,
                 "color": "#fff",
                 "flex": 1,
@@ -99,13 +99,13 @@ exports[`<History /> renders correctly 1`] = `
             History
           </Text>
           <View
-            dataSet={Object {}}
-            style={Object {}}
+            dataSet={{}}
+            style={{}}
           />
           <View
-            dataSet={Object {}}
+            dataSet={{}}
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "alignSelf": "center",
                 "backgroundColor": "#a1a1aa",
@@ -121,16 +121,16 @@ exports[`<History /> renders correctly 1`] = `
             <Image
               accessibilityLabel="--"
               alt="--"
-              dataSet={Object {}}
+              dataSet={{}}
               onError={[Function]}
               source={1}
               style={
-                Array [
-                  Object {
+                [
+                  {
                     "borderRadius": 9999,
                     "maxWidth": "100%",
                   },
-                  Object {
+                  {
                     "height": "100%",
                     "width": "100%",
                   },
@@ -140,24 +140,24 @@ exports[`<History /> renders correctly 1`] = `
           </View>
         </View>
         <View
-          dataSet={Object {}}
-          style={Object {}}
+          dataSet={{}}
+          style={{}}
         >
           <RCTScrollView
             ListFooterComponent={<View />}
             ListFooterComponentStyle={
-              Object {
+              {
                 "marginBottom": 70,
               }
             }
             bounces={false}
             data={
-              Array [
-                Object {
-                  "data": Array [
-                    Object {
+              [
+                {
+                  "data": [
+                    {
                       "amount": 143,
-                      "colors": Array [
+                      "colors": [
                         "#EC5B8F",
                         "#DA3181",
                       ],
@@ -165,9 +165,9 @@ exports[`<History /> renders correctly 1`] = `
                       "icon": "share",
                       "name": "Card to card",
                     },
-                    Object {
+                    {
                       "amount": -467,
-                      "colors": Array [
+                      "colors": [
                         "#FEC946",
                         "#E9912A",
                       ],
@@ -175,9 +175,9 @@ exports[`<History /> renders correctly 1`] = `
                       "icon": "musical-note",
                       "name": "Apple Music",
                     },
-                    Object {
+                    {
                       "amount": -467,
-                      "colors": Array [
+                      "colors": [
                         "#3DA2FF",
                         "#2167F0",
                       ],
@@ -185,9 +185,9 @@ exports[`<History /> renders correctly 1`] = `
                       "icon": "car",
                       "name": "Uber",
                     },
-                    Object {
+                    {
                       "amount": -43,
-                      "colors": Array [
+                      "colors": [
                         "#3DA2FF",
                         "#2167F0",
                       ],
@@ -195,9 +195,9 @@ exports[`<History /> renders correctly 1`] = `
                       "icon": "car",
                       "name": "Uber",
                     },
-                    Object {
+                    {
                       "amount": -2467,
-                      "colors": Array [
+                      "colors": [
                         "#EC5B8F",
                         "#DA3181",
                       ],
@@ -208,11 +208,11 @@ exports[`<History /> renders correctly 1`] = `
                   ],
                   "title": "20 April",
                 },
-                Object {
-                  "data": Array [
-                    Object {
+                {
+                  "data": [
+                    {
                       "amount": 143,
-                      "colors": Array [
+                      "colors": [
                         "#EC5B8F",
                         "#DA3181",
                       ],
@@ -220,9 +220,9 @@ exports[`<History /> renders correctly 1`] = `
                       "icon": "share",
                       "name": "Card to card",
                     },
-                    Object {
+                    {
                       "amount": -467,
-                      "colors": Array [
+                      "colors": [
                         "#FEC946",
                         "#E9912A",
                       ],
@@ -230,9 +230,9 @@ exports[`<History /> renders correctly 1`] = `
                       "icon": "musical-note",
                       "name": "Apple Music",
                     },
-                    Object {
+                    {
                       "amount": -467,
-                      "colors": Array [
+                      "colors": [
                         "#3DA2FF",
                         "#2167F0",
                       ],
@@ -240,9 +240,9 @@ exports[`<History /> renders correctly 1`] = `
                       "icon": "car",
                       "name": "Uber",
                     },
-                    Object {
+                    {
                       "amount": -43,
-                      "colors": Array [
+                      "colors": [
                         "#3DA2FF",
                         "#2167F0",
                       ],
@@ -250,9 +250,9 @@ exports[`<History /> renders correctly 1`] = `
                       "icon": "car",
                       "name": "Uber",
                     },
-                    Object {
+                    {
                       "amount": -2467,
-                      "colors": Array [
+                      "colors": [
                         "#EC5B8F",
                         "#DA3181",
                       ],
@@ -263,11 +263,11 @@ exports[`<History /> renders correctly 1`] = `
                   ],
                   "title": "12 March",
                 },
-                Object {
-                  "data": Array [
-                    Object {
+                {
+                  "data": [
+                    {
                       "amount": 143,
-                      "colors": Array [
+                      "colors": [
                         "#EC5B8F",
                         "#DA3181",
                       ],
@@ -275,9 +275,9 @@ exports[`<History /> renders correctly 1`] = `
                       "icon": "share",
                       "name": "Card to card",
                     },
-                    Object {
+                    {
                       "amount": -467,
-                      "colors": Array [
+                      "colors": [
                         "#FEC946",
                         "#E9912A",
                       ],
@@ -285,9 +285,9 @@ exports[`<History /> renders correctly 1`] = `
                       "icon": "musical-note",
                       "name": "Apple Music",
                     },
-                    Object {
+                    {
                       "amount": -467,
-                      "colors": Array [
+                      "colors": [
                         "#3DA2FF",
                         "#2167F0",
                       ],
@@ -295,9 +295,9 @@ exports[`<History /> renders correctly 1`] = `
                       "icon": "car",
                       "name": "Uber",
                     },
-                    Object {
+                    {
                       "amount": -43,
-                      "colors": Array [
+                      "colors": [
                         "#3DA2FF",
                         "#2167F0",
                       ],
@@ -305,9 +305,9 @@ exports[`<History /> renders correctly 1`] = `
                       "icon": "car",
                       "name": "Uber",
                     },
-                    Object {
+                    {
                       "amount": -2467,
-                      "colors": Array [
+                      "colors": [
                         "#EC5B8F",
                         "#DA3181",
                       ],
@@ -320,7 +320,7 @@ exports[`<History /> renders correctly 1`] = `
                 },
               ]
             }
-            dataSet={Object {}}
+            dataSet={{}}
             getItem={[Function]}
             getItemCount={[Function]}
             keyExtractor={[Function]}
@@ -333,11 +333,11 @@ exports[`<History /> renders correctly 1`] = `
             onScrollEndDrag={[Function]}
             renderItem={[Function]}
             scrollEventThrottle={50}
-            stickyHeaderIndices={Array []}
+            stickyHeaderIndices={[]}
             style={
-              Array [
-                Object {},
-                Object {
+              [
+                {},
+                {
                   "height": "100%",
                 },
               ]
@@ -345,14 +345,15 @@ exports[`<History /> renders correctly 1`] = `
           >
             <View>
               <View
+                onFocusCapture={[Function]}
                 onLayout={[Function]}
                 style={null}
               >
                 <Text
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Array [
-                      Object {
+                    [
+                      {
                         "backgroundColor": undefined,
                         "color": "#FFF",
                         "fontFamily": undefined,
@@ -363,7 +364,7 @@ exports[`<History /> renders correctly 1`] = `
                         "lineHeight": 30,
                         "textDecorationLine": undefined,
                       },
-                      Object {
+                      {
                         "backgroundColor": "rgba(47, 57, 91, 0.8)",
                         "paddingBottom": 8,
                         "paddingLeft": 16,
@@ -377,17 +378,18 @@ exports[`<History /> renders correctly 1`] = `
                 </Text>
               </View>
               <View
+                onFocusCapture={[Function]}
                 onLayout={[Function]}
                 style={null}
               >
                 <View
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Array [
-                      Object {
+                    [
+                      {
                         "flexDirection": "row",
                       },
-                      Object {
+                      {
                         "marginLeft": 16,
                         "marginRight": 16,
                       },
@@ -396,7 +398,7 @@ exports[`<History /> renders correctly 1`] = `
                 >
                   <View
                     style={
-                      Object {
+                      {
                         "alignItems": "center",
                         "alignSelf": "center",
                         "borderRadius": 9999,
@@ -408,7 +410,7 @@ exports[`<History /> renders correctly 1`] = `
                   >
                     <ViewManagerAdapter_ExpoLinearGradient
                       borderRadii={
-                        Array [
+                        [
                           9999,
                           9999,
                           9999,
@@ -420,8 +422,8 @@ exports[`<History /> renders correctly 1`] = `
                         ]
                       }
                       proxiedProperties={
-                        Object {
-                          "colors": Array [
+                        {
+                          "colors": [
                             -1287281,
                             -2477695,
                           ],
@@ -431,7 +433,7 @@ exports[`<History /> renders correctly 1`] = `
                         }
                       }
                       style={
-                        Object {
+                        {
                           "bottom": 0,
                           "left": 0,
                           "position": "absolute",
@@ -441,10 +443,10 @@ exports[`<History /> renders correctly 1`] = `
                       }
                     />
                     <Ionicons
-                      dataSet={Object {}}
+                      dataSet={{}}
                       name="share"
                       style={
-                        Object {
+                        {
                           "color": "#FFF",
                           "fontSize": 20,
                           "height": 20,
@@ -455,21 +457,21 @@ exports[`<History /> renders correctly 1`] = `
                     />
                   </View>
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Object {
+                      {
                         "width": 16,
                       }
                     }
                   />
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Array [
-                        Object {
+                      [
+                        {
                           "flexDirection": "row",
                         },
-                        Object {
+                        {
                           "borderBottomColor": "#2D3757",
                           "borderBottomWidth": 1,
                           "flex": 1,
@@ -479,22 +481,22 @@ exports[`<History /> renders correctly 1`] = `
                     }
                   >
                     <View
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Array [
-                          Object {
+                        [
+                          {
                             "flex": 1,
                           },
-                          Object {
+                          {
                             "justifyContent": "center",
                           },
                         ]
                       }
                     >
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#FFF",
                             "fontFamily": undefined,
@@ -510,13 +512,13 @@ exports[`<History /> renders correctly 1`] = `
                         Card to card
                       </Text>
                       <View
-                        dataSet={Object {}}
-                        style={Object {}}
+                        dataSet={{}}
+                        style={{}}
                       />
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#94A3D3",
                             "fontFamily": undefined,
@@ -533,13 +535,13 @@ exports[`<History /> renders correctly 1`] = `
                       </Text>
                     </View>
                     <View
-                      dataSet={Object {}}
-                      style={Object {}}
+                      dataSet={{}}
+                      style={{}}
                     />
                     <Text
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Object {
+                        {
                           "alignSelf": "center",
                           "backgroundColor": undefined,
                           "color": "#FFF",
@@ -560,17 +562,18 @@ exports[`<History /> renders correctly 1`] = `
                 </View>
               </View>
               <View
+                onFocusCapture={[Function]}
                 onLayout={[Function]}
                 style={null}
               >
                 <View
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Array [
-                      Object {
+                    [
+                      {
                         "flexDirection": "row",
                       },
-                      Object {
+                      {
                         "marginLeft": 16,
                         "marginRight": 16,
                       },
@@ -579,7 +582,7 @@ exports[`<History /> renders correctly 1`] = `
                 >
                   <View
                     style={
-                      Object {
+                      {
                         "alignItems": "center",
                         "alignSelf": "center",
                         "borderRadius": 9999,
@@ -591,7 +594,7 @@ exports[`<History /> renders correctly 1`] = `
                   >
                     <ViewManagerAdapter_ExpoLinearGradient
                       borderRadii={
-                        Array [
+                        [
                           9999,
                           9999,
                           9999,
@@ -603,8 +606,8 @@ exports[`<History /> renders correctly 1`] = `
                         ]
                       }
                       proxiedProperties={
-                        Object {
-                          "colors": Array [
+                        {
+                          "colors": [
                             -79546,
                             -1470166,
                           ],
@@ -614,7 +617,7 @@ exports[`<History /> renders correctly 1`] = `
                         }
                       }
                       style={
-                        Object {
+                        {
                           "bottom": 0,
                           "left": 0,
                           "position": "absolute",
@@ -624,10 +627,10 @@ exports[`<History /> renders correctly 1`] = `
                       }
                     />
                     <Ionicons
-                      dataSet={Object {}}
+                      dataSet={{}}
                       name="musical-note"
                       style={
-                        Object {
+                        {
                           "color": "#FFF",
                           "fontSize": 20,
                           "height": 20,
@@ -638,21 +641,21 @@ exports[`<History /> renders correctly 1`] = `
                     />
                   </View>
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Object {
+                      {
                         "width": 16,
                       }
                     }
                   />
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Array [
-                        Object {
+                      [
+                        {
                           "flexDirection": "row",
                         },
-                        Object {
+                        {
                           "borderBottomColor": "#2D3757",
                           "borderBottomWidth": 1,
                           "flex": 1,
@@ -662,22 +665,22 @@ exports[`<History /> renders correctly 1`] = `
                     }
                   >
                     <View
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Array [
-                          Object {
+                        [
+                          {
                             "flex": 1,
                           },
-                          Object {
+                          {
                             "justifyContent": "center",
                           },
                         ]
                       }
                     >
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#FFF",
                             "fontFamily": undefined,
@@ -693,13 +696,13 @@ exports[`<History /> renders correctly 1`] = `
                         Apple Music
                       </Text>
                       <View
-                        dataSet={Object {}}
-                        style={Object {}}
+                        dataSet={{}}
+                        style={{}}
                       />
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#94A3D3",
                             "fontFamily": undefined,
@@ -716,13 +719,13 @@ exports[`<History /> renders correctly 1`] = `
                       </Text>
                     </View>
                     <View
-                      dataSet={Object {}}
-                      style={Object {}}
+                      dataSet={{}}
+                      style={{}}
                     />
                     <Text
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Object {
+                        {
                           "alignSelf": "center",
                           "backgroundColor": undefined,
                           "color": "#FFF",
@@ -743,17 +746,18 @@ exports[`<History /> renders correctly 1`] = `
                 </View>
               </View>
               <View
+                onFocusCapture={[Function]}
                 onLayout={[Function]}
                 style={null}
               >
                 <View
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Array [
-                      Object {
+                    [
+                      {
                         "flexDirection": "row",
                       },
-                      Object {
+                      {
                         "marginLeft": 16,
                         "marginRight": 16,
                       },
@@ -762,7 +766,7 @@ exports[`<History /> renders correctly 1`] = `
                 >
                   <View
                     style={
-                      Object {
+                      {
                         "alignItems": "center",
                         "alignSelf": "center",
                         "borderRadius": 9999,
@@ -774,7 +778,7 @@ exports[`<History /> renders correctly 1`] = `
                   >
                     <ViewManagerAdapter_ExpoLinearGradient
                       borderRadii={
-                        Array [
+                        [
                           9999,
                           9999,
                           9999,
@@ -786,8 +790,8 @@ exports[`<History /> renders correctly 1`] = `
                         ]
                       }
                       proxiedProperties={
-                        Object {
-                          "colors": Array [
+                        {
+                          "colors": [
                             -12737793,
                             -14587920,
                           ],
@@ -797,7 +801,7 @@ exports[`<History /> renders correctly 1`] = `
                         }
                       }
                       style={
-                        Object {
+                        {
                           "bottom": 0,
                           "left": 0,
                           "position": "absolute",
@@ -807,10 +811,10 @@ exports[`<History /> renders correctly 1`] = `
                       }
                     />
                     <Ionicons
-                      dataSet={Object {}}
+                      dataSet={{}}
                       name="car"
                       style={
-                        Object {
+                        {
                           "color": "#FFF",
                           "fontSize": 20,
                           "height": 20,
@@ -821,21 +825,21 @@ exports[`<History /> renders correctly 1`] = `
                     />
                   </View>
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Object {
+                      {
                         "width": 16,
                       }
                     }
                   />
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Array [
-                        Object {
+                      [
+                        {
                           "flexDirection": "row",
                         },
-                        Object {
+                        {
                           "borderBottomColor": "#2D3757",
                           "borderBottomWidth": 1,
                           "flex": 1,
@@ -845,22 +849,22 @@ exports[`<History /> renders correctly 1`] = `
                     }
                   >
                     <View
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Array [
-                          Object {
+                        [
+                          {
                             "flex": 1,
                           },
-                          Object {
+                          {
                             "justifyContent": "center",
                           },
                         ]
                       }
                     >
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#FFF",
                             "fontFamily": undefined,
@@ -876,13 +880,13 @@ exports[`<History /> renders correctly 1`] = `
                         Uber
                       </Text>
                       <View
-                        dataSet={Object {}}
-                        style={Object {}}
+                        dataSet={{}}
+                        style={{}}
                       />
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#94A3D3",
                             "fontFamily": undefined,
@@ -899,13 +903,13 @@ exports[`<History /> renders correctly 1`] = `
                       </Text>
                     </View>
                     <View
-                      dataSet={Object {}}
-                      style={Object {}}
+                      dataSet={{}}
+                      style={{}}
                     />
                     <Text
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Object {
+                        {
                           "alignSelf": "center",
                           "backgroundColor": undefined,
                           "color": "#FFF",
@@ -926,17 +930,18 @@ exports[`<History /> renders correctly 1`] = `
                 </View>
               </View>
               <View
+                onFocusCapture={[Function]}
                 onLayout={[Function]}
                 style={null}
               >
                 <View
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Array [
-                      Object {
+                    [
+                      {
                         "flexDirection": "row",
                       },
-                      Object {
+                      {
                         "marginLeft": 16,
                         "marginRight": 16,
                       },
@@ -945,7 +950,7 @@ exports[`<History /> renders correctly 1`] = `
                 >
                   <View
                     style={
-                      Object {
+                      {
                         "alignItems": "center",
                         "alignSelf": "center",
                         "borderRadius": 9999,
@@ -957,7 +962,7 @@ exports[`<History /> renders correctly 1`] = `
                   >
                     <ViewManagerAdapter_ExpoLinearGradient
                       borderRadii={
-                        Array [
+                        [
                           9999,
                           9999,
                           9999,
@@ -969,8 +974,8 @@ exports[`<History /> renders correctly 1`] = `
                         ]
                       }
                       proxiedProperties={
-                        Object {
-                          "colors": Array [
+                        {
+                          "colors": [
                             -12737793,
                             -14587920,
                           ],
@@ -980,7 +985,7 @@ exports[`<History /> renders correctly 1`] = `
                         }
                       }
                       style={
-                        Object {
+                        {
                           "bottom": 0,
                           "left": 0,
                           "position": "absolute",
@@ -990,10 +995,10 @@ exports[`<History /> renders correctly 1`] = `
                       }
                     />
                     <Ionicons
-                      dataSet={Object {}}
+                      dataSet={{}}
                       name="car"
                       style={
-                        Object {
+                        {
                           "color": "#FFF",
                           "fontSize": 20,
                           "height": 20,
@@ -1004,21 +1009,21 @@ exports[`<History /> renders correctly 1`] = `
                     />
                   </View>
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Object {
+                      {
                         "width": 16,
                       }
                     }
                   />
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Array [
-                        Object {
+                      [
+                        {
                           "flexDirection": "row",
                         },
-                        Object {
+                        {
                           "borderBottomColor": "#2D3757",
                           "borderBottomWidth": 1,
                           "flex": 1,
@@ -1028,22 +1033,22 @@ exports[`<History /> renders correctly 1`] = `
                     }
                   >
                     <View
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Array [
-                          Object {
+                        [
+                          {
                             "flex": 1,
                           },
-                          Object {
+                          {
                             "justifyContent": "center",
                           },
                         ]
                       }
                     >
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#FFF",
                             "fontFamily": undefined,
@@ -1059,13 +1064,13 @@ exports[`<History /> renders correctly 1`] = `
                         Uber
                       </Text>
                       <View
-                        dataSet={Object {}}
-                        style={Object {}}
+                        dataSet={{}}
+                        style={{}}
                       />
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#94A3D3",
                             "fontFamily": undefined,
@@ -1082,13 +1087,13 @@ exports[`<History /> renders correctly 1`] = `
                       </Text>
                     </View>
                     <View
-                      dataSet={Object {}}
-                      style={Object {}}
+                      dataSet={{}}
+                      style={{}}
                     />
                     <Text
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Object {
+                        {
                           "alignSelf": "center",
                           "backgroundColor": undefined,
                           "color": "#FFF",
@@ -1109,17 +1114,18 @@ exports[`<History /> renders correctly 1`] = `
                 </View>
               </View>
               <View
+                onFocusCapture={[Function]}
                 onLayout={[Function]}
                 style={null}
               >
                 <View
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Array [
-                      Object {
+                    [
+                      {
                         "flexDirection": "row",
                       },
-                      Object {
+                      {
                         "marginLeft": 16,
                         "marginRight": 16,
                       },
@@ -1128,7 +1134,7 @@ exports[`<History /> renders correctly 1`] = `
                 >
                   <View
                     style={
-                      Object {
+                      {
                         "alignItems": "center",
                         "alignSelf": "center",
                         "borderRadius": 9999,
@@ -1140,7 +1146,7 @@ exports[`<History /> renders correctly 1`] = `
                   >
                     <ViewManagerAdapter_ExpoLinearGradient
                       borderRadii={
-                        Array [
+                        [
                           9999,
                           9999,
                           9999,
@@ -1152,8 +1158,8 @@ exports[`<History /> renders correctly 1`] = `
                         ]
                       }
                       proxiedProperties={
-                        Object {
-                          "colors": Array [
+                        {
+                          "colors": [
                             -1287281,
                             -2477695,
                           ],
@@ -1163,7 +1169,7 @@ exports[`<History /> renders correctly 1`] = `
                         }
                       }
                       style={
-                        Object {
+                        {
                           "bottom": 0,
                           "left": 0,
                           "position": "absolute",
@@ -1173,10 +1179,10 @@ exports[`<History /> renders correctly 1`] = `
                       }
                     />
                     <Ionicons
-                      dataSet={Object {}}
+                      dataSet={{}}
                       name="share"
                       style={
-                        Object {
+                        {
                           "color": "#FFF",
                           "fontSize": 20,
                           "height": 20,
@@ -1187,21 +1193,21 @@ exports[`<History /> renders correctly 1`] = `
                     />
                   </View>
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Object {
+                      {
                         "width": 16,
                       }
                     }
                   />
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Array [
-                        Object {
+                      [
+                        {
                           "flexDirection": "row",
                         },
-                        Object {
+                        {
                           "borderBottomColor": "#2D3757",
                           "borderBottomWidth": 1,
                           "flex": 1,
@@ -1211,22 +1217,22 @@ exports[`<History /> renders correctly 1`] = `
                     }
                   >
                     <View
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Array [
-                          Object {
+                        [
+                          {
                             "flex": 1,
                           },
-                          Object {
+                          {
                             "justifyContent": "center",
                           },
                         ]
                       }
                     >
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#FFF",
                             "fontFamily": undefined,
@@ -1242,13 +1248,13 @@ exports[`<History /> renders correctly 1`] = `
                         Card to card
                       </Text>
                       <View
-                        dataSet={Object {}}
-                        style={Object {}}
+                        dataSet={{}}
+                        style={{}}
                       />
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#94A3D3",
                             "fontFamily": undefined,
@@ -1265,13 +1271,13 @@ exports[`<History /> renders correctly 1`] = `
                       </Text>
                     </View>
                     <View
-                      dataSet={Object {}}
-                      style={Object {}}
+                      dataSet={{}}
+                      style={{}}
                     />
                     <Text
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Object {
+                        {
                           "alignSelf": "center",
                           "backgroundColor": undefined,
                           "color": "#FFF",
@@ -1292,18 +1298,20 @@ exports[`<History /> renders correctly 1`] = `
                 </View>
               </View>
               <View
+                onFocusCapture={[Function]}
                 onLayout={[Function]}
                 style={null}
               />
               <View
+                onFocusCapture={[Function]}
                 onLayout={[Function]}
                 style={null}
               >
                 <Text
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Array [
-                      Object {
+                    [
+                      {
                         "backgroundColor": undefined,
                         "color": "#FFF",
                         "fontFamily": undefined,
@@ -1314,7 +1322,7 @@ exports[`<History /> renders correctly 1`] = `
                         "lineHeight": 30,
                         "textDecorationLine": undefined,
                       },
-                      Object {
+                      {
                         "backgroundColor": "rgba(47, 57, 91, 0.8)",
                         "paddingBottom": 8,
                         "paddingLeft": 16,
@@ -1328,17 +1336,18 @@ exports[`<History /> renders correctly 1`] = `
                 </Text>
               </View>
               <View
+                onFocusCapture={[Function]}
                 onLayout={[Function]}
                 style={null}
               >
                 <View
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Array [
-                      Object {
+                    [
+                      {
                         "flexDirection": "row",
                       },
-                      Object {
+                      {
                         "marginLeft": 16,
                         "marginRight": 16,
                       },
@@ -1347,7 +1356,7 @@ exports[`<History /> renders correctly 1`] = `
                 >
                   <View
                     style={
-                      Object {
+                      {
                         "alignItems": "center",
                         "alignSelf": "center",
                         "borderRadius": 9999,
@@ -1359,7 +1368,7 @@ exports[`<History /> renders correctly 1`] = `
                   >
                     <ViewManagerAdapter_ExpoLinearGradient
                       borderRadii={
-                        Array [
+                        [
                           9999,
                           9999,
                           9999,
@@ -1371,8 +1380,8 @@ exports[`<History /> renders correctly 1`] = `
                         ]
                       }
                       proxiedProperties={
-                        Object {
-                          "colors": Array [
+                        {
+                          "colors": [
                             -1287281,
                             -2477695,
                           ],
@@ -1382,7 +1391,7 @@ exports[`<History /> renders correctly 1`] = `
                         }
                       }
                       style={
-                        Object {
+                        {
                           "bottom": 0,
                           "left": 0,
                           "position": "absolute",
@@ -1392,10 +1401,10 @@ exports[`<History /> renders correctly 1`] = `
                       }
                     />
                     <Ionicons
-                      dataSet={Object {}}
+                      dataSet={{}}
                       name="share"
                       style={
-                        Object {
+                        {
                           "color": "#FFF",
                           "fontSize": 20,
                           "height": 20,
@@ -1406,21 +1415,21 @@ exports[`<History /> renders correctly 1`] = `
                     />
                   </View>
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Object {
+                      {
                         "width": 16,
                       }
                     }
                   />
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Array [
-                        Object {
+                      [
+                        {
                           "flexDirection": "row",
                         },
-                        Object {
+                        {
                           "borderBottomColor": "#2D3757",
                           "borderBottomWidth": 1,
                           "flex": 1,
@@ -1430,22 +1439,22 @@ exports[`<History /> renders correctly 1`] = `
                     }
                   >
                     <View
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Array [
-                          Object {
+                        [
+                          {
                             "flex": 1,
                           },
-                          Object {
+                          {
                             "justifyContent": "center",
                           },
                         ]
                       }
                     >
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#FFF",
                             "fontFamily": undefined,
@@ -1461,13 +1470,13 @@ exports[`<History /> renders correctly 1`] = `
                         Card to card
                       </Text>
                       <View
-                        dataSet={Object {}}
-                        style={Object {}}
+                        dataSet={{}}
+                        style={{}}
                       />
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#94A3D3",
                             "fontFamily": undefined,
@@ -1484,13 +1493,13 @@ exports[`<History /> renders correctly 1`] = `
                       </Text>
                     </View>
                     <View
-                      dataSet={Object {}}
-                      style={Object {}}
+                      dataSet={{}}
+                      style={{}}
                     />
                     <Text
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Object {
+                        {
                           "alignSelf": "center",
                           "backgroundColor": undefined,
                           "color": "#FFF",
@@ -1511,17 +1520,18 @@ exports[`<History /> renders correctly 1`] = `
                 </View>
               </View>
               <View
+                onFocusCapture={[Function]}
                 onLayout={[Function]}
                 style={null}
               >
                 <View
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Array [
-                      Object {
+                    [
+                      {
                         "flexDirection": "row",
                       },
-                      Object {
+                      {
                         "marginLeft": 16,
                         "marginRight": 16,
                       },
@@ -1530,7 +1540,7 @@ exports[`<History /> renders correctly 1`] = `
                 >
                   <View
                     style={
-                      Object {
+                      {
                         "alignItems": "center",
                         "alignSelf": "center",
                         "borderRadius": 9999,
@@ -1542,7 +1552,7 @@ exports[`<History /> renders correctly 1`] = `
                   >
                     <ViewManagerAdapter_ExpoLinearGradient
                       borderRadii={
-                        Array [
+                        [
                           9999,
                           9999,
                           9999,
@@ -1554,8 +1564,8 @@ exports[`<History /> renders correctly 1`] = `
                         ]
                       }
                       proxiedProperties={
-                        Object {
-                          "colors": Array [
+                        {
+                          "colors": [
                             -79546,
                             -1470166,
                           ],
@@ -1565,7 +1575,7 @@ exports[`<History /> renders correctly 1`] = `
                         }
                       }
                       style={
-                        Object {
+                        {
                           "bottom": 0,
                           "left": 0,
                           "position": "absolute",
@@ -1575,10 +1585,10 @@ exports[`<History /> renders correctly 1`] = `
                       }
                     />
                     <Ionicons
-                      dataSet={Object {}}
+                      dataSet={{}}
                       name="musical-note"
                       style={
-                        Object {
+                        {
                           "color": "#FFF",
                           "fontSize": 20,
                           "height": 20,
@@ -1589,21 +1599,21 @@ exports[`<History /> renders correctly 1`] = `
                     />
                   </View>
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Object {
+                      {
                         "width": 16,
                       }
                     }
                   />
                   <View
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Array [
-                        Object {
+                      [
+                        {
                           "flexDirection": "row",
                         },
-                        Object {
+                        {
                           "borderBottomColor": "#2D3757",
                           "borderBottomWidth": 1,
                           "flex": 1,
@@ -1613,22 +1623,22 @@ exports[`<History /> renders correctly 1`] = `
                     }
                   >
                     <View
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Array [
-                          Object {
+                        [
+                          {
                             "flex": 1,
                           },
-                          Object {
+                          {
                             "justifyContent": "center",
                           },
                         ]
                       }
                     >
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#FFF",
                             "fontFamily": undefined,
@@ -1644,13 +1654,13 @@ exports[`<History /> renders correctly 1`] = `
                         Apple Music
                       </Text>
                       <View
-                        dataSet={Object {}}
-                        style={Object {}}
+                        dataSet={{}}
+                        style={{}}
                       />
                       <Text
-                        dataSet={Object {}}
+                        dataSet={{}}
                         style={
-                          Object {
+                          {
                             "backgroundColor": undefined,
                             "color": "#94A3D3",
                             "fontFamily": undefined,
@@ -1667,13 +1677,13 @@ exports[`<History /> renders correctly 1`] = `
                       </Text>
                     </View>
                     <View
-                      dataSet={Object {}}
-                      style={Object {}}
+                      dataSet={{}}
+                      style={{}}
                     />
                     <Text
-                      dataSet={Object {}}
+                      dataSet={{}}
                       style={
-                        Object {
+                        {
                           "alignSelf": "center",
                           "backgroundColor": undefined,
                           "color": "#FFF",
@@ -1695,7 +1705,7 @@ exports[`<History /> renders correctly 1`] = `
               </View>
               <View
                 style={
-                  Object {
+                  {
                     "height": 0,
                   }
                 }
@@ -1703,7 +1713,7 @@ exports[`<History /> renders correctly 1`] = `
               <View
                 onLayout={[Function]}
                 style={
-                  Object {
+                  {
                     "marginBottom": 70,
                   }
                 }
