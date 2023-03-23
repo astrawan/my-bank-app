@@ -4,8 +4,8 @@ exports[`<BottomSheet /> renders correctly 1`] = `
 <RNCSafeAreaProvider
   onInsetsChange={[Function]}
   style={
-    Array [
-      Object {
+    [
+      {
         "flex": 1,
       },
       undefined,
@@ -14,7 +14,7 @@ exports[`<BottomSheet /> renders correctly 1`] = `
 >
   <HybridProvider
     options={
-      Object {
+      {
         "accessibleColors": false,
         "initialColorMode": "light",
         "useSystemColorMode": false,
@@ -24,19 +24,19 @@ exports[`<BottomSheet /> renders correctly 1`] = `
     <BottomSheet
       animateOnMount={true}
       backgroundStyle={
-        Object {
+        {
           "backgroundColor": "#1C2641",
         }
       }
       handleIndicatorStyle={
-        Object {
+        {
           "backgroundColor": "#2D3757",
           "width": 55,
         }
       }
       index={0}
       snapPoints={
-        Array [
+        [
           "75%",
           "100%",
         ]
@@ -44,9 +44,9 @@ exports[`<BottomSheet /> renders correctly 1`] = `
     >
       <BottomSheetScrollView>
         <View
-          dataSet={Object {}}
+          dataSet={{}}
           style={
-            Object {
+            {
               "paddingLeft": 24,
               "paddingRight": 24,
               "paddingTop": 8,
@@ -54,9 +54,9 @@ exports[`<BottomSheet /> renders correctly 1`] = `
           }
         >
           <Text
-            dataSet={Object {}}
+            dataSet={{}}
             style={
-              Object {
+              {
                 "backgroundColor": undefined,
                 "color": "#FFF",
                 "fontFamily": undefined,
@@ -72,29 +72,29 @@ exports[`<BottomSheet /> renders correctly 1`] = `
             Today
           </Text>
           <View
-            dataSet={Object {}}
+            dataSet={{}}
             style={
-              Object {
+              {
                 "height": 8,
               }
             }
           />
           <View
-            dataSet={Object {}}
-            style={Object {}}
+            dataSet={{}}
+            style={{}}
           >
             <View
-              dataSet={Object {}}
+              dataSet={{}}
               style={
-                Object {
+                {
                   "flexDirection": "row",
                 }
               }
             >
               <ViewManagerAdapter_ExpoLinearGradient
                 proxiedProperties={
-                  Object {
-                    "colors": Array [
+                  {
+                    "colors": [
                       4293680015,
                       4292489601,
                     ],
@@ -104,7 +104,7 @@ exports[`<BottomSheet /> renders correctly 1`] = `
                   }
                 }
                 style={
-                  Object {
+                  {
                     "alignItems": "center",
                     "alignSelf": "center",
                     "borderRadius": 9999,
@@ -115,10 +115,10 @@ exports[`<BottomSheet /> renders correctly 1`] = `
                 }
               >
                 <Ionicons
-                  dataSet={Object {}}
+                  dataSet={{}}
                   name="share"
                   style={
-                    Object {
+                    {
                       "color": "#FFF",
                       "fontSize": 20,
                       "height": 20,
@@ -129,21 +129,21 @@ exports[`<BottomSheet /> renders correctly 1`] = `
                 />
               </ViewManagerAdapter_ExpoLinearGradient>
               <View
-                dataSet={Object {}}
+                dataSet={{}}
                 style={
-                  Object {
+                  {
                     "width": 16,
                   }
                 }
               />
               <View
-                dataSet={Object {}}
+                dataSet={{}}
                 style={
-                  Array [
-                    Object {
+                  [
+                    {
                       "flexDirection": "row",
                     },
-                    Object {
+                    {
                       "borderBottomColor": "#2D3757",
                       "borderBottomWidth": 1,
                       "flex": 1,
@@ -153,22 +153,22 @@ exports[`<BottomSheet /> renders correctly 1`] = `
                 }
               >
                 <View
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Array [
-                      Object {
+                    [
+                      {
                         "flex": 1,
                       },
-                      Object {
+                      {
                         "justifyContent": "center",
                       },
                     ]
                   }
                 >
                   <Text
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Object {
+                      {
                         "backgroundColor": undefined,
                         "color": "#FFF",
                         "fontFamily": undefined,
@@ -184,13 +184,13 @@ exports[`<BottomSheet /> renders correctly 1`] = `
                     Card to card
                   </Text>
                   <View
-                    dataSet={Object {}}
-                    style={Object {}}
+                    dataSet={{}}
+                    style={{}}
                   />
                   <Text
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Object {
+                      {
                         "backgroundColor": undefined,
                         "color": "#94A3D3",
                         "fontFamily": undefined,
@@ -207,13 +207,13 @@ exports[`<BottomSheet /> renders correctly 1`] = `
                   </Text>
                 </View>
                 <View
-                  dataSet={Object {}}
-                  style={Object {}}
+                  dataSet={{}}
+                  style={{}}
                 />
                 <Text
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Object {
+                    {
                       "alignSelf": "center",
                       "backgroundColor": undefined,
                       "color": "#FFF",
@@ -233,21 +233,21 @@ exports[`<BottomSheet /> renders correctly 1`] = `
               </View>
             </View>
             <View
-              dataSet={Object {}}
-              style={Object {}}
+              dataSet={{}}
+              style={{}}
             />
             <View
-              dataSet={Object {}}
+              dataSet={{}}
               style={
-                Object {
+                {
                   "flexDirection": "row",
                 }
               }
             >
               <ViewManagerAdapter_ExpoLinearGradient
                 proxiedProperties={
-                  Object {
-                    "colors": Array [
+                  {
+                    "colors": [
                       4294887750,
                       4293497130,
                     ],
@@ -257,7 +257,7 @@ exports[`<BottomSheet /> renders correctly 1`] = `
                   }
                 }
                 style={
-                  Object {
+                  {
                     "alignItems": "center",
                     "alignSelf": "center",
                     "borderRadius": 9999,
@@ -268,10 +268,10 @@ exports[`<BottomSheet /> renders correctly 1`] = `
                 }
               >
                 <Ionicons
-                  dataSet={Object {}}
+                  dataSet={{}}
                   name="musical-note"
                   style={
-                    Object {
+                    {
                       "color": "#FFF",
                       "fontSize": 20,
                       "height": 20,
@@ -282,21 +282,21 @@ exports[`<BottomSheet /> renders correctly 1`] = `
                 />
               </ViewManagerAdapter_ExpoLinearGradient>
               <View
-                dataSet={Object {}}
+                dataSet={{}}
                 style={
-                  Object {
+                  {
                     "width": 16,
                   }
                 }
               />
               <View
-                dataSet={Object {}}
+                dataSet={{}}
                 style={
-                  Array [
-                    Object {
+                  [
+                    {
                       "flexDirection": "row",
                     },
-                    Object {
+                    {
                       "borderBottomColor": "#2D3757",
                       "borderBottomWidth": 1,
                       "flex": 1,
@@ -306,22 +306,22 @@ exports[`<BottomSheet /> renders correctly 1`] = `
                 }
               >
                 <View
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Array [
-                      Object {
+                    [
+                      {
                         "flex": 1,
                       },
-                      Object {
+                      {
                         "justifyContent": "center",
                       },
                     ]
                   }
                 >
                   <Text
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Object {
+                      {
                         "backgroundColor": undefined,
                         "color": "#FFF",
                         "fontFamily": undefined,
@@ -337,13 +337,13 @@ exports[`<BottomSheet /> renders correctly 1`] = `
                     Apple Music
                   </Text>
                   <View
-                    dataSet={Object {}}
-                    style={Object {}}
+                    dataSet={{}}
+                    style={{}}
                   />
                   <Text
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Object {
+                      {
                         "backgroundColor": undefined,
                         "color": "#94A3D3",
                         "fontFamily": undefined,
@@ -360,13 +360,13 @@ exports[`<BottomSheet /> renders correctly 1`] = `
                   </Text>
                 </View>
                 <View
-                  dataSet={Object {}}
-                  style={Object {}}
+                  dataSet={{}}
+                  style={{}}
                 />
                 <Text
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Object {
+                    {
                       "alignSelf": "center",
                       "backgroundColor": undefined,
                       "color": "#FFF",
@@ -386,21 +386,21 @@ exports[`<BottomSheet /> renders correctly 1`] = `
               </View>
             </View>
             <View
-              dataSet={Object {}}
-              style={Object {}}
+              dataSet={{}}
+              style={{}}
             />
             <View
-              dataSet={Object {}}
+              dataSet={{}}
               style={
-                Object {
+                {
                   "flexDirection": "row",
                 }
               }
             >
               <ViewManagerAdapter_ExpoLinearGradient
                 proxiedProperties={
-                  Object {
-                    "colors": Array [
+                  {
+                    "colors": [
                       4282229503,
                       4280379376,
                     ],
@@ -410,7 +410,7 @@ exports[`<BottomSheet /> renders correctly 1`] = `
                   }
                 }
                 style={
-                  Object {
+                  {
                     "alignItems": "center",
                     "alignSelf": "center",
                     "borderRadius": 9999,
@@ -421,10 +421,10 @@ exports[`<BottomSheet /> renders correctly 1`] = `
                 }
               >
                 <Ionicons
-                  dataSet={Object {}}
+                  dataSet={{}}
                   name="car"
                   style={
-                    Object {
+                    {
                       "color": "#FFF",
                       "fontSize": 20,
                       "height": 20,
@@ -435,21 +435,21 @@ exports[`<BottomSheet /> renders correctly 1`] = `
                 />
               </ViewManagerAdapter_ExpoLinearGradient>
               <View
-                dataSet={Object {}}
+                dataSet={{}}
                 style={
-                  Object {
+                  {
                     "width": 16,
                   }
                 }
               />
               <View
-                dataSet={Object {}}
+                dataSet={{}}
                 style={
-                  Array [
-                    Object {
+                  [
+                    {
                       "flexDirection": "row",
                     },
-                    Object {
+                    {
                       "borderBottomColor": "#2D3757",
                       "borderBottomWidth": 1,
                       "flex": 1,
@@ -459,22 +459,22 @@ exports[`<BottomSheet /> renders correctly 1`] = `
                 }
               >
                 <View
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Array [
-                      Object {
+                    [
+                      {
                         "flex": 1,
                       },
-                      Object {
+                      {
                         "justifyContent": "center",
                       },
                     ]
                   }
                 >
                   <Text
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Object {
+                      {
                         "backgroundColor": undefined,
                         "color": "#FFF",
                         "fontFamily": undefined,
@@ -490,13 +490,13 @@ exports[`<BottomSheet /> renders correctly 1`] = `
                     Uber
                   </Text>
                   <View
-                    dataSet={Object {}}
-                    style={Object {}}
+                    dataSet={{}}
+                    style={{}}
                   />
                   <Text
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Object {
+                      {
                         "backgroundColor": undefined,
                         "color": "#94A3D3",
                         "fontFamily": undefined,
@@ -513,13 +513,13 @@ exports[`<BottomSheet /> renders correctly 1`] = `
                   </Text>
                 </View>
                 <View
-                  dataSet={Object {}}
-                  style={Object {}}
+                  dataSet={{}}
+                  style={{}}
                 />
                 <Text
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Object {
+                    {
                       "alignSelf": "center",
                       "backgroundColor": undefined,
                       "color": "#FFF",
@@ -539,21 +539,21 @@ exports[`<BottomSheet /> renders correctly 1`] = `
               </View>
             </View>
             <View
-              dataSet={Object {}}
-              style={Object {}}
+              dataSet={{}}
+              style={{}}
             />
             <View
-              dataSet={Object {}}
+              dataSet={{}}
               style={
-                Object {
+                {
                   "flexDirection": "row",
                 }
               }
             >
               <ViewManagerAdapter_ExpoLinearGradient
                 proxiedProperties={
-                  Object {
-                    "colors": Array [
+                  {
+                    "colors": [
                       4282229503,
                       4280379376,
                     ],
@@ -563,7 +563,7 @@ exports[`<BottomSheet /> renders correctly 1`] = `
                   }
                 }
                 style={
-                  Object {
+                  {
                     "alignItems": "center",
                     "alignSelf": "center",
                     "borderRadius": 9999,
@@ -574,10 +574,10 @@ exports[`<BottomSheet /> renders correctly 1`] = `
                 }
               >
                 <Ionicons
-                  dataSet={Object {}}
+                  dataSet={{}}
                   name="car"
                   style={
-                    Object {
+                    {
                       "color": "#FFF",
                       "fontSize": 20,
                       "height": 20,
@@ -588,21 +588,21 @@ exports[`<BottomSheet /> renders correctly 1`] = `
                 />
               </ViewManagerAdapter_ExpoLinearGradient>
               <View
-                dataSet={Object {}}
+                dataSet={{}}
                 style={
-                  Object {
+                  {
                     "width": 16,
                   }
                 }
               />
               <View
-                dataSet={Object {}}
+                dataSet={{}}
                 style={
-                  Array [
-                    Object {
+                  [
+                    {
                       "flexDirection": "row",
                     },
-                    Object {
+                    {
                       "borderBottomColor": "#2D3757",
                       "borderBottomWidth": 1,
                       "flex": 1,
@@ -612,22 +612,22 @@ exports[`<BottomSheet /> renders correctly 1`] = `
                 }
               >
                 <View
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Array [
-                      Object {
+                    [
+                      {
                         "flex": 1,
                       },
-                      Object {
+                      {
                         "justifyContent": "center",
                       },
                     ]
                   }
                 >
                   <Text
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Object {
+                      {
                         "backgroundColor": undefined,
                         "color": "#FFF",
                         "fontFamily": undefined,
@@ -643,13 +643,13 @@ exports[`<BottomSheet /> renders correctly 1`] = `
                     Uber
                   </Text>
                   <View
-                    dataSet={Object {}}
-                    style={Object {}}
+                    dataSet={{}}
+                    style={{}}
                   />
                   <Text
-                    dataSet={Object {}}
+                    dataSet={{}}
                     style={
-                      Object {
+                      {
                         "backgroundColor": undefined,
                         "color": "#94A3D3",
                         "fontFamily": undefined,
@@ -666,13 +666,13 @@ exports[`<BottomSheet /> renders correctly 1`] = `
                   </Text>
                 </View>
                 <View
-                  dataSet={Object {}}
-                  style={Object {}}
+                  dataSet={{}}
+                  style={{}}
                 />
                 <Text
-                  dataSet={Object {}}
+                  dataSet={{}}
                   style={
-                    Object {
+                    {
                       "alignSelf": "center",
                       "backgroundColor": undefined,
                       "color": "#FFF",

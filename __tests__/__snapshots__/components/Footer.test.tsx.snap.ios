@@ -4,8 +4,8 @@ exports[`<Footer /> renders correctly 1`] = `
 <RNCSafeAreaProvider
   onInsetsChange={[Function]}
   style={
-    Array [
-      Object {
+    [
+      {
         "flex": 1,
       },
       undefined,
@@ -14,7 +14,7 @@ exports[`<Footer /> renders correctly 1`] = `
 >
   <HybridProvider
     options={
-      Object {
+      {
         "accessibleColors": false,
         "initialColorMode": "light",
         "useSystemColorMode": false,
@@ -23,41 +23,41 @@ exports[`<Footer /> renders correctly 1`] = `
   >
     <View
       style={
-        Array [
-          Object {
+        [
+          {
             "marginBottom": 0,
           },
         ]
       }
     >
       <View
-        dataSet={Object {}}
+        dataSet={{}}
         style={
-          Object {
+          {
             "height": 70,
           }
         }
       >
         <ViewManagerAdapter_ExpoLinearGradient
           proxiedProperties={
-            Object {
-              "colors": Array [
+            {
+              "colors": [
                 4281284955,
                 4279442225,
               ],
-              "endPoint": Array [
+              "endPoint": [
                 0,
                 0.3,
               ],
               "locations": undefined,
-              "startPoint": Array [
+              "startPoint": [
                 0,
                 0,
               ],
             }
           }
           style={
-            Object {
+            {
               "borderRadius": 48,
               "height": 667,
               "marginTop": -48,
@@ -66,8 +66,8 @@ exports[`<Footer /> renders correctly 1`] = `
         >
           <View
             style={
-              Array [
-                Object {
+              [
+                {
                   "position": "absolute",
                   "width": "100%",
                 },
@@ -75,13 +75,13 @@ exports[`<Footer /> renders correctly 1`] = `
             }
           >
             <View
-              dataSet={Object {}}
+              dataSet={{}}
               style={
-                Array [
-                  Object {
+                [
+                  {
                     "flexDirection": "row",
                   },
-                  Object {
+                  {
                     "padding": 16,
                     "zIndex": 20,
                   },
@@ -89,18 +89,35 @@ exports[`<Footer /> renders correctly 1`] = `
               }
             >
               <View
-                dataSet={Object {}}
+                dataSet={{}}
                 style={
-                  Object {
+                  {
                     "alignItems": "center",
                     "flex": 1,
                   }
                 }
               >
                 <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
                   accessible={true}
                   collapsable={false}
-                  dataSet={Object {}}
+                  dataSet={{}}
                   focusable={true}
                   onBlur={[Function]}
                   onClick={[Function]}
@@ -112,9 +129,9 @@ exports[`<Footer /> renders correctly 1`] = `
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
                   style={
-                    Array [
-                      Object {},
-                      Object {
+                    [
+                      {},
+                      {
                         "alignItems": "center",
                         "height": 72,
                         "justifyContent": "center",
@@ -124,10 +141,10 @@ exports[`<Footer /> renders correctly 1`] = `
                   }
                 >
                   <Ionicons
-                    dataSet={Object {}}
+                    dataSet={{}}
                     name="help-circle-outline"
                     style={
-                      Object {
+                      {
                         "color": "#ffffff",
                         "fontSize": 28,
                         "height": 28,
@@ -139,22 +156,39 @@ exports[`<Footer /> renders correctly 1`] = `
                 </View>
               </View>
               <View
-                dataSet={Object {}}
-                style={Object {}}
+                dataSet={{}}
+                style={{}}
               />
               <View
-                dataSet={Object {}}
+                dataSet={{}}
                 style={
-                  Object {
+                  {
                     "alignItems": "center",
                     "flex": 1,
                   }
                 }
               >
                 <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
                   accessible={true}
                   collapsable={false}
-                  dataSet={Object {}}
+                  dataSet={{}}
                   focusable={true}
                   onBlur={[Function]}
                   onClick={[Function]}
@@ -166,9 +200,9 @@ exports[`<Footer /> renders correctly 1`] = `
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
                   style={
-                    Array [
-                      Object {},
-                      Object {
+                    [
+                      {},
+                      {
                         "alignItems": "center",
                         "height": 72,
                         "justifyContent": "center",
@@ -178,10 +212,10 @@ exports[`<Footer /> renders correctly 1`] = `
                   }
                 >
                   <Ionicons
-                    dataSet={Object {}}
+                    dataSet={{}}
                     name="help-circle-outline"
                     style={
-                      Object {
+                      {
                         "color": "#ffffff",
                         "fontSize": 28,
                         "height": 28,
@@ -193,22 +227,39 @@ exports[`<Footer /> renders correctly 1`] = `
                 </View>
               </View>
               <View
-                dataSet={Object {}}
-                style={Object {}}
+                dataSet={{}}
+                style={{}}
               />
               <View
-                dataSet={Object {}}
+                dataSet={{}}
                 style={
-                  Object {
+                  {
                     "alignItems": "center",
                     "flex": 1,
                   }
                 }
               >
                 <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
                   accessible={true}
                   collapsable={false}
-                  dataSet={Object {}}
+                  dataSet={{}}
                   focusable={true}
                   onBlur={[Function]}
                   onClick={[Function]}
@@ -220,9 +271,9 @@ exports[`<Footer /> renders correctly 1`] = `
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
                   style={
-                    Array [
-                      Object {},
-                      Object {
+                    [
+                      {},
+                      {
                         "alignItems": "center",
                         "height": 72,
                         "justifyContent": "center",
@@ -232,10 +283,10 @@ exports[`<Footer /> renders correctly 1`] = `
                   }
                 >
                   <Ionicons
-                    dataSet={Object {}}
+                    dataSet={{}}
                     name="help-circle-outline"
                     style={
-                      Object {
+                      {
                         "color": "#ffffff",
                         "fontSize": 28,
                         "height": 28,
@@ -247,22 +298,39 @@ exports[`<Footer /> renders correctly 1`] = `
                 </View>
               </View>
               <View
-                dataSet={Object {}}
-                style={Object {}}
+                dataSet={{}}
+                style={{}}
               />
               <View
-                dataSet={Object {}}
+                dataSet={{}}
                 style={
-                  Object {
+                  {
                     "alignItems": "center",
                     "flex": 1,
                   }
                 }
               >
                 <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
                   accessible={true}
                   collapsable={false}
-                  dataSet={Object {}}
+                  dataSet={{}}
                   focusable={true}
                   onBlur={[Function]}
                   onClick={[Function]}
@@ -274,9 +342,9 @@ exports[`<Footer /> renders correctly 1`] = `
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
                   style={
-                    Array [
-                      Object {},
-                      Object {
+                    [
+                      {},
+                      {
                         "alignItems": "center",
                         "height": 72,
                         "justifyContent": "center",
@@ -286,10 +354,10 @@ exports[`<Footer /> renders correctly 1`] = `
                   }
                 >
                   <Ionicons
-                    dataSet={Object {}}
+                    dataSet={{}}
                     name="help-circle-outline"
                     style={
-                      Object {
+                      {
                         "color": "#ffffff",
                         "fontSize": 28,
                         "height": 28,
@@ -303,12 +371,12 @@ exports[`<Footer /> renders correctly 1`] = `
             </View>
             <View
               style={
-                Array [
-                  Object {
+                [
+                  {
                     "position": "absolute",
                     "top": 16,
                   },
-                  Object {
+                  {
                     "left": 69.75,
                   },
                 ]
@@ -316,25 +384,25 @@ exports[`<Footer /> renders correctly 1`] = `
             >
               <ViewManagerAdapter_ExpoLinearGradient
                 proxiedProperties={
-                  Object {
-                    "colors": Array [
+                  {
+                    "colors": [
                       4284325631,
                       4286009853,
                     ],
-                    "endPoint": Array [
+                    "endPoint": [
                       0,
                       1,
                     ],
                     "locations": undefined,
-                    "startPoint": Array [
+                    "startPoint": [
                       0,
                       0,
                     ],
                   }
                 }
                 style={
-                  Array [
-                    Object {
+                  [
+                    {
                       "alignItems": "center",
                       "borderRadius": 9999,
                       "height": 72,

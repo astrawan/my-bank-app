@@ -50,14 +50,14 @@ function RootStack() {
             animation: 'timing',
             config: {
               duration: 500,
-              easing: Easing.inOut(Easing.ease),
+              easing: Easing?.inOut(Easing.ease),
             },
           },
           open: {
             animation: 'timing',
             config: {
               duration: 500,
-              easing: Easing.inOut(Easing.ease),
+              easing: Easing?.inOut(Easing.ease),
             },
           },
         },

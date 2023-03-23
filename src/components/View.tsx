@@ -11,11 +11,13 @@ import { Box } from 'native-base';
 
 import ViewBgImg from '../../assets/view-background.png';
 
+type ViewProps = Omit<ImageBackgroundProps, 'source'>;
+
 export default function View({
   children,
   style,
   ...props
-}: ImageBackgroundProps) {
+}: ViewProps) {
   const { height: screenHeight } = useWindowDimensions();
   return (
     <ImageBackground
