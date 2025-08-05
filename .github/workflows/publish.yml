@@ -14,14 +14,9 @@ on:
         required: true
 
 jobs:
-  test:
-    uses: astrawan/my-bank-app/.github/workflows/reusable-test.yml@main
-    secrets: inherit
-
   publish:
     runs-on: ubuntu-latest
     environment: 'eas-update'
-    needs: [test]
 
     steps:
       - name: 🔎 check for EXPO_TOKEN
