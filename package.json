@@ -68,7 +68,7 @@
   },
   "private": true,
   "engines": {
-    "node": "16"
+    "node": "22"
   },
   "overrides": {
     "react-intl": {
