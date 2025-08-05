@@ -14,14 +14,9 @@ on:
         required: true
 
 jobs:
-  test:
-    uses: astrawan/my-bank-app/.github/workflows/reusable-test.yml@main
-    secrets: inherit
-
   publish:
     runs-on: ubuntu-latest
     environment: 'eas-update'
-    needs: [test]
 
     steps:
       - name: 🔎 check for EXPO_TOKEN
@@ -54,13 +49,10 @@ jobs:
         run: npm ci --ignore-scripts
 
       - name: 🏗 setup expo
-        uses: expo/expo-github-action@v7
+        uses: expo/expo-github-action@v8
         with:
-          # WARNING: don't use latest version of expo or eas
-          eas-cache: true
-          eas-version: 3.3.2
-          expo-cache: true
-          expo-version: 6.1.0
+          eas-version: latest
+          expo-version: latest
           token: ${{ secrets.EXPO_TOKEN }}
 
       - name: 🚀 republish update

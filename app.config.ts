@@ -6,6 +6,7 @@ const config: ExpoConfig = {
   name: 'my-bank-app',
   slug: 'my-bank-app',
   version: '1.0.0',
+  jsEngine: 'hermes',
   orientation: 'portrait',
   owner: 'astrawan',
   platforms: ['android', 'ios'],
@@ -22,6 +23,7 @@ const config: ExpoConfig = {
   },
   assetBundlePatterns: ['**/*'],
   ios: {
+    jsEngine: 'jsc',
     supportsTablet: false,
   },
   android: {
