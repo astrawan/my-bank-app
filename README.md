@@ -1,5 +1,5 @@
 <!-- -*- mode: markdown -*- -->
-<!-- template-checksum: 8f4c8f06717d1146009c178693716c618559f128 -->
+<!-- template-checksum: 678545e0eea1950ceea9048596e80e6e0d3563e5 -->
 <!-- branch: feature/sdk-53 -->
 # Example Mobile Bank App
 
@@ -16,7 +16,3 @@ A sample mobile bank application built-in with React Native/Expo based on [desig
 Here is a screenshot of the sample application:
 
 ![Screenshot of App](https://raw.githubusercontent.com/astrawan/my-bank-app/master/assets/demo.png)
-
-## Running it on Android or iOS
-
-If you are on Android or iOS, you can run this in your `expo-go` app and scan the QR at this [link](https://expo-mobile-apps.vercel.app/apps/QGFzdHJhd2FuL215LWJhbmstYXBw/branches/feature/sdk-53).
